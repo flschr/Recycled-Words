@@ -7,7 +7,7 @@ jobs:
             steps:
             - uses: actions/checkout@v2
             - name: Upload FTP
-              uses: kevinpainchaud/simple-ftp-deploy-action@v1.2.0
+              uses: kevinpainchaud/simple-ftp-deploy-action@v1.2.1
   with:
   ftp_host: ${{ secrets.FTP_HOST }}
   ftp_username: ${{ secrets.FTP_USERNAME }}
