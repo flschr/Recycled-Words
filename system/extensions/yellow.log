@@ -1,0 +1,13 @@
+2021-04-01 14:04:31 info Install Datenstrom Yellow 0.8.17, PHP 8.0.1, Apache x.x.x, Linux
+2021-04-01 14:04:31 info Install extension 'German 0.8.27'
+2021-04-01 14:04:31 info Install extension 'English 0.8.27'
+2021-04-01 14:04:31 info Install extension 'French 0.8.27'
+2021-04-01 14:04:43 info Install extension 'Blog 0.8.12'
+2021-04-01 14:04:43 info Add user 'justasimpleguy'
+2021-04-01 14:26:27 error Can't parse file 'system/layouts/blog.html'!
+2021-04-01 14:27:34 error Can't parse file 'system/layouts/blog.html'!
+2021-04-01 14:28:40 error Can't parse file 'system/layouts/blog.html'!
+2021-04-01 22:28:25 info Install extension 'Fontawesome 0.8.7'
+2021-04-02 07:27:54 info Install extension 'Sitemap 0.8.10'
+2021-04-03 08:10:52 info Install extension 'Edit 0.8.42'
+2021-04-03 09:07:27 info Install extension 'Edit 0.8.42'

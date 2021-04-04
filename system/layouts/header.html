@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="<?php echo $this->yellow->page->getHtml("language") ?>">
+<head>
+<title><?php echo $this->yellow->page->getHtml("titleHeader") ?></title>
+<meta charset="utf-8" />
+<meta name="description" content="Hier sinniert, fotografiert, kocht, bastelt, liest, lebt und isst Ren&eacute; Fischer mit Leidenschaft mal mehr und mal weniger regelm&auml;&szlig;ig seit dem Jahr 2002." />
+<meta name="keywords" content="Ren&eacute; Fischer,Rene Fischer,renefischer,Pliening,Blog,pers&ouml;nliches Blog" />
+<meta name="robots" content="index, follow" />
+<meta name="robots" content="noarchive" />
+<meta name="referrer" content="no-referrer" />
+<link rel="shortcut icon" href="/media/static/fav-s.png" />
+<link rel="apple-touch-icon" href="/media/static/fav-l.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<?php echo $this->yellow->page->getExtra("header") ?>
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@renefischer">
+</head>
+<body>
+    <div class="search-container" tabindex="1">
+	<form method="get" id="search" action="https://duckduckgo.com/">
+	    <input type="hidden" name="sites" value="gaehn.org"/>
+		<input type="hidden" name="k8" value="#444444"/>
+		<input type="hidden" name="k9" value="#D51920"/>
+		<input type="hidden" name="kt" value="h"/>
+        <input placeholder="Suche..." type="text" name="q" maxlength="255">
+	</form>
+        <a class="button">
+          <i class="fa fa-search"></i>
+        </a>
+    </div>
+<div class="<?php echo "page layout-".$this->yellow->page->getHtml("layout") ?>">
+<div class="header" role="banner">
+<div class="sitename">
+<h1><a href="<?php echo $this->yellow->page->getBase(true)."/" ?>"><i class="sitename-logo"></i><?php echo $this->yellow->page->getHtml("sitename") ?></a></h1>
+<?php echo $this->yellow->page->getPage("header")->getContent() ?>
+<h2>Fachmännisch ausgewählte Nichtigkeiten.</h2>
+</div>
+
+<div class="sitename-banner"></div>
+
+
+<?php $this->yellow->layout("navigation") ?>
+
+</div>

@@ -1,0 +1,97 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+DirectoryIndex index.html yellow.php
+RewriteRule ^(cache|content|system)/ error [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ yellow.php [L]
+
+# Redirect blog. to /
+RewriteCond %{HTTP_HOST} ^blog\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://gaehn.org/ [R=301,L]
+
+# Redirect www. to /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://gaehn.org/ [R=301,L]
+
+# Redirect old blog articles (Kirby)
+RedirectMatch 301 ^/articles/(.*)$ https://gaehn.org/$1
+</IfModule>
+
+# Redirect links from external to there new home
+Redirect 301 /piano-stand /ikea-oddvald-als-piano-staender
+Redirect 301 /private/152780750859/tumblr_og6k9mxqyY1uqknc0 /ikea-oddvald-als-piano-staender
+Redirect 301 /post/152780750859/bis-zu-unserem-umzug-gab-es-platzgründen-keine /ikea-oddvald-als-piano-staender
+Redirect 301 /post/145454326039/gewürzkiste /gewuerzkiste
+Redirect 301 /projektarbeit /projektarbeit-fuer-die-ihk-pruefung-zum-it-systemkaufmann
+Redirect 301 /post/153476663319/ich-bin-ein-riesiger-podcast-fan-und-ich-habe /podcasts-fuer-kinder
+Redirect 301 /post/114877085574/osterbastelei-für-die-kleinsten /kindgerechte-verarbeitung-von-toilettenpapierrollen
+Redirect 301 /post/142838624299/osterbastelei-für-die-kleinsten /kindgerechte-verarbeitung-von-toilettenpapierrollen
+Redirect 301 /post/114878265769/töchterchen-glücklich-gemacht /toechterchen-gluecklich-gemacht
+Redirect 301 /post/142838539039/über-fallschirme-und-schwimmwesten /ueber-fallschirme-und-schwimmwesten
+Redirect 301 /post/149828607314/ich-habe-heute-im-flieger-mal-wieder-dar%C3%BCber /ueber-fallschirme-und-schwimmwesten
+Redirect 301 /post/142838722809/hollerblütengelee /holunderbluetengelee
+Redirect 301 /post/114877691609/hollerblütengelee /holunderbluetengelee
+Redirect 301 /holunderbluetengelee/ /holunderbluetengelee
+Redirect 301 /post/149847076034/wir-waren-2-wochen-in-holland-den-niederlanden /vakantie-in-holland
+Redirect 301 /post/142838410874/umweltfreundliche-getr%C3%A4nkekartons /die-dreiste-luege-von-den-umweltfreundlichen-getraenkekartons
+Redirect 301 /post/149811136649/pluma-ibérico-mit-brägele-gasthaus-rebstock /pluma-iberico-mit-braegele
+Redirect 301 /post/145517633224/riehles-rebstock-ebringen/ /pluma-iberico-mit-braegele
+Redirect 301 /post/149897914634/die-fortw%C3%A4hrende-innovationskraft-des-menschen-hat /zukunftsaengste
+Redirect 301 /post/149897914634/die-fortwährende-innovationskraft-des-menschen-hat /zukunftsaengste
+Redirect 301 /post/114877238549/thai-curry-einfach-und-lecker /lecker-lecker-thai-curry
+Redirect 301 /post/149810897949/pasta-sugo-mare-osteria-da-nonna-nena-wels /pasta-sugo-mare
+Redirect 301 /post/149424129324/osteria-da-nonna-nena-wels/ /pasta-sugo-mare
+Redirect 301 /post/150594722799/ich-bin-in-diesem-haushalt-schon-einige-jahre-f%C3%BCr /familienpizza
+Redirect 301 /post/150594722799/ich-bin-in-diesem-haushalt-schon-einige-jahre-für /familienpizza
+Redirect 301 /post/114883914384/kaiserschmarrn /kaiserschmarrn
+Redirect 301 /post/147302633634/samui-thai-böblingen /gaeng-phed-gai
+Redirect 301 /post/142941490294/nähglück /naehglueck
+Redirect 301 /post/147192310344/wir-waren-am-schliersee-das-ist-f%C3%BCr-mich-neben /ausflug-zum-schliersee
+Redirect 301 /post/147192310344/wir-waren-am-schliersee-das-ist-für-mich-neben /ausflug-zum-schliersee
+Redirect 301 /post/147192310344/schliersee-mit-aussicht/ /ausflug-zum-schliersee
+Redirect 301 /post/149845439764/ich-habe-etwas-aufgeholt-und-liege-gemessen-an /neuneinhalb
+Redirect 301 /post/155493189274/ich-habe-mein-ziel-von-12-büchern-in-diesem-jahr /ausgelesen
+Redirect 301 /post/150412826484/petersfisch-an-steinpilzrisotto-und-gebratenem /petersfisch-an-steinpilzrisotto-und-gebratenem-gemuese
+Redirect 301 /post/155570070634/durch-den-einsatz-von-smarten-heizungsthermostaten /intelligent-heizen
+Redirect 301 /post/149807223429/nach-der-holl%C3%A4ndischen-nordsee-im-letzten-jahr /ostseeurlaub
+Redirect 301 /post/149807223429/nach-der-holländischen-nordsee-im-letzten-jahr/ /ostseeurlaub
+Redirect 301 /post/149811798914/der-mai-hat-begonnen-und-ich-bin-wieder-im-plan /gelesen-im-april
+Redirect 301 /post/148468860054/obacht/ /obacht
+Redirect 301 /tagged/gelesen/ /tag:gelesen
+Redirect 301 /post/149831772004/kaiserschmarrn-ist-einfach-zu-lecker-zum/ /kaiserschmarrn
+Redirect 301 /zweitausendsiebzehn/ /zweitausendsiebzehn
+Redirect 301 /tag/wissenswert/ /tag:faktensammlung
+Redirect 301 /impressum/ /about/
+Redirect 301 /post/143639055499/ich-war-auf-dem-flohmarkt-und-habe-ein-echtes/ /topflappen-doppelhaken
+Redirect 301 /post/114862146339/der-leckerste-rhabarberkuchen-der-welt/ /der-beste-rhabarberkuchen-der-welt
+Redirect 301 /der-leckerste-rhabarberkuchen-der-welt/ /der-beste-rhabarberkuchen-der-welt
+Redirect 301 /tagged/leckerwars/ /tag:leckerwars
+Redirect 301 /die-dreiste-luege-von-umweltfreundlichen-getraenkekartons/ /die-dreiste-luege-von-den-umweltfreundlichen-getraenkekartons
+Redirect 301 /post/149828607314/ich-habe-heute-im-flieger-mal-wieder-dar%C3%BCber/ /ueber-fallschirme-und-schwimmwesten
+Redirect 301 /osterbastelei-fuer-die-kleinsten/ /kindgerechte-verarbeitung-von-toilettenpapierrollen
+Redirect 301 /post/149834460334/ich-liebe-rhabarberkuchen-leider-bin-ich-mit/ /der-beste-rhabarberkuchen-der-welt
+Redirect 301 /post/149829021509/50-jahre-alter-deutz-d5505-funktioniert-noch/ /luftgekuehlt/
+Redirect 301 /still-working/ /luftgekuehlt/
+Redirect 301 /post/149828712044/jetzt-geht-sie-wieder-los-die-gr%C3%B6%C3%9Fte/ /die-dreiste-luege-von-den-umweltfreundlichen-getraenkekartons
+Redirect 301 /post/149810967499/loddiner-bratfischpann-fischrestaurant/ /loddiner-bratfischpann
+Redirect 301 /post/149833918274/stichwort-kindgerechte-verarbeitung-von/ /kindgerechte-verarbeitung-von-toilettenpapierrollen
+Redirect 301 /post/149828607314/ich-habe-heute-im-flieger-mal-wieder-dar%C3%BCber/ /ueber-fallschirme-und-schwimmwesten
+Redirect 301 /post/149844024319/ich-habe-mir-vorgenommen-in-diesem-jahr/ /12-in-2016
+Redirect 301 /post/143639055499/topflappen-doppelhaken/ /topflappen-doppelhaken
+Redirect 301 /herbstliches-familienselbstbild/  /herbstliches-familienselbstbild
+Redirect 301 /wir-waren-zillertal/ /schoen-schoener-zillertal
+Redirect 301 /kindergarten-vaeterbastelabend-endergebnis/ /endergebnis-des-vaeterbastelabend-im-kindergarten
+Redirect 301 /krippenbastelei/ /krippenbastelei
+Redirect 301 /post/149834296819/vor-einigen-jahren-habe-ich-eine-fix-fertig-krippe/ /krippenbastelei
+Redirect 301 /ueber-fallschirme-und-schwimmwesten/ /ueber-fallschirme-und-schwimmwesten
+Redirect 301 /tagged/frischvomflohmarkt/ /tag:frischvomflohmarkt
+Redirect 301 /thai-curry-einfach-und-lecker/ /lecker-lecker-thai-curry
+
+# Redirect old feeds to make sure my "old" subscribers still get new content
+Redirect 301 /rss/ /feed/page:feed.xml
+Redirect 301 /rss /feed/page:feed.xml
+Redirect 301 /rss.xml /feed/page:feed.xml
+Redirect 301 /feeds/index.rss2 /feed/page:feed.xml
+Redirect 301 /atom /feed/page:feed.xml
+Redirect 301 /feeds/posts/default/ /feed/page:feed.xml

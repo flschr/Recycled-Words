@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /harming/humans
+Disallow: /harming/machines
+Disallow: /risking/own/existence
+Disallow: /edit/
+
+User-agent: *
+Disallow:
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
