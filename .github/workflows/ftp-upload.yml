@@ -8,11 +8,10 @@ jobs:
             - uses: actions/checkout@v2
             - name: Upload FTP
               uses: kevinpainchaud/simple-ftp-deploy-action@v1.2.0
-              with:
-              ftp_host: ${{ secrets.FTP_HOST }}
-              ftp_username: ${{ secrets.FTP_USERNAME }}
-              ftp_password: ${{ secrets.FTP_PASSWORD }}
-              local_source_dir: "dist"
-              dist_target_dir: "/"
-              delete: "false"
-              
+  with:
+  ftp_host: ${{ secrets.FTP_HOST }}
+  ftp_username: ${{ secrets.FTP_USERNAME }}
+  ftp_password: ${{ secrets.FTP_PASSWORD }}
+  local_source_dir: "dist"
+  dist_target_dir: "/"
+  delete: "false"
