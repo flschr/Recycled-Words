@@ -1,6 +1,5 @@
-name: Auto-Publish
 on: push
-name: 🚀 Deploy website on push
+name: Auto publish
 jobs:
   web-deploy:
     name: 🎉 Deploy
