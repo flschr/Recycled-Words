@@ -14,7 +14,7 @@ RewriteRule ^(.*)$ https://gaehn.org/ [R=301,L]
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ https://gaehn.org/ [R=301,L]
 
-# Redirect old blog articles (Kirby)
+# Redirect old blog articles (from Kirby)
 RedirectMatch 301 ^/articles/(.*)$ https://gaehn.org/$1
 </IfModule>
 
