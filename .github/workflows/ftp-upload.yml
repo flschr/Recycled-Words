@@ -1,4 +1,5 @@
 name: ftp-upload
+on: push
 uses: kevinpainchaud/simple-ftp-deploy-action@v1.2.0
 with:
   ftp_host: ${{ secrets.FTP_HOST }}
