@@ -1,7 +1,9 @@
 on: push
 name: ftp-upload
 jobs:
-uses: kevinpainchaud/simple-ftp-deploy-action@v1.2.0
+ftp-upload:
+      name: deploy
+      uses: kevinpainchaud/simple-ftp-deploy-action@v1.2.0
 with:
   ftp_host: ${{ secrets.FTP_HOST }}
   ftp_username: ${{ secrets.FTP_USERNAME }}
