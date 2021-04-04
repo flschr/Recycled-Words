@@ -1,4 +1,4 @@
-name: tinify
+name: tinify Pictures
 on: [push]
 jobs:
   compress:
@@ -11,3 +11,4 @@ jobs:
         with:
           api_key: ${{ secrets.TINIFY_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          resize_width: 1280
