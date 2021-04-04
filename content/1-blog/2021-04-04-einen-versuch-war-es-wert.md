@@ -8,4 +8,4 @@ Tag: #momentaufnahme
 ---
 [image 2021-04-04-2.jpeg]
 [image 2021-04-04-1.jpeg]
-Es wurde der Wunsch nach Osterbrot geäußert, und nachdem unser Bäcker [nicht mehr backt](/brotbackkunst), habe ich mich nach [diesem sehr einfachen Rezept](https://www.infranken.de/ratgeber/genuss/rezepte/osterbrot-backen-rezept-einfach-art-5183337) mal rangewagt. Das Ergebnis hat alle extrem überzeugt. Nur mir war die Krume zu bröselig, was mit einem Teig auf Quarkbasis vermutlich nicht passiert wäre. Aber es muss ja auch noch eine Steigerung für das nächste Ostern geben.
+Es wurde sehr lautstark der Wunsch nach Osterbrot geäußert, und nachdem unser Bäcker [nicht mehr backt](/brotbackkunst), habe ich mich nach [diesem sehr einfachen Rezept](https://www.infranken.de/ratgeber/genuss/rezepte/osterbrot-backen-rezept-einfach-art-5183337) mal rangewagt. Das Ergebnis hat die Familie extrem überzeugt. Nur mir war die Krume irgendwie zu bröselig, was mit einem Teig auf Quarkbasis vermutlich nicht passiert wäre. Aber es muss ja auch noch eine Steigerung für das nächste Osterfest geben.
