@@ -13,11 +13,11 @@ Auf seinem persönlichen Weblog »Recycled Words« kehrt er gern [Fakten](/tag:%
 <h3>Kontaktmöglichkeiten</h3>
 Am einfachsten ist es ihm eine Mail an <hallo@gaehn.org> zu schreiben. Gesprochene Worte können ihm über die Telefonnummer +49 8121 / 802 688 4 übermittelt werden.
 
-Ansonsten findet man ihn im Internet noch bei [Twitter](https://twitter.com/flschr), [LinkedIn](https://www.linkedin.com/in/flschr) und [Komoot](https://www.komoot.de/user/848543125284).
+Ansonsten findet man ihn im Internet noch bei [Twitter](https://twitter.com/flschr), [LinkedIn](https://www.linkedin.com/in/flschr), [Github](https://github.com/flschr) und [Komoot](https://www.komoot.de/user/848543125284).
 
 <hr />
 <h1>Rechtliche Informationen</h1>
-Verantwortlicher im Sinne von § 5 TMG, § 55 RfStV und Art. 4 Abs. 7 DSGVO für dieses publizistische Angebot ist René Fischer. 
+Verantwortlicher im Sinne von § 5 TMG, § 55 RfStV und Art. 4 Abs. 7 DSGVO für dieses publizistische Angebot ist René Fischer.
 
 Falls nicht anders gekennzeichnet, stehen die Inhalte dieses Blogs unter einer [Creative-Commons-Lizenz](https://creativecommons.org/licenses/by-sa/4.0/deed.de), die Namensnennung und die Weitergabe unter gleichen Bedingungen erfordert. Inhalte und Rechte Dritter sind dabei als solche gekennzeichnet.
 
