@@ -1,5 +1,5 @@
 on: push
-name: FTP UUUUUPLOAD
+name: FTP UPLOAD
 jobs:
   web-deploy:
     name: Deploy
