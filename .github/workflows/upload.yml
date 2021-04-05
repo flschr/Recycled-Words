@@ -11,6 +11,6 @@ jobs:
     - name: Publish
       uses: socram8888/ftp-hash-sync@v1
       with:
-      host: ngcobalt326.manitu.net
-      username: ftp200008953
-      password: ${{ secrets.FTP_PASSWORD }}
+        host: ngcobalt326.manitu.net
+        username: ftp200008953
+        password: ${{ secrets.FTP_PASSWORD }}
