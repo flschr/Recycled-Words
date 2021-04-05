@@ -1,5 +1,5 @@
 on: push
-name: FTP UPLOAD
+name: FTP UPLOAD WITH HASH
 jobs:
   web-deploy:
     name: Deploy
