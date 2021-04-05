@@ -1,3 +1,4 @@
+# Unfortunately this workflow is pushing git internal folders to the webhost! Currently not ready for prime time.
 on: push
 name: FTP UPLOAD WITH HASH
 jobs:
