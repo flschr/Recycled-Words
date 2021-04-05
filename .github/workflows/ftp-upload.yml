@@ -1,14 +1,30 @@
-name: Deploy via FTP
-on: push
+# Workflow name
+name: Deploy site to live
+ 
+on:
+  # Run automatically on push to main branch
+  push:
+    branches: [ main ]
+    paths:
+    - 'src/**'
+  # Allow manual trigger
+  workflow_dispatch:
+
 jobs:
-  deploy:
+  web-deploy:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Upload ftp
-      uses: sebastianpopp/ftp-action@releases/v2
+    - name: Get files
+      uses: actions/checkout@v2.3.4
+      
+    - name: FTP Deploy
+      uses: cinderblockgames/ftp-action@v1.2.2
       with:
-        host: ${{ secrets.FTP_SERVER }}
-        user: ${{ secrets.FTP_USERNAME }}
+        # required
+        server: ngcobalt326.manitu.net
+        username: ftp200008953
         password: ${{ secrets.FTP_PASSWORD }}
+        # optional
+        skipUnchanged: true
+        skipDirectories: .github|.well-known|configs|private-keys
