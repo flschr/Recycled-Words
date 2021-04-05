@@ -1,7 +1,6 @@
 on: push
 name: Publish Website
 jobs:
-    publish
       - name: Publish
         uses: socram8888/ftp-hash-sync@v1
         with:
