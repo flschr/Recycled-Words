@@ -1,5 +1,5 @@
 # Workflow name
-name: Deploy site to live
+name: FTP Upload
  
 on:
   # Run automatically on push to main branch
