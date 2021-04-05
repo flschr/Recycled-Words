@@ -14,3 +14,4 @@ jobs:
         host: ngcobalt326.manitu.net
         username: ftp200008953
         password: ${{ secrets.FTP_PASSWORD }}
+        source: dist
