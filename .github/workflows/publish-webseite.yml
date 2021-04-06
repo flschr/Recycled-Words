@@ -1,7 +1,7 @@
-name: PUBLISH TO FTP
+name: PUBLISH TO WEBSITE
 on:
   push:
-    branches: [ stage ]
+    branches: [ main ]
 jobs:
   web-deploy:
     name: Deploy
