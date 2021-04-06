@@ -1,4 +1,5 @@
 on: push
+branches: [ stage ]
 name: PUBLISH TO FTP
 jobs:
   web-deploy:
