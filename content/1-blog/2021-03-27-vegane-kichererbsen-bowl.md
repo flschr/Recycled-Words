@@ -7,14 +7,14 @@ Status: published
 Tag: #rezeptvomchef
 ---
 [image 2021-03-27-19-42-25.jpg]
-~~In irgeiner Zeitschrift~~ Im [medpex-Kundenmagazin](https://blog.medpex.de/ernaehrung/) sind wir über das Rezept dieser veganen Bowl gestolpert. Und nachdem unsere [marokkanische Minze](https://de.wikipedia.org/wiki/Nanaminze) im Garten schon wieder grüne Blätter zeigt, habe ich sie einfach mal gemacht. Man war das lecker! Und damit dieses Rezept niemals verloren geht, schreibe ich es einfach mal ins Blog. 
+~~In irgeiner Zeitschrift~~ Im [medpex-Kundenmagazin](https://blog.medpex.de/ernaehrung/) sind wir über das Rezept dieser veganen Bowl gestolpert. Und nachdem unsere [marokkanische Minze](https://de.wikipedia.org/wiki/Nanaminze) im Garten schon wieder grüne Blätter zeigt, habe ich sie einfach mal gemacht. Man war das lecker! Und damit dieses Rezept niemals verloren geht, schreibe ich es einfach mal ins Blog.
 
 **Zutaten für 2 Portionen**
 
-* 2 Süßkartoffeln
+* 1 große Süßkartoffel
 * 1 Frühlingszwiebel
 * 250g Kichererbsen
-* 150g Erbsenschoten
+* 100g Erbsenschoten
 * 30g Cashewkerne
 * 6 EL Olivenöl
 * 1 EL heller Balsamicoessig
