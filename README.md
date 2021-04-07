@@ -3,8 +3,6 @@ This is my personal blog running on [Yellow CMS](https://github.com/datenstrom/y
 
 Visit [my blog](https://gaehn.org), or follow me on [Twitter](https://twitter.com/flschr), [LinkedIn](https://www.linkedin.com/in/flschr) or [Komoot](https://www.komoot.de/user/848543125284). Or anywhere else.
 
-=======
-
 #### How it works
 Short description how blogging works (more will follow later)
 
