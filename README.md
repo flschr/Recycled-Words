@@ -8,3 +8,7 @@ Short description how blogging works (will follow later)
 
 #### Updating Yellow CMS
 This repository exists out of 2 branches: "main" is my live system and "stage" is my test environment (f.e for updates of Yellow). And maybe also a third branch ... will see
+
+Unzip yellow-master.zip
+unzip blog.php, blog.html and blogpages.html from blog.zip inside yellow-master
+delete 
