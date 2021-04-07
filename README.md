@@ -3,9 +3,8 @@ This is my personal blog running on [Yellow CMS](https://github.com/datenstrom/y
 
 In this repository are 2 branches: "main" is the live system and "stage" is for running tests (f.e updates of Yellow) on my stage environment.
 
-Visit [my blog](https://gaehn.org), or follow me on [Twitter](https://twitter.com/flschr), [LinkedIn](https://www.linkedin.com/in/flschr) or [Komoot](https://www.komoot.de/user/848543125284).
+Visit [my blog](https://gaehn.org), or follow me on [Twitter](https://twitter.com/flschr), [LinkedIn](https://www.linkedin.com/in/flschr) or [Komoot](https://www.komoot.de/user/848543125284). Or anywhere else.
 
 #### How it works
 
-
-#### Updating Yellow CMS 
+#### Updating Yellow CMS
