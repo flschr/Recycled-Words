@@ -10,13 +10,14 @@ This repository exists out of 2 permanent branches. ```main``` is my [live syste
 For creating new content I always use the ```main``` branch. Usually I use [Atom](https://atom.io/) on my desktop to write new articles and make other edits. If, for whatever reason, I need to write a article on the go, I'll use [Working Copy](https://workingcopyapp.com/) as my preferred editor.
 
 #### Handling of pictures
-As I use my iPhone for taking photos only, I'll need a smart way to push pictures into my repository. For that I've created this [Siri shortcut](https://www.icloud.com/shortcuts/d8658830d5cb4ba4bff8ba827e11b054) which runs photos from the iOS share sheet through the following workflow:
+As I use my iPhone for taking photos only, I'll need a smart way to push pictures into my repository. For that I've created this [Siri shortcut](https://www.icloud.com/shortcuts/fedf63ab19b7445486e840eea5606ff7) which runs photos from the iOS share sheet through the following workflow:
 
 - Resize picture to ```1280px*auto-height```
 - Convert picture to JPEG (can't make use of HEIC)
 - Reduce image quality to 85%
 - Write picture to ```/media/images/yyyy-mm-dd-hh-mm-ss.jpeg``` within Working Copy
-- Fetch, pull, commit and push repository within Working Copy
+- Commit change
+- Choice for automatic fetch, pull and push repository within Working Copy
 
 The picture is than ready to be used in blog articles within Atom and Working Copy. After that all pictures are automatically optimized with [Imgbot](https://imgbot.net/) to reduce the file size with a lossless compression.
 
