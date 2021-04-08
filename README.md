@@ -4,7 +4,7 @@ This is my personal blog running on [Yellow CMS](https://github.com/datenstrom/y
 Visit [my blog](https://gaehn.org), or follow me on [Twitter](https://twitter.com/flschr), [LinkedIn](https://www.linkedin.com/in/flschr) or [Komoot](https://www.komoot.de/user/848543125284).
 
 ## How it works
-This repository exists out of 2 permanent branches. ```main``` is my [live system](https://gaehn.org) while ```stage``` is my [little playground](https://test.gaehn.org) for testing more extensive modifications before publishing them to my website (f.e. test Yellow updates and new plugins but also design and layout customizations). All edits are automatically published with the help of [FTP Deploy Action](https://github.com/SamKirkland/FTP-Deploy-Action).
+This repository exists out of 2 permanent branches. ```main``` is my [live system](https://gaehn.org) while ```stage``` is my [little playground](https://test.gaehn.org) for testing more extensive modifications before publishing them to my website (f.e. test Yellow updates and new plugins but also design and layout customizations). All edits are automatically published to my live and stage system with the help of [FTP Deploy Action](https://github.com/SamKirkland/FTP-Deploy-Action).
 
 ### How blogging works
 For creating new content I always use the ```main``` branch. Usually I use [Atom](https://atom.io/) on my desktop to write new articles and make other edits. If, for whatever reason, I need to write a article on the go, I'll use [Working Copy](https://workingcopyapp.com/) as my preferred editor.
