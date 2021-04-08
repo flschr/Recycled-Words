@@ -316,6 +316,10 @@ a:hover {
     color: #07d;
     text-decoration: underline;
 }
+.footer .powered {
+    color: #bfbfbf;
+    font-size: 0.8em;
+}
 
 /* Website search */
 .search-container {
