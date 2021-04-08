@@ -21,4 +21,4 @@ As I use my iPhone for taking photos only, I'll need a smart way to push picture
 The picture is than ready to be used in blog articles within Atom and Working Copy. After that all pictures are automatically optimized with [Imgbot](https://imgbot.net/) to reduce the file size with a lossless compression.
 
 ### Updating Yellow CMS
-(will follow soon)
+(will follow soooooon)
