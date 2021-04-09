@@ -19,7 +19,7 @@ Ansonsten findet man ihn im Internet noch bei [Twitter](https://twitter.com/flsc
 <h1>Rechtliche Informationen</h1>
 Verantwortlicher im Sinne von § 5 TMG, § 55 RfStV und Art. 4 Abs. 7 DSGVO für dieses publizistische Angebot ist René Fischer.
 
-Falls nicht anders gekennzeichnet, stehen die Inhalte dieses Blogs unter einer [Creative-Commons-Lizenz](https://creativecommons.org/licenses/by-sa/4.0/deed.de), die Namensnennung und die Weitergabe unter gleichen Bedingungen erfordert. Inhalte und Rechte Dritter sind dabei als solche gekennzeichnet.
+Falls nicht anders gekennzeichnet, stehen die Inhalte dieses Blogs unter der [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) Lizenz, die Namensnennung und die Weitergabe für nicht-kommerzielle Zwecke unter gleichen Bedingungen erfordert. Die Inhalte und Rechte Dritter sind dabei als solche gekennzeichnet.
 
 <h3>Datenschutzerklärung</h3>
 Aus technischen Gründen werden beim Aufrufen dieser Webseite Daten übermittelt.  Die folgenden Daten werden hierbei durch den Webserver ohne Personenbezug gespeichert:
