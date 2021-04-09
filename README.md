@@ -27,7 +27,7 @@ The pictures can than to be used in blog articles within Atom and Working Copy. 
 (will follow soooooon)
 
 ## Forks of this repository
-Before you fork this repository, please make sure you've read and understand the following section.
+Before you fork this repository, please make sure you've read and understand the following section. **Please make sure your fork isn't violating this conditions!**
 
 #### Duplicate content warning!
 If you want to fork this repository, make sure to delete all ```*.md``` files inside ```/content/blog-1``` before publishing it to your own website. Otherwise this 1:1 reuse of content would lead to [duplicate content](https://en.wikipedia.org/wiki/Duplicate_content) which harms the visibility of your and my site in search engines. Its a complex but interesting topic you can [read more about here](https://www.bruceclay.com/seo/duplicate-content/).
@@ -35,6 +35,4 @@ If you want to fork this repository, make sure to delete all ```*.md``` files in
 #### License of my content (blog articles)
 All my blog articles filed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. So you are free to my reuse my content for non commercial purposes under the obligation to publish it under the same license again. You'll always need to give credit and link back to the source by attributing every article with
 
-```Source: [René Fischer](https://gaehn.org), [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)```
-
-**Please make sure your fork isn't violating this conditions!**
+```Source: [René Fischer](https://gaehn.org/link-to-the-article), [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)```

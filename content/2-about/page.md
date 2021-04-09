@@ -10,6 +10,8 @@ René Fischer lebt im Internet und im Münchner Umland. Er ist analytischer Krea
 
 Auf seinem persönlichen Weblog »Recycled Words« kehrt er gern [Fakten](/tag:%23faktensammlung/) zusammen, stellt [Wissen zur freien Verfügung](/tag:%23freieswissen/) und [schwadroniert](/tag:%23schwadroniert/) über Zeug das ihn beschäftigt. Er veröffentlicht [Restaurantempfehlungen](/tag:%23leckerwars), [Rezepte mit Gelinggarantie](/tag:%23rezeptvomchef) sowie [Ausflugstipps](/tag:%23erwandernswert). Darüber hinaus dokumentiert er hier [Urlaube](/tag:%23ganzvielurlaub), [Flohmarktfunde](/tag:%23frischvomflohmarkt) und [Gebasteltes](/tag:%23geschraubt), sammelt [Momentaufnahmen](/tag:%23momentaufnahme) und rezensiert [Musik](/tag:%23liebef%C3%BCrdieohren), [Bücher](/tag:%23b%c3%bccherkram) sowie [Podcasts](/tag:%23gesprocheneworte). Und manchmal [tobt](/tag:%23bisschensauer/) er auch ein bisschen.
 
+Dieses Blog läuft auf dem [Yellow CMS](https://github.com/datenstrom/yellow) und wird maßgeblich durch [Github](https://github.com/) ermöglicht. Mehr Informationen sind dieser [technischen Beschreibung](https://github.com/flschr/Recycled-Words) zu entnehmen.
+
 <h3>Kontaktmöglichkeiten</h3>
 Am einfachsten ist es ihm eine Mail an <hallo@gaehn.org> zu schreiben. Gesprochene Worte können ihm über die Telefonnummer +49 8121 / 802 688 4 übermittelt werden.
 
