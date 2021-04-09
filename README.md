@@ -18,7 +18,7 @@ As I use my iPhone for taking photos only, I'll need a smart way to push picture
 - Write picture to ```/media/images/yyyy-mm-dd-hh-mm-ss.jpeg``` within Working Copy
 - For ease of use, append the ready to use markup ```[image yyyy-mm-dd-hh-mm-ss.jpeg]``` to ```/content/1-blog/_latest-pics.txt```
 - Commit changes
-- Choice for automatic fetch, pull and push repository within Working Copy
+- Optional: automatic fetch, pull and push repository within Working Copy
 
 
 The pictures can than to be used in blog articles within Atom and Working Copy. A few moments later, all pictures are automatically optimized by [Imgbot](https://imgbot.net/) to further reduce the file size with a lossless compression.
