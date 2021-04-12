@@ -4,7 +4,7 @@
 class YellowBlog {
     const VERSION = "0.8.12";
     public $yellow;         // access to API
-    
+
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
@@ -13,7 +13,7 @@ class YellowBlog {
         $this->yellow->system->setDefault("blogPagesMax", "5");
         $this->yellow->system->setDefault("blogPaginationLimit", "5");
     }
-    
+
     // Handle page content of shortcut
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
@@ -29,7 +29,7 @@ class YellowBlog {
         }
         return $output;
     }
-        
+
     // Return blogarchive shortcut
     public function getShorcutBlogarchive($page, $name, $text) {
         $output = null;
@@ -58,7 +58,7 @@ class YellowBlog {
         }
         return $output;
     }
-    
+
     // Return blogauthors shortcut
     public function getShorcutBlogauthors($page, $name, $text) {
         $output = null;
@@ -110,7 +110,7 @@ class YellowBlog {
             $output .= "<ul>\n";
             foreach ($pages as $pageBlog) {
                 $output .= "<li><a".($pageBlog->isExisting("tag") ? " class=\"".$this->getClass($pageBlog)."\"" : "");
-                $output .=" href=\"".$pageBlog->getLocation(true)."\">".$pageBlog->getHtml("title")."</a></li>\n";
+                $output .=" href=\"".$pageBlog->getLocation(true)."\">".$pageBlog->getHtml("title")."/""</a></li>\n";
             }
             $output .= "</ul>\n";
             $output .= "</div>\n";
@@ -119,7 +119,7 @@ class YellowBlog {
         }
         return $output;
     }
-    
+
     // Return blogchanges shortcut
     public function getShorcutBlogchanges($page, $name, $text) {
         $output = null;
@@ -139,7 +139,7 @@ class YellowBlog {
             $output .= "<ul>\n";
             foreach ($pages as $pageBlog) {
                 $output .= "<li><a".($pageBlog->isExisting("tag") ? " class=\"".$this->getClass($pageBlog)."\"" : "");
-                $output .=" href=\"".$pageBlog->getLocation(true)."\">".$pageBlog->getHtml("title")."</a></li>\n";
+                $output .=" href=\"".$pageBlog->getLocation(true)."\">".$pageBlog->getHtml("title")."/""</a></li>\n";
             }
             $output .= "</ul>\n";
             $output .= "</div>\n";
@@ -148,7 +148,7 @@ class YellowBlog {
         }
         return $output;
     }
-        
+
     // Return blogrelated shortcut
     public function getShorcutBlogrelated($page, $name, $text) {
         $output = null;
@@ -166,7 +166,7 @@ class YellowBlog {
             $output .= "<ul>\n";
             foreach ($pages as $pageBlog) {
                 $output .= "<li><a".($pageBlog->isExisting("tag") ? " class=\"".$this->getClass($pageBlog)."\"" : "");
-                $output .= " href=\"".$pageBlog->getLocation(true)."\">".$pageBlog->getHtml("title")."</a></li>\n";
+                $output .= " href=\"".$pageBlog->getLocation(true)."\">".$pageBlog->getHtml("title")."/""</a></li>\n";
             }
             $output .= "</ul>\n";
             $output .= "</div>\n";
@@ -175,7 +175,7 @@ class YellowBlog {
         }
         return $output;
     }
-    
+
     // Return blogtags shortcut
     public function getShorcutBlogtags($page, $name, $text) {
         $output = null;
@@ -207,7 +207,7 @@ class YellowBlog {
         }
         return $output;
     }
-    
+
     // Handle page layout
     public function onParsePageLayout($page, $name) {
         if ($name=="blogpages") {
@@ -247,7 +247,7 @@ class YellowBlog {
             $page->setPage("blog", $blog);
         }
     }
-    
+
     // Handle content file editing
     public function onEditContentFile($page, $action, $email) {
         if ($page->get("layout")=="blog") $page->set("pageNewLocation", $this->yellow->system->get("blogNewLocation"));
@@ -267,7 +267,7 @@ class YellowBlog {
         }
         return $pages;
     }
-    
+
     // Return class for page
     public function getClass($page) {
         $class = "";
@@ -278,7 +278,7 @@ class YellowBlog {
         }
         return trim($class);
     }
-    
+
     // Return meta data from page collection
     public function getMeta($pages, $key) {
         $data = array();
@@ -292,7 +292,7 @@ class YellowBlog {
         }
         return $data;
     }
-    
+
     // Return months from page collection
     public function getMonths($pages, $key) {
         $data = array();
