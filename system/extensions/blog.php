@@ -2,7 +2,7 @@
 // Blog extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/blog
 
 class YellowBlog {
-    const VERSION = "0.8.12";
+    const VERSION = "0.8.13";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -298,7 +298,7 @@ class YellowBlog {
         $data = array();
         foreach ($pages as $page) {
             if (preg_match("/^(\d+\-\d+)\-/", $page->get($key), $matches)) {
-                if (!isset($data[$entry])) $data[$entry] = 0;
+                if (!isset($data[$matches[1]])) $data[$matches[1]] = 0;
                 ++$data[$matches[1]];
             }
         }
