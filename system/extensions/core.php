@@ -1,4 +1,4 @@
-<?php define("DEBUG", 1);
+<?php 
 // Core extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/core
 
 class YellowCore {
