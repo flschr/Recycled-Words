@@ -35,7 +35,7 @@ Follow this guide for a manual update of Yellow CMS. You probably need 10-15 min
 5. Open Atom and switch to your ```stage``` branch.
 6. Drag & drop all files from ```$temp-dir\system\extensions``` to the Yellow extension directory in your Atom project. Atom will automatically highlight all files orange that differ from remote repository. All even files, won't be highlighted at all. So you easily can see, which files include changes.
 7. Drag and drop ```$temp-dir\yellow.php``` and all files from ```$temp-dir\system\layouts``` to your Atom project. As I customized nearly every layout file, I diff the local copy against the branch to spot the differences in detail. If there are no necessary changes, I discard the changes.
-8. Push your changes to your remote repository. Wait a few seconds for the automatic sync with your web server, than check your [stage environment](https://test.gaehn.org) if your website is still running fine. If everything works like as expected, merge your changes from ```beta``` to your ```main``` branch. Thats it!
+8. Push all changes to your remote repository and wait a few seconds for the automatic sync with your web server. Check your [stage environment](https://test.gaehn.org) and if your website is still running fine merge the ```beta``` and ```main``` branch. Thats it!
 
  ![yellow-update-atom](https://user-images.githubusercontent.com/23475184/115261122-a3e48a80-a133-11eb-977c-df82aec8237f.jpg)
 
