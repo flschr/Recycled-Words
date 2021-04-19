@@ -39,7 +39,7 @@ Follow this guide for a manual update of Yellow CMS. Depending on your customiza
 
  ![yellow-update-atom](https://user-images.githubusercontent.com/23475184/115261122-a3e48a80-a133-11eb-977c-df82aec8237f.jpg)
 
-#### Steps to update Yellow CMS extensions
+#### Updating Yellow CMS extensions
 Updating Yellow extensions works the same way as updating Yellow. Simply download and unzip the extension you want to update. Drag and drop all necessary files in the corresponding folders of your Atom project and proceed like described above.
 
 ##### List of used Yellow plugins
