@@ -28,7 +28,7 @@ The disadvantage by using a Github repository as powerhouse for content creation
 #### Steps to update Yellow CMS
 Follow this guide for a manual update of Yellow CMS. Depending on your customizations, you'll probably need 5-10 minutes to update Yellow CMS to the latest version.
 
-1. Download the latest Yellow release and unzip it to a local ```$temp-directory```.
+1. Download the [latest Yellow release](https://github.com/datenstrom/yellow/archive/master.zip) and unzip it to a local ```$temp-directory```.
 2. Unzip ```blog.php``` from ```$temp-dir\system\extensions\install-blog.zip``` to ```$temp-dir\system\extensions```.
 3. Unzip ```german.php``` and ```german.txt``` from ```$temp-dir\system\extensions\install-languages.zip``` to ```$temp-dir\system\extensions```.
 4. Delete ```edit.*``` (I don't need the edit extension), ```*.zip```, ```yellow-system.ini``` and ```yellow-user.ini``` from ```$temp-dir\system\extensions```.
@@ -38,6 +38,17 @@ Follow this guide for a manual update of Yellow CMS. Depending on your customiza
 8. Push all changes to your remote repository and wait a few seconds for the automatic sync with your web server. Check your [stage environment](https://test.gaehn.org) and if your website is still running fine merge the ```beta``` and ```main``` branch. Thats it!
 
  ![yellow-update-atom](https://user-images.githubusercontent.com/23475184/115261122-a3e48a80-a133-11eb-977c-df82aec8237f.jpg)
+
+#### Steps to update Yellow CMS extensions
+Updating Yellow extensions works the same way as updating Yellow. Simply download and unzip the extension you want to update. Drag and drop all necessary files in the corresponding folders of your Atom project and proceed like described above.
+
+##### List of used Yellow plugins
+- [Feed](https://github.com/datenstrom/yellow-extensions/tree/master/source/feed)
+- [Fontawesome](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome)
+- [Googlemap](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlemap)
+- [Random](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/random)
+- [Sitemap](https://github.com/datenstrom/yellow-extensions/tree/master/source/sitemap)
+- [Youtube](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube)
 
 ## Forking this repository
 ### :warning: Duplicate content warning!
