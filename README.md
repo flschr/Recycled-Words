@@ -26,7 +26,7 @@ The pictures can than to be used in blog articles within Atom and Working Copy. 
 The disadvantage by using a Github repository as powerhouse for content creation, website management and deployment of a website running on Yellow is, that you can't use the [standard procedures](https://github.com/datenstrom/yellow-extensions/tree/master/source/update) for updating Yellow CMS to a new version. But anyway, as Yellow only consists out of a a few ```PHP``` and ```HTML``` files, it is not that hard to perform a manual update. When you customized Yellow to your own needs, its even easier to use the tools provided by Github to migrate your customizations to a new version of Yellow.
 
 #### Steps to update Yellow CMS
-Follow this guide for a manual update of Yellow CMS. You probably need 10-15 minutes to update Yellow to the latest version.
+Follow this guide for a manual update of Yellow CMS. Depending on your customizations, you'll probably need 5-10 minutes to update Yellow CMS to the latest version.
 
 1. Download the latest Yellow release and unzip it to a local ```$temp-directory```.
 2. Unzip ```blog.php``` from ```$temp-dir\system\extensions\install-blog.zip``` to ```$temp-dir\system\extensions```.
