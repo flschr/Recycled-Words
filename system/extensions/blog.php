@@ -110,7 +110,7 @@ class YellowBlog {
             $output .= "<ul>\n";
             foreach ($pages as $pageBlog) {
                 $output .= "<li><a".($pageBlog->isExisting("tag") ? " class=\"".$this->getClass($pageBlog)."\"" : "");
-                $output .=" href=\"".$pageBlog->getLocation(true)."\">".$pageBlog->getHtml("title")."/""</a></li>\n";
+                $output .=" href=\"".$pageBlog->getLocation(true)."\">".$pageBlog->getHtml("title")."</a></li>\n";
             }
             $output .= "</ul>\n";
             $output .= "</div>\n";
@@ -139,7 +139,7 @@ class YellowBlog {
             $output .= "<ul>\n";
             foreach ($pages as $pageBlog) {
                 $output .= "<li><a".($pageBlog->isExisting("tag") ? " class=\"".$this->getClass($pageBlog)."\"" : "");
-                $output .=" href=\"".$pageBlog->getLocation(true)."\">".$pageBlog->getHtml("title")."/""</a></li>\n";
+                $output .=" href=\"".$pageBlog->getLocation(true)."\">".$pageBlog->getHtml("title")."</a></li>\n";
             }
             $output .= "</ul>\n";
             $output .= "</div>\n";
@@ -166,7 +166,7 @@ class YellowBlog {
             $output .= "<ul>\n";
             foreach ($pages as $pageBlog) {
                 $output .= "<li><a".($pageBlog->isExisting("tag") ? " class=\"".$this->getClass($pageBlog)."\"" : "");
-                $output .= " href=\"".$pageBlog->getLocation(true)."\">".$pageBlog->getHtml("title").'/'""</a></li>\n";
+                $output .= " href=\"".$pageBlog->getLocation(true)."\">".$pageBlog->getHtml("title")."</a></li>\n";
             }
             $output .= "</ul>\n";
             $output .= "</div>\n";
