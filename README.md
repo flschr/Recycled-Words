@@ -26,16 +26,18 @@ The pictures can than to be used in blog articles within Atom and Working Copy. 
 The disadvantage by using a Github repository as powerhouse for content creation, website management and deployment of a website running on Yellow is, that you can't use the [standard procedures](https://github.com/datenstrom/yellow-extensions/tree/master/source/update) for updating Yellow CMS to a new version. But anyway, as Yellow only consists out of a a few ```PHP``` and ```HTML``` files, it is not that hard to perform a manual update. When you customized Yellow to your own needs, its even easier to use the tools provided by Github to migrate your customizations to a new version of Yellow.
 
 #### Steps to update Yellow CMS
-The following steps guide you through the manual update. You probably will need 1ß-15 minutes for the manual update.
+Follow this guide for a manual update of Yellow CMS. You probably need 10-15 minutes to update Yellow to the latest version.
 
 1. Download the latest Yellow release and unzip it to a local ```$temp-directory```.
-2. Unzip ```blog.php``` from ```$temp-dir\system\\extensions\install-blog.zip``` to ```$temp-dir\system\\extensions```.
-3. Unzip ```german.php``` and ```german.txt``` from ```$temp-dir\system\\extensions\install-languages.zip``` to ```$temp-dir\system\\extensions```.
-4. Delete ```edit.*``` (no need for the edit extension), ```*.zip```, ```yellow-system.ini``` and ```yellow-user.ini``` from ```$temp-dir\system\\extensions```.
-5. Open Atom and switch to the ```stage``` branch.
-6. Drag & drop all files from ```$temp-dir\system\\extensions``` to the Yellow extension directory in your Atom project. Atom will automatically highlight all files in orange that differ from the Github branch. All files that are even with the remote repository, won't be highlighted at all.
-7. Drag and drop also ```$temp-dir\yellow.php``` and all files from ```$temp-dir\system\\layouts``` to your Atom project. As I customized the layout files to my needs, I diff the local copy against the branch to spot the differences in detail. If there are no necessary changes, I discard the changes. ![yellow-update-atom](https://user-images.githubusercontent.com/23475184/115261122-a3e48a80-a133-11eb-977c-df82aec8237f.jpg)
-8. Finally push your changes to your remote repository. Wait a few seconds for the automatic sync with your web server and than check your stage environment if your website is still running fine. If so, merge your changes from the  ```beta``` to your ```main``` branch. Thats it!
+2. Unzip ```blog.php``` from ```$temp-dir\system\extensions\install-blog.zip``` to ```$temp-dir\system\extensions```.
+3. Unzip ```german.php``` and ```german.txt``` from ```$temp-dir\system\extensions\install-languages.zip``` to ```$temp-dir\system\extensions```.
+4. Delete ```edit.*``` (I don't need the edit extension), ```*.zip```, ```yellow-system.ini``` and ```yellow-user.ini``` from ```$temp-dir\system\extensions```.
+5. Open Atom and switch to your ```stage``` branch.
+6. Drag & drop all files from ```$temp-dir\system\extensions``` to the Yellow extension directory in your Atom project. Atom will automatically highlight all files orange that differ from remote repository. All even files, won't be highlighted at all. So you easily can see, which files include changes.
+7. Drag and drop ```$temp-dir\yellow.php``` and all files from ```$temp-dir\system\layouts``` to your Atom project. As I customized nearly every layout file, I diff the local copy against the branch to spot the differences in detail. If there are no necessary changes, I discard the changes.
+8. Push your changes to your remote repository. Wait a few seconds for the automatic sync with your web server, than check your [stage environment](https://test.gaehn.org) if your website is still running fine. If everything works like as expected, merge your changes from ```beta``` to your ```main``` branch. Thats it!
+
+ ![yellow-update-atom](https://user-images.githubusercontent.com/23475184/115261122-a3e48a80-a133-11eb-977c-df82aec8237f.jpg)
 
 ## Forking this repository
 ### :warning: Duplicate content warning!
