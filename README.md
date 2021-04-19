@@ -23,9 +23,17 @@ As I use my iPhone for taking photos only, I'll need a smart way to push picture
 The pictures can than to be used in blog articles within Atom and Working Copy. A few moments later, all pictures are automatically optimized by [Imgbot](https://imgbot.net/) to further reduce the file size with a lossless compression.
 
 ### Updating Yellow CMS
-The disadvantage by using a Github repository as powerhouse for content creation, website management and deployment of a website running on Yellow is, that you can't use the [standard procedures](https://github.com/datenstrom/yellow-extensions/tree/master/source/update) for updating Yellow CMS to a new version. But anyway, as Yellow only consists out of a a few ```PHP``` and ```HTML``` files, it is not that hard to perform a manual update. When you customized Yellow to your own needs, its even easier to use tools provided by Github to migrate your customizations to a new Yellow version.
+The disadvantage by using a Github repository as powerhouse for content creation, website management and deployment of a website running on Yellow is, that you can't use the [standard procedures](https://github.com/datenstrom/yellow-extensions/tree/master/source/update) for updating Yellow CMS to a new version. But anyway, as Yellow only consists out of a a few ```PHP``` and ```HTML``` files, it is not that hard to perform a manual update. When you customized Yellow to your own needs, its even easier to use the tools provided by Github to migrate your customizations to a new version of Yellow.
 
-(how to will follow soon)
+#### Steps to update Yellow CMS
+1. Download the latest Yellow release and unzip it to a local ```$temp-directory```
+2. Unzip ```blog.php``` from ```$temp-dir\system\\extensions\install-blog.zip``` to ```$temp-dir\system\\extensions```
+3. Unzip ```german.php``` and ```german.txt``` from ```$temp-dir\system\\extensions\install-languages.zip``` to ```$temp-dir\system\\extensions```
+4. Delete ```edit.*``` (no need for the edit extension), ```*.zip```, ```yellow-system.ini``` and ```yellow-user.ini``` from ```$temp-dir\system\\extensions```
+5. Create a ```beta``` branch in your repository
+6. Open Atom and switch to the beta branch
+7. Drag & drop all files from ```$temp-dir\system\\extensions``` to the extension directory in your Atom project. Atom will automatically highlight all files in yellow that differ from the Github branch. All files that are even, won't be highlighted at all.
+
 
 ## Forking this repository
 ### :warning: Duplicate content warning!
