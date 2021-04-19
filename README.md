@@ -33,7 +33,7 @@ The disadvantage by using a Github repository as powerhouse for content creation
 5. Create a ```beta``` branch in your repository
 6. Open Atom and switch to the beta branch
 7. Drag & drop all files from ```$temp-dir\system\\extensions``` to the extension directory in your Atom project. Atom will automatically highlight all files in yellow that differ from the Github branch. All files that are even, won't be highlighted at all.
-
+![yellow-update-atom](https://user-images.githubusercontent.com/23475184/115261122-a3e48a80-a133-11eb-977c-df82aec8237f.jpg)
 
 ## Forking this repository
 ### :warning: Duplicate content warning!
