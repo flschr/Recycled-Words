@@ -43,7 +43,7 @@ Follow this guide for a manual update of Yellow CMS. Depending on the level of y
 #### Updating Yellow CMS extensions
 Updating Yellow extensions works the same way as updating Yellow. Simply download and unzip the extension you want to update. Drag and drop all necessary files in the corresponding folders of your Atom project and proceed like described above.
 
-##### List of used Yellow plugins
+##### List of Yellow extensions used in this repository
 - [Feed](https://github.com/datenstrom/yellow-extensions/tree/master/source/feed)
 - [Fontawesome](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome)
 - [Googlemap](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlemap)
