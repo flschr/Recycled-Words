@@ -6,7 +6,7 @@ René Fischer lebt im Internet und im Münchner Umland. Er ist analytischer Krea
 
 > »Perfektion ist nicht dann erreicht, wenn man nichts mehr hinzufügen, sondern wenn man nichts mehr weglassen kann.« － Antoine de Saint-Exupéry
 
-[image static/about_rene-fischer.jpg "René Fischer, @flschr"]
+[image /static/about_rene-fischer.jpg "René Fischer, @flschr"]
 
 Auf seinem persönlichen Weblog »Recycled Words« kehrt er gern [Fakten](/tag:%23faktensammlung/) zusammen, stellt [Wissen zur freien Verfügung](/tag:%23freieswissen/) und [schwadroniert](/tag:%23schwadroniert/) über Zeug das ihn beschäftigt. Er veröffentlicht [Restaurantempfehlungen](/tag:%23leckerwars), [Rezepte mit Gelinggarantie](/tag:%23rezeptvomchef) sowie [Ausflugstipps](/tag:%23erwandernswert). Darüber hinaus dokumentiert er hier [Urlaube](/tag:%23ganzvielurlaub), [Flohmarktfunde](/tag:%23frischvomflohmarkt) und [Gebasteltes](/tag:%23geschraubt), sammelt [Momentaufnahmen](/tag:%23momentaufnahme) und rezensiert [Musik](/tag:%23liebef%C3%BCrdieohren), [Bücher](/tag:%23b%c3%bccherkram) sowie [Podcasts](/tag:%23gesprocheneworte). Und manchmal [tobt](/tag:%23bisschensauer/) er auch ein bisschen.
 
