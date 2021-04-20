@@ -23,19 +23,20 @@ As I use my iPhone for taking photos only, I'll need a smart way to push picture
 The pictures can than to be used in blog articles within Atom and Working Copy. A few moments later, all pictures are automatically optimized by [Imgbot](https://imgbot.net/) to further reduce the file size with a lossless compression.
 
 ### Updating Yellow CMS
-The disadvantage by using a Github repository as powerhouse for content creation, website management and deployment of a website running on Yellow is, that you can't use the [standard procedures](https://github.com/datenstrom/yellow-extensions/tree/master/source/update) for updating Yellow CMS to a new version. But anyway, as Yellow only consists out of a a few ```PHP``` and ```HTML``` files, it is not that hard to perform a manual update. When you customized Yellow to your own needs, its even easier to use the tools provided by Github to migrate your customizations to a new version of Yellow.
+The disadvantage by using a Github repository as powerhouse for content creation, website management and deployment of a website running on Yellow is, that you can't use the [standard procedures](https://github.com/datenstrom/yellow-extensions/tree/master/source/update) for updating Yellow CMS to a new version. But anyway, as Yellow only consists out of a a few ```PHP``` and ```HTML``` files, it is not that hard to perform a manual update. When you customized Yellow to your own needs, its even easier to use the tools provided by Atom and Github to migrate your customizations to a new version of Yellow.
 
 #### Steps to update Yellow CMS
-Follow this guide for a manual update of Yellow CMS. Depending on your customizations, you'll probably need 5-10 minutes to update Yellow CMS to the latest version.
+Follow this guide for a manual update of Yellow CMS. Depending on the level of your own customizations, you'll probably need 5-10 minutes to update Yellow CMS.
 
 1. Download the [latest Yellow release](https://github.com/datenstrom/yellow/archive/master.zip) and unzip it to a local ```$temp-directory```.
 2. Unzip ```blog.php``` from ```$temp-dir\system\extensions\install-blog.zip``` to ```$temp-dir\system\extensions```.
-3. Unzip ```german.php``` and ```german.txt``` from ```$temp-dir\system\extensions\install-languages.zip``` to ```$temp-dir\system\extensions```.
-4. Delete ```edit.*``` (I don't need the edit extension), ```*.zip```, ```yellow-system.ini``` and ```yellow-user.ini``` from ```$temp-dir\system\extensions```.
+3. Unzip ```german.php```, ```german.txt```, ```english.php```, ```english.txt``` from ```$temp-dir\system\extensions\install-languages.zip``` to ```$temp-dir\system\extensions```.
+4. As I don't need the edit extension at all, I delete all ```edit.*``` files and  ```yellow-user.ini``` from ```$temp-dir\system\extensions```. You also can safely delete all ```*.zip``` files from this directory.
 5. Open Atom and switch to your ```stage``` branch.
-6. Drag & drop all files from ```$temp-dir\system\extensions``` to the Yellow extension directory in your Atom project. Atom will automatically highlight all files orange that differ from remote repository. All even files, won't be highlighted at all. So you easily can see, which files include changes.
-7. Drag and drop ```$temp-dir\yellow.php``` and all files from ```$temp-dir\system\layouts``` to your Atom project. As I customized nearly every layout file, I diff the local copy against the branch to spot the differences in detail. If there are no necessary changes, I discard the changes.
-8. Push all changes to your remote repository and wait a few seconds for the automatic sync with your web server. Check your [stage environment](https://test.gaehn.org) and if your website is still running fine merge the ```beta``` and ```main``` branch. Thats it!
+6. Drag & drop all files from ```$temp-dir\system\extensions``` to the Yellow extension directory in your Atom project. Atom will automatically highlight all files orange that include changes from the repository. All even files, won't be highlighted and you can ignore them.
+7. For migrating ```yellow-system.ini``` I suggest to make a diff against the ```main``` repository to see if the updated file contains any new settings. If there are no new settings, I discard all changes of this file.
+8. Drag and drop ```$temp-dir\yellow.php``` and all files from ```$temp-dir\system\layouts``` to your Atom project. As I customized nearly every layout file, I diff the local copy against the ```main``` branch to spot the differences in detail. If there are no necessary changes, I discard the changes.
+9. Push all changes to your remote repository and wait a few seconds for the automatic sync with your web server. Check your [stage environment](https://test.gaehn.org) and if your website is still running fine merge the ```beta``` and ```main``` branch. Thats it!
 
  ![yellow-update-atom](https://user-images.githubusercontent.com/23475184/115261122-a3e48a80-a133-11eb-977c-df82aec8237f.jpg)
 
