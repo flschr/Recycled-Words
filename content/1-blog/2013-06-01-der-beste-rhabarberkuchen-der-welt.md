@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #rezeptvomchef
 ---
-[image tumblr_ocvk3ljhei1uqknc0o1_500.jpg]
+[image 2013-06-01-15-23-39.jpg "Der beste Rhabarberkuchen der Welt"]
 Ich liebe Rhabarberkuchen. Leider bin ich mit dieser Leidenschaft in meiner Familie allein, weshalb es diese Leckerei in unserem Haushalt noch nie gegeben hat. Beim Einkauf auf dem Bauernhof konnte ich mich aber nicht mehr zurückhalten und habe kurzerhand ein paar Stiele eingepackt. Herausgekommen ist der beste Rhabarberkuchen der Welt.
 
 **Zutaten**

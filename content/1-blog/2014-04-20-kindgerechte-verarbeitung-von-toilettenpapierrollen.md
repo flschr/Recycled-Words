@@ -5,4 +5,4 @@ Author: René Fischer
 Layout: blog
 Tag: #momentaufnahme,#geschraubt
 ---
-[image tumblr_ocvizykc601uqknc0o1_r3_1280.jpg]
+[image 2014-04-20-14-23-29.jpg "Osterdeko aus Toilettenpapierrollen"]

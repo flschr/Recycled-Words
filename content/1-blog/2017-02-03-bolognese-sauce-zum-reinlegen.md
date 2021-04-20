@@ -5,15 +5,15 @@ Author: René Fischer
 Layout: blog
 Tag: #rezeptvomchef
 ---
-[image 2017-02-03-12.47.40.jpg]
+[image 2017-02-03-12.47.40.jpg "Ein Teller Spaghetti Bolognese mit Parmesan"]
 Bolognese-Sauce ist das Rezept, das ich über viele Jahre immer weiter optimiert habe. Wenn ich mich an die Frühzeit meiner Bolognese-Karriere zurück erinnere, war da im Grunde nichts außer Hackfleisch und jede Menge Ketchup. Allein beim Gedanken daran schüttelt es mich noch immer.
 
 Über viele Jahre hinweg ist dann dieses mittlerweile sehr bewährte Rezept entstanden. Ein langer Weg mit einem Ergebnis, nach dem sich regelmäßig alle die Finger lecken. Egal ob die Sauce auf Spaghetti oder als Lasagne serviert wird.
 
 Ein gut gemeinter Ratschlag vorab: Eine gute Bolognese-Sauce braucht Zeit. Das Minimum ist eine Kochzeit von 2-3 Stunden. Wer weniger Zeit hat, sollte besser etwas anderes Kochen.
 
-[image 2017-01-22-08.51.31.jpg]
-[image 2017-01-22-09.06.43.jpg]
+[image 2017-01-22-08.51.31.jpg "Kleingeschnittenes Gemüse für eine Bolognese-Sauce"]
+[image 2017-01-22-09.06.43.jpg "Köchelnde Bolognese-Sauce in einem großen Topf"]
 
 **Zutaten**
 
@@ -36,11 +36,11 @@ Ein gut gemeinter Ratschlag vorab: Eine gute Bolognese-Sauce braucht Zeit. Das M
 **Zubereitung**
 
 * Nach dem das Gemüse geputzt ist,  die Karotten, Zwiebeln, Sellerie und Tomaten in kleine Würfel schneiden.
-* Die Rinderbrühe zum mit den Gewürzen und den geschnittenen Tomaten in einem großen Topf zum Kochen bringen. 
+* Die Rinderbrühe zum mit den Gewürzen und den geschnittenen Tomaten in einem großen Topf zum Kochen bringen.
 * Das Hackfleisch in etwas Olivenöl scharf anbraten, dabei zerkleinern und anschließend Salzen und Pfeffern.
 * Das Hackfleisch zur Brühe geben.
 * Das restliche Gemüse in etwas Olivenöl anschwitzen. Das Tomatenmark dazugeben und etwas anrösten. Alles mit Rotwein ablöschen und in die Brühe geben.
-* Die Sauce aufkochen lassen und anschließend die Temperatur reduzieren. 
+* Die Sauce aufkochen lassen und anschließend die Temperatur reduzieren.
 *  Die Sauce mindestens 2-3 Stunden auf kleinster Stufe vor sich hinköcheln lassen. Dabei immer wieder mal umrühren.
 * Zum Ende der Kochzeit die Sauce noch einmal mit Pfeffer und Salz abschmecken. Wenn die Bolognese-Sauce zwischenzeitlich zu sehr eingedickt ist, mit etwas Nudelwasser verdünnen. Und Nein, zum Verdünnen kann man nichts anderes verwenden!
 

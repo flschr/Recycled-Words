@@ -5,5 +5,5 @@ Author: René Fischer
 Layout: blog
 Tag: #leckerwars
 ---
-[image tumblr_ocujmufflu1uqknc0o1_1280.jpg]
+[image 2016-08-14-13-24-23.jpg "Leckere Bratfischpann im Fischrestaurant Waterblick"]
 Genossen im [Fischrestaurant Waterblick](https://goo.gl/maps/3b1rHvUVu7gNY7bT7) in Loddin.

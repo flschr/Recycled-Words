@@ -1,7 +1,7 @@
 ---
 Title: Vienna Calling
 Published: 2020-08-09
-Author: 
+Author: René Fischer
 Layout: blog
 Tag: #ganzvielurlaub
 ---
@@ -14,12 +14,12 @@ Wir waren auf dem [Naschmarkt](https://de.wikipedia.org/wiki/Wiener_Naschmarkt) 
 
 Fazit: Wien ist zu groß und zu vielseitig für 7 Tage. Ein zweiter Besuch ist Pflicht!
 
-[image 2020-08-05-13-08-21.jpg]
-[image 2020-08-05-15-01-39.jpg]
-[image 2020-08-05-16-36-54.jpg]
-[image 2020-08-06-11-55-53.jpg]
-[image 2020-08-06-12-17-24.jpg]
-[image 2020-08-07-10-44-21.jpg]
-[image 2020-08-07-10-48-34.jpg]
-[image 2020-08-07-14-40-34.jpg]
-[image 2020-08-07-14-54-56.jpg]
+[image 2020-08-05-13-08-21.jpg "Beeindruckende Bilder im kunsthistorischen Museum Wien"]
+[image 2020-08-05-15-01-39.jpg "Beeindruckende Skulpturen im kunsthistorischen Museum Wien"]
+[image 2020-08-05-16-36-54.jpg "Auf dem Wiener Naschmarkt"]
+[image 2020-08-06-11-55-53.jpg "Im Riesenrad auf dem Wiener Wurstelprater"]
+[image 2020-08-06-12-17-24.jpg "Das Lieblingskarusell der Kids: Der Sombrero"]
+[image 2020-08-07-10-44-21.jpg "Blick auf das Schloss Belvedere"]
+[image 2020-08-07-10-48-34.jpg "Blick vom Schloss Belvedere auf Wien"]
+[image 2020-08-07-14-40-34.jpg "Straßenbahn in Wien"]
+[image 2020-08-07-14-54-56.jpg "Kult der sein muss: Ein Stückchen Sacher-Torte im Café Sacher Wien"]

@@ -5,5 +5,5 @@ Author: René Fischer
 Layout: blog
 Tag: #leckerwars
 ---
-[image tumblr_ocuju7efek1uqknc0o1_1280.jpg]
+[image 2016-06-06-19-33-29.jpg "Leckere Pluma Ibérico mit Brägele im Gasthaus Rebstock Stube Ebringen"]
 Genossen im [Gasthaus Rebstock Stube](https://goo.gl/maps/VkAFLSNpyEnqzdgm7) in Ebringen.

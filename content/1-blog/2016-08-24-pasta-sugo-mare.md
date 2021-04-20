@@ -5,5 +5,5 @@ Author: René Fischer
 Layout: blog
 Tag: #leckerwars
 ---
-[image tumblr_ocujjnloww1uqknc0o1_1280.jpg]
+[image 2016-08-24-21-46-22.jpg "Leckere Pasta Sugo Mare aus der Osteria da Nonna Nena in Wels"]
 Genossen in der [Osteria da Nonna Nena](https://goo.gl/maps/yobGN9Kw8ykGYdqn7) in Wels.

@@ -5,4 +5,4 @@ Author: René Fischer
 Layout: blog
 Tag: #momentaufnahme
 ---
-[image glueck-gehabt.jpg]
+[image 2018-05-30-12-11-45.jpg "Wegen Gesundheit geschlossen"]

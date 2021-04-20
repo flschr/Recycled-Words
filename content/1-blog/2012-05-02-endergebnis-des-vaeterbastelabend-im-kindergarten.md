@@ -5,4 +5,4 @@ Author: René Fischer
 Layout: blog
 Tag: #geschraubt
 ---
-[image tumblr_o5ofq1rzan1uqknc0o1_1280.jpg]
+[image 2012-05-02-19-23-49.jpg "Selbst gebasteltes Spielbrett"]

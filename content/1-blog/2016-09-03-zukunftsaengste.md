@@ -5,14 +5,14 @@ Author: René Fischer
 Layout: blog
 Tag: #schwadroniert
 ---
-[image tumblr_ocxzkeazlk1uqknc0o1_1280.jpg]
+[image 2016-09-03-22-34-12.jpg "Maschine aus einem Maschinenwerk in Mühlhausen"]
 Die fortwährende Innovationskraft des Menschen hat die Welt mehrfach komplett verändert. In den allermeisten Fällen zum Positiven, auch wenn nicht jede Veränderung immer sofort als positiv wahrgenommen wurde.
 
 Ich bin ein grundsätzlich aufgeschlossener und fortschrittlich denkender Mensch. Die permanente Veränderung auf der Suche nach der Vollkommenheit, ist aus meiner Perspektive ein erstrebenswerter Zustand, obgleich man ja eigentlich nie an irgendeinem Ziel ankommen kann. Das ist meine persönliche, vielleicht etwas zu philosophische Beschreibung. Die Wikipedia fasst es etwas nüchterner [zusammen](https://de.wikipedia.org/wiki/Geek):
 
 > Geek bezeichnet heute allgemein eine Person, die sich durch großes Interesse an wissenschaftlichen oder fiktionalen Themen auszeichnet, die üblicherweise elektronischer oder phantastischer Natur sind.
 
-Ich bin ein Geek und ich bin leider krank. Ich leide an gleich zwei Phobien: Der Mechanophobie, also der Angst vor Maschinen. Und der Cyberphobie, der Angst vor Computern. 
+Ich bin ein Geek und ich bin leider krank. Ich leide an gleich zwei Phobien: Der Mechanophobie, also der Angst vor Maschinen. Und der Cyberphobie, der Angst vor Computern.
 
 Ich habe natürlich keine Angst vor einem Kühlschrank oder einer Brotschneidemaschine. Auch die Computertechnologie gibt mir in aller Regel meist Anlass zur Freude. Meine Angst ist die [Singularität](https://de.wikipedia.org/wiki/Technologische_Singularit%C3%A4t). Und ein, wie auch immer gerartetes, Terminator-Szenario. Der große Showdown zwischen Mensch und Maschine.
 

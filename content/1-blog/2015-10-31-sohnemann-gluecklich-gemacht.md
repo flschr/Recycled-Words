@@ -5,4 +5,4 @@ Author: René Fischer
 Layout: blog
 Tag: #momentaufnahme,#geschraubt
 ---
-[image tumblr_o5og1mrcdd1uqknc0o1_1280.jpg]
+[image 2015-10-31-19-01-20.jpg "Halloween-Kürbis mit Peppa Pig"]

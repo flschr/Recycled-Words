@@ -5,5 +5,5 @@ Author: René Fischer
 Layout: blog
 Tag: #momentaufnahme,#geschraubt
 ---
-[image tumblr_oe4nivbzh01uqknc0o1_1280.jpg]
+[image 2014-09-20-16-23-49.jpg "Eine Familie aus Kastanien und anderen Naturmaterialien"]
 Herbstliches Familienselbstbild. Nur leider gibt es in diesem digitalen Haushalt zu wenig Büroklammern um alle Brillenträger abzubilden.

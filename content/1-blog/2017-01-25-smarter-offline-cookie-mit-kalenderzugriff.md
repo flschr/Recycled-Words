@@ -5,4 +5,4 @@ Author: René Fischer
 Layout: blog
 Tag: #momentaufnahme
 ---
-[image smart-cookie.jpg]
+[image 2017-01-25-19-12-56.jpg "Chinesischer Glückskeks der Zugriff auf meinen Kalender zu haben scheint"]

@@ -6,8 +6,8 @@ Layout: blog
 Tag: #rezeptvomchef
 ---
 
-[image tumblr_ocvgivurjt1uqknc0o1_r2_1280.jpg]
-[image tumblr_ocvgivurjt1uqknc0o2_r3_1280.jpg]
+[image 2015-06-07-10-12-38.jpg "Pizzateig in einer halb angedeckten Schüssel"]
+[image 2015-06-07-13-01-28.jpg "Leckere selbstgebackene Salamipizza"]
 
 In diesem Haushalt liebt ausnahmslos jedes Familienmitglied Pizza, weshalb ich einigermaßen viel Zeit darauf verwendet habe, ein einfaches und dennoch schmackhaftes Rezept zu finden, das immer gelingt.
 

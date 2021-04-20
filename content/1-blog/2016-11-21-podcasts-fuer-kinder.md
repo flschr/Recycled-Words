@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #gesprocheneworte
 ---
-[image tumblr_ogzihizpbf1uqknc0o1_r1_1280.jpg]
+[image 2016-11-21-20-50-22.jpg "Podcasts für Kinder auf einem iPhone"]
 Ich bin ein riesiger Podcast-Fan und ich habe meine Kinder mit dieser Leidenschaft infiziert. Das Medium ist ja sehr flexibel und kann prinzipiell immer und überall gehört werden. Für uns ist es in erster Linie eine sehr schöne Möglichkeit, langweilige Autofahrten zu verkürzen. Anders als das immer gleiche Dudelradio, verlangen Podcasts nach Aufmerksamkeit und regen zum Mitdenken an. Vorausgesetzt natürlich, man hat die richtigen Podcasts für die lieben Kleinen abonniert.
 
 Mittlerweile lauschen wir nun gemeinsam über ein halbes Jahr einer ganzen Reihe unterschiedlichster Podcasts speziell für Kinder. Und genau diese Erfahrungen dokumentiere ich in diesem Artikel. Ich werde die Hörgewohnheiten der Kinder weiterhin genau beobachten und gegebenenfalls von Zeit zu Zeit Aktualisierungen vornehmen und - sofern es sie gibt - natürlich auch Neuentdeckungen würdigen.

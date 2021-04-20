@@ -6,7 +6,7 @@ Layout: blog
 Status: published
 Tag: #rezeptvomchef
 ---
-[image 2021-03-27-19-42-25.jpg]
+[image 2021-03-27-19-42-25.jpg "Ultraleckere Vegane Kichererbsen-Bowl"]
 ~~In irgeiner Zeitschrift~~ Im [medpex-Kundenmagazin](https://blog.medpex.de/ernaehrung/) sind wir über das Rezept dieser veganen Bowl gestolpert. Und nachdem unsere [marokkanische Minze](https://de.wikipedia.org/wiki/Nanaminze) im Garten schon wieder grüne Blätter zeigt, habe ich sie einfach mal gemacht. Man war das lecker! Und damit dieses Rezept niemals verloren geht, schreibe ich es einfach mal ins Blog.
 
 **Zutaten für 2 Portionen**

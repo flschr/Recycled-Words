@@ -205,7 +205,7 @@ HelpDescription: Hilfe für deine Webseite.
 HighlightDescription: Quellcode hervorheben.
 HungarianDescription: Ungarisch/Magyar mit der Sprache "hu".
 ImageDescription: Bilder in unterschiedlichen Größen.
-ImageDefaultAlt:  ⠀
+ImageDefaultAlt: Das ist ein Foto.
 InstagramDescription: Instagram-Fotos einbinden.
 InstallTitle: Hallo
 InstallExtension: Was willst du machen?

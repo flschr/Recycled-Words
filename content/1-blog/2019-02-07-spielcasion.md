@@ -5,4 +5,4 @@ Author: René Fischer
 Layout: blog
 Tag: #momentaufnahme
 ---
-[image spielcasion.jpg]
+[image 2019-02-07-22-34-12.jpg "Verdrehte Buchstaben einer Leuchtreklame für ein Spielcasino in Bremen"]

@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #bücherkram
 ---
-[image tumblr_ocvy9iwdb71uqknc0o1_r1_1280.jpg]
+[image 2016-05-25-21-12-28.jpg "Er ist wieder da, ein schrecklich langweiliges Buch"]
 
 Mit Verlaub, aber [»Er ist wieder da«](http://www.buch.de/shop/home/verknuepfung/er_ist_wieder_da/timur_vermes/EAN9783404171781/ID39329685.html) (★☆☆☆☆) von Timur Vermes ist ein ziemlicher Mist. Das Hörbuch musste ich nach einer Stunde abbrechen, so ermüdend und nervtötend war der von Christoph Maria Herbst bis zum Exzess zelebrierte Duktus von Hitler.
 

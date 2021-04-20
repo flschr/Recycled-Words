@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #faktensammlung
 ---
-[image 3226097879_dfbc00db2a_b2.jpg]
+[image 2010-03-20-22-38-22.jpg "Ein altes Telefonbuch in einer Baracke"]
 <sub>Foto: [Bill Mill](https://www.flickr.com/photos/llimllib/) / flickr.com ([CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/))</sub>
 
 Jetzt geht sie wieder los, die größte Papierverschwendung in Deutschland. Die gelben Seiten und die Telefonbücher für 2010 werden mal wieder in den deutschen Gemeinden verteilt. Aber wer braucht diese Druckerzeugnisse eigentlich, die de facto am Tag ihres Drucks schon wieder veraltet sind?

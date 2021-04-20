@@ -5,8 +5,8 @@ Author: René Fischer
 Layout: blog
 Tag: #rezeptvomchef
 ---
-[image tumblr_odppbposdq1uqknc0o2_r1_1280.jpg]
-[image tumblr_odppbposdq1uqknc0o1_r1_1280.jpg]
+[image 2016-09-18-16-17-37.jpg "Leckere Rosinenschnecken"]
+[image 2016-09-18-16-21-37.jpg "Fast aufgegessene Rosinenschnecken"]
 Ich bin in diesem Haushalt schon einige Jahre für die Zubereitung von Pizza zuständig. Dabei ist es mit dem [richtigen Rezept](/familienpizza) quasi ein Selbstläufer, der selbst unter Zeitdruck gelingt.
 
 Gewurmt hat mich an dieser Pizzasache bisher jedoch immer, das ich keine Verwendung für die restliche Hefe hatte. Alles was auch nur ansatzweise lecker klang, war entweder wahnsinnig aufwendig oder aufgrund mangelnder Zutaten nicht realisierbar.

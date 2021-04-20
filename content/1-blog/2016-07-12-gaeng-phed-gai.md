@@ -5,5 +5,5 @@ Author: René Fischer
 Layout: blog
 Tag: #leckerwars
 ---
-[image tumblr_ocujq7jzga1uqknc0o1_1280.jpg]
+[image 2016-07-12-19-38-23.jpg "Leckeres Thai-Curry im Samu Thai Böblingen"]
 Genossen im [Samui Thai](https://goo.gl/maps/V1zMyPxahw7f355Z6) in Böblingen.

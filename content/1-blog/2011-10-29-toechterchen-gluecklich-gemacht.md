@@ -5,4 +5,4 @@ Author: René Fischer
 Layout: blog
 Tag: #momentaufnahme,#geschraubt
 ---
-[image tumblr_o5o76afjao1uqknc0o1_1280.jpg]
+[image 2011-10-29-19-43-22.jpg "Selbst geschnitzer Halloween-Kürbis mit einem lachenden Gesicht"]

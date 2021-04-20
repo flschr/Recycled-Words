@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #freieswissen,#downloads
 ---
-[image 24886748271_fcd6ca6a5f_k.jpg]
+[image 2016-04-17-17-28-01.jpg "Nähmaschine auf karierten Stoff"]
 <sub>Foto: [Anka Albrecht](https://www.flickr.com/photos/134465805@N06/) / flickr.com ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/))</sub>
 
 Mit dem Einzug in das neue Haus bestand erhöhter Bedarf nach Vorhängen und damit einhergehend die Notwendigkeit des Kürzens der selbigen. Wie praktisch, das uns beim Umzug die längst vergessen geglaubte Nähmaschine (eine »alte« AEG 795) wieder in die Hände gefallen ist. Zeitgleich begann sich meine Frau daran zu erinnern, das sie ja eigentlich Nähen kann. Nur dumm, das ihr ohne Bedienungsanleitung nicht mehr einfiel, wie dieses Mysterium Nähmaschine eigentlich zu bedienen ist.

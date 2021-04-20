@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #faktensammlung
 ---
-[image 6770050687_9351c73051_b2.jpg]
+[image 2009-09-05-22-18-58.jpg "Milch wird aus einem Tetrapak eingeschenkt"]
 <sub>Foto: [Tetra Pak](https://www.flickr.com/photos/tetrapak/) / flickr.com [CC BY-SA 2.0]((https://creativecommons.org/licenses/by-sa/2.0/))</sub>
 
 Seit einigen Wochen [belügt der debile Hase Bob](https://www.youtube.com/watch?v=3jrxuctMYLY) im Auftrag der Firma Tetra Pak in [bester RWE-Manier](https://netzpolitik.org/2009/rwe-die-wahrheit-zum-spot/) die Fernsehzuschauer. Nur der Aufschrei bleibt bislang aus.

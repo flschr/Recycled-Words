@@ -5,4 +5,4 @@ Author: René Fischer
 Layout: blog
 Tag: #momentaufnahme
 ---
-[image IMG_1240.jpg]
+[image 2021-01-06-14-26-13.jpg "Einsames Wäldchen im Schnee"]

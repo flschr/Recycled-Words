@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #schwadroniert
 ---
-[image tumblr_ocv7y6xoay1uqknc0o1_1280.jpg]
+[image 2014-07-19-23-12-19.jpg "Zurück in die Zukunft im Delorean aus LEGO"]
 <sub>Foto: [JD Hancock](https://www.flickr.com/photos/jdhancock/) / flickr.com ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/))</sub>
 
 In spätestens 20 Jahren gibt es fliegende Autos. Soweit jedenfalls meine ganz persönliche Vision für das Jahr 2017. Denn Luc Besson hat 1997 in seinem Sci-Fi-Spektakel [Das fünfte Element](https://de.wikipedia.org/wiki/Das_f%C3%BCnfte_Element) auf beeindruckende Weise gezeigt, wie eine solche Welt aussehen kann.
