@@ -16,14 +16,11 @@
 <?php echo $this->yellow->page->getExtra("header") ?>
 </head>
 <body>
-    <div class="search-container" tabindex="1">
-	<form method="get" id="search" action="https://duckduckgo.com/">
-	    <input type="hidden" name="sites" value="gaehn.org"/>
-		<input type="hidden" name="k8" value="#444444"/>
-		<input type="hidden" name="k9" value="#D51920"/>
-		<input type="hidden" name="kt" value="h"/>
-        <input placeholder="Suche..." type="text" name="q" maxlength="255">
-	</form>
+  <div class="search-container" tabindex="1">
+    <form class="search-form" action="/search/" method="post">
+      <input class="form-control" type="text" name="query" placeholder="Suche..." />
+      <input type="hidden" name="clean-url" />
+    </form>
         <a class="button">
           <i class="fa fa-search"></i>
         </a>
