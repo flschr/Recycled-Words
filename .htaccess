@@ -18,6 +18,42 @@ RewriteRule ^(.*)$ https://gaehn.org/ [R=301,L]
 RedirectMatch 301 ^/articles/(.*)$ https://gaehn.org/$1
 </IfModule>
 
+# Deflate compression
+<IfModule mod_deflate.c>
+<FilesMatch "\.(js|jpg|jpeg|gif|png|css|txt|html|php|xml|woff)$">
+SetOutputFilter DEFLATE
+</FilesMatch>
+</IfModule>
+
+# Cache expires
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault "access plus 180 minutes"
+# IMAGES
+ExpiresByType image/ico "access plus 1 year"
+ExpiresByType image/jpg "access plus 1 year"
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/gif "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType image/svg+xml "access plus 1 year"
+# FONTS
+ExpiresByType font/woff "access plus 1 year"
+ExpiresByType application/x-font-woff "access plus 1 year"
+ExpiresByType application/font-woff "access plus 1 year"
+# TEXT & SCRIPTS
+ExpiresByType text/css "access plus 1 year"
+ExpiresByType text/xml "access plus 7 days"
+ExpiresByType text/html "access plus 4 hours"
+ExpiresByType text/htm "access plus 4 hours"
+ExpiresByType text/javascript "access plus 7 days"
+ExpiresByType text/cache-manifest "access plus 0 seconds"
+# OTHER
+ExpiresByType application/x-javascript "access plus 7 days"
+ExpiresByType application/javascript "access plus 216000 seconds"
+ExpiresByType application/xml "access plus 0 seconds"
+ExpiresByType application/json "access plus 0 seconds"
+</IfModule>
+
 # Redirect links from external to there new home
 Redirect 301 /piano-stand /ikea-oddvald-als-piano-staender
 Redirect 301 /private/152780750859/tumblr_og6k9mxqyY1uqknc0 /ikea-oddvald-als-piano-staender
