@@ -20,7 +20,7 @@ RedirectMatch 301 ^/articles/(.*)$ https://gaehn.org/$1
 
 # Deflate compression
 <IfModule mod_deflate.c>
-<FilesMatch "\.(js|jpg|jpeg|gif|png|css|txt|html|php|xml|woff)$">
+<FilesMatch "\.(js|gif|css|txt|html|php|xml|woff)$">
 SetOutputFilter DEFLATE
 </FilesMatch>
 </IfModule>
