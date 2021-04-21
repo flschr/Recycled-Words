@@ -48,6 +48,7 @@ Updating Yellow extensions works the same way as updating Yellow. Simply downloa
 - [Fontawesome](https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome)
 - [Googlemap](https://github.com/datenstrom/yellow-extensions/tree/master/source/googlemap)
 - [Random](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/random)
+- [Search](https://github.com/datenstrom/yellow-extensions/tree/master/source/search)
 - [Sitemap](https://github.com/datenstrom/yellow-extensions/tree/master/source/sitemap)
 - [Youtube](https://github.com/datenstrom/yellow-extensions/tree/master/source/youtube)
 
