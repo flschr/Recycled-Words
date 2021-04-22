@@ -1,23 +1,7 @@
 # Hi robots! Glad you came!
 # Humans, please refer to /humans.txt
 
-User-agent: spbot
-User-agent: MJ12Bot
-User-agent: SemrushBot
-User-agent: SemrushBot-SA
-Crawl-delay: 60
-
-User-agent: dotbot
-User-agent: voltron
-User-agent: AhrefsBot
-User-agent: BLEXBot
-User-agent: NerdyBot
-User-agent: SurdotlyBot
-Crawl-delay: 3600
-
 User-agent: *
-Disallow: /system/
-Disallow: /googlefbd7f0c7445c29d8.html
-Disallow: /yandex_29308bf8c4336a06.html
+Disallow:
 
 Sitemap: https://gaehn.org/sitemap/page:sitemap.xml
