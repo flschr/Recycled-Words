@@ -1,6 +1,6 @@
 ---
-Title: Suche
-TitleSlug: Suche
+Title: Suche nach
+TitleSlug: Suche nach
 Layout: search
 Status: unlisted
 ---
