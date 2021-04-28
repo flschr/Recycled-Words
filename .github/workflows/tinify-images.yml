@@ -1,4 +1,4 @@
-name: Compress Images
+name: Tinify Images
 on: [push]
 jobs:
   compress:
