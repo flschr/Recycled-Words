@@ -1,4 +1,4 @@
-name: image
+name: Compress Images
 on: [push]
 jobs:
   compress:
