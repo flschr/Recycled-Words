@@ -3,11 +3,9 @@ Hi humans!
 This is the blog of René Fischer. This file contains some information
 for people who’re interested in this website and server.
 
-  • You can read my blog by visiting https://gaehn.org
-
-  • You can follow me on Twitter https://twitter.com/flschr
-
-  • You can read technical details about the software used to create this web
-    site at https://github.com/flschr/Recycled-Words
+- You can read my blog by visiting https://gaehn.org
+- You can follow me on Twitter https://twitter.com/flschr
+- You can read technical details about the software used to create this web
+  site at https://github.com/flschr/Recycled-Words
 
 Thank you for your interest in my blog!
