@@ -1,5 +1,5 @@
 ---
-Title: ██████░░░░░░ 50%
+Title: █████░░░░░ 50%
 Published: 2021-05-20 00:00:00
 Author: René Fischer
 Layout: blog
