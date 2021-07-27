@@ -1,6 +1,6 @@
 ---
 Title: Mumbay Curry
-Published: 2021-27-07 00:00:00
+Published: 2021-07-27 00:00:00
 Author: René Fischer
 Layout: blog
 Tag: #leckerwars
