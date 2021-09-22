@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #leckerwars
 ---
-Ich war beruflich [mal wieder](/2017-10-26-am-thuner-see) in Thun und hatte diesmal etwas mehr Zeit diese wunderschöne Stadt zu erkunden. Ein wirklich traumhaft schöner Fleck mit unerschöpflich vielen Dingen die man (meist für teures Geld) erkunden kann.
+Ich war beruflich [mal wieder](/2017-10-26-am-thuner-see) in Thun und hatte diesmal etwas mehr Zeit diese wunderschöne Stadt zu erkunden. Ein wirklich traumhaft schöner Fleck mit unerschöpflich vielen Dingen die man (meist gegen teures Geld) erkunden kann.
 
 [image  "2021-09-22-09-45-52.jpeg"]
 [image  "2021-09-22-09-52-27.jpeg"]
