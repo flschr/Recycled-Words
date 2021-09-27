@@ -37,11 +37,11 @@ Die eigentliche Klamm hat dann aber für alles entschädigt. Hier war dann auch 
 [image "2021-09-04 13-23-59.JPG" "Auf allen Vieren durch die Jennbachklamm"]
 [image "2021-09-04 13-26-35.JPG" "Der Wasserfall der Jennbachklamm"]
 
-Danach ging es weiter bis zur Wirtsalm und wenn ich allein gewesen wäre, hätte ich vermutlich auch noch den Wendelstein mitgenommen. So haben wir die Pause auf der Alm genossen, bevor wirden Abstieg zurück nach Bad Feilnbach gewagt haben.
+Danach ging es weiter bis zur Wirtsalm und wenn ich allein gewesen wäre, hätte ich vermutlich auch noch den Wendelstein mitgenommen. So haben wir die Pause auf der Alm genossen, bevor wir den Abstieg nach Bad Feilnbach gewagt haben.
 
 [image "2021-09-04 14-02-43.JPG" "Aufstieg zur Wirtsalm"]
 [image "2021-09-04 14-07-41.JPG" "Die Wirtsalm an der Jenbachklamm"]
 
-Unser Lieblingsrestaurant in Bad Feilnbach bleibt auch in diesem Jahr die [Ludwig Stubn](https://www.ludwigstuben.de/). Nach dem Pächterwechsel ist aber auch die [Kaiseralm auf dem Zeltplatz](https://www.kaiser-camping.com/gastronomie/) ein absolut empfehlenswertes Restaurant.
+Ansonsten gab es noch Minigolf, jede Menge Eis, Kartenspiele und auch mal Tütensuppe vom Campingkocher. Unser Lieblingsrestaurant in Bad Feilnbach bleibt auch in diesem Jahr die [Ludwig Stubn](https://www.ludwigstuben.de/). Nach dem Pächterwechsel ist aber auch die [Kaiseralm auf dem Zeltplatz](https://www.kaiser-camping.com/gastronomie/) ein absolut empfehlenswertes Restaurant.
 
 [image "2021-09-03 18-42-22.JPG" "Kaiserschmarrn in der Kaiseralm"]
