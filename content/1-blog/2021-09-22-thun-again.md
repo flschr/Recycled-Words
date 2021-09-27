@@ -12,6 +12,5 @@ Ich war beruflich [mal wieder](/am-thuner-see) in Thun und hatte diesmal etwas m
 [image "2021-09-22-10-06-41.jpeg" "Auf dem Thuner Schlossberg"]
 [image "2021-09-22-10-08-28.jpeg" "Ausblick vom Thuner Schlossberg"]
 [image "2021-09-22-10-23-00.jpeg" "Die Thuner Stadtkirche vom Schloss erg aus gesehen"]
+[image "2021-09-22-10-26-35.jpg" "Überdachter Weg von der Altstadt zum Schlossberg"]
 [image "2021-09-22-10-52-48.jpeg" "Blick auf die Thuner Altstadt mit dem Wehr der Aare im Vordergrund"]
-
-TESTSTST
