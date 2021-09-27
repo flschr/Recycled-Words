@@ -2,7 +2,7 @@
 // German extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/german
 
 class YellowGerman {
-    const VERSION = "0.8.27";
+    const VERSION = "0.8.28";
     public $yellow;         // access to API
     
     // Handle initialisation

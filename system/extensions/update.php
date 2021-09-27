@@ -2,7 +2,7 @@
 // Update extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/update
 
 class YellowUpdate {
-    const VERSION = "0.8.50";
+    const VERSION = "0.8.56";
     const PRIORITY = "2";
     public $yellow;                 // access to API
     public $updates;                // number of updates
@@ -86,6 +86,19 @@ class YellowUpdate {
                 }
             }
         }
+        if ($action=="update") { // TODO: remove later, convert extension settings
+            $fileName = $this->yellow->system->get("coreExtensionDirectory").$this->yellow->system->get("coreSystemFile");
+            if ($this->yellow->system->get("galleryStyle")=="photoswipe") {
+                if (!$this->yellow->system->save($fileName, array("galleryStyle" => "zoom"))) {
+                    $this->yellow->log("error", "Can't write file '$fileName'!");
+                }
+            }
+            if ($this->yellow->system->get("sliderStyle")=="flickity") {
+                if (!$this->yellow->system->save($fileName, array("sliderStyle" => "loop"))) {
+                    $this->yellow->log("error", "Can't write file '$fileName'!");
+                }
+            }
+        }
     }
     
     // Handle request
@@ -98,7 +111,6 @@ class YellowUpdate {
         $statusCode = $this->processCommandPending();
         if ($statusCode==0) {
             switch ($command) {
-                case "about":       $statusCode = $this->processCommandAbout($command, $text); break;
                 case "install":     $statusCode = $this->processCommandInstall($command, $text); break;
                 case "uninstall":   $statusCode = $this->processCommandUninstall($command, $text); break;
                 case "update":      $statusCode = $this->processCommandUpdate($command, $text); break;
@@ -110,29 +122,10 @@ class YellowUpdate {
     
     // Handle command help
     public function onCommandHelp() {
-        $help = "about\n";
-        $help .= "install [extension]\n";
+        $help = "install [extension]\n";
         $help .= "uninstall [extension]\n";
         $help .= "update [extension]\n";
         return $help;
-    }
-
-    // Process command to show website version and updates
-    public function processCommandAbout($command, $text) {
-        echo "Datenstrom Yellow ".YellowCore::RELEASE."\n";
-        list($statusCode, $settingsCurrent) = $this->getExtensionSettings(false);
-        list($statusCode, $settingsLatest) = $this->getExtensionSettings(true);
-        foreach ($settingsCurrent as $key=>$value) {
-            $versionCurrent = $versionLatest = $settingsCurrent[$key]->get("version");
-            if ($settingsLatest->isExisting($key)) $versionLatest = $settingsLatest[$key]->get("version");
-            if (strnatcasecmp($versionCurrent, $versionLatest)<0) {
-                echo ucfirst($key)." $versionCurrent - Update available\n";
-            } else {
-                echo ucfirst($key)." $versionCurrent\n";
-            }
-        }
-        if ($statusCode!=200) echo "ERROR checking updates: ".$this->yellow->page->get("pageError")."\n";
-        return $statusCode;
     }
     
     // Process command to install extensions
@@ -171,16 +164,28 @@ class YellowUpdate {
     // Process command to update website
     public function processCommandUpdate($command, $text) {
         $extensions = $this->getExtensionsFromText($text);
-        list($statusCode, $settings) = $this->getExtensionUpdateInformation($extensions);
-        if ($statusCode!=200 || !empty($settings)) {
-            $this->updates = 0;
-            if ($statusCode==200) $statusCode = $this->downloadExtensions($settings);
-            if ($statusCode==200) $statusCode = $this->updateExtensions("update");
-            if ($statusCode>=400) echo "ERROR updating files: ".$this->yellow->page->get("pageError")."\n";
-            echo "Yellow $command: Website ".($statusCode!=200 ? "not " : "")."updated";
-            echo ", $this->updates update".($this->updates!=1 ? "s" : "")." installed\n";
+        if (!empty($extensions)) {
+            list($statusCode, $settings) = $this->getExtensionUpdateInformation($extensions);
+            if ($statusCode!=200 || !empty($settings)) {
+                $this->updates = 0;
+                if ($statusCode==200) $statusCode = $this->downloadExtensions($settings);
+                if ($statusCode==200) $statusCode = $this->updateExtensions("update");
+                if ($statusCode>=400) echo "ERROR updating files: ".$this->yellow->page->get("pageError")."\n";
+                echo "Yellow $command: Website ".($statusCode!=200 ? "not " : "")."updated";
+                echo ", $this->updates update".($this->updates!=1 ? "s" : "")." installed\n";
+            } else {
+                echo "Your website is up to date\n";
+            }
         } else {
-            echo "Your website is up to date\n";
+            list($statusCode, $settings) = $this->getExtensionUpdateInformation(array("all"));
+            if ($statusCode!=200 || !empty($settings)) {
+                if ($statusCode>=400) echo "ERROR updating files: ".$this->yellow->page->get("pageError")."\n";
+                $this->updates = count($settings);
+                echo "Yellow $command: Please type 'php yellow.php update all'";
+                echo ", $this->updates update".($this->updates!=1 ? "s" : "")." available\n";
+            } else {
+                echo "Your website is up to date\n";
+            }
         }
         return $statusCode;
     }
@@ -217,11 +222,11 @@ class YellowUpdate {
     public function showExtensions() {
         list($statusCode, $settingsLatest) = $this->getExtensionSettings(true);
         foreach ($settingsLatest as $key=>$value) {
-            $text = $description = $value->get("description");
-            if ($value->isExisting("developer")) $text = "$description Developed by ".$value["developer"].".";
-            if ($value->isExisting("translator")) $text = "$description Translated by ".$value["translator"].".";
-            if ($value->isExisting("designer")) $text = "$description Designed by ".$value["designer"].".";
-            echo ucfirst($key).": $text\n";
+            $description = $text = $value->get("description");
+            if ($value->isExisting("developer")) $description = "$text Developed by ".$value["developer"].".";
+            if ($value->isExisting("designer")) $description = "$text Designed by ".$value["designer"].".";
+            if ($value->isExisting("translator")) $description = "$text Translated by ".$value["translator"].".";
+            echo ucfirst($key).": $description\n";
         }
         if ($statusCode!=200) echo "ERROR checking extensions: ".$this->yellow->page->get("pageError")."\n";
         return $statusCode;
@@ -308,12 +313,12 @@ class YellowUpdate {
                 ++$this->updates;
             } else {
                 $statusCode = 500;
-                $this->yellow->page->error(500, "Can't detect file '$path'!");
+                $this->yellow->page->error($statusCode, "Can't detect file '$path'!");
             }
             $zip->close();
         } else {
             $statusCode = 500;
-            $this->yellow->page->error(500, "Can't open file '$path'!");
+            $this->yellow->page->error($statusCode, "Can't open file '$path'!");
         }
         return $statusCode;
     }
@@ -321,7 +326,7 @@ class YellowUpdate {
     // Update extension from file
     public function updateExtensionFile($fileName, $fileData, $newModified, $oldModified, $lastModified, $flags, $extension) {
         $statusCode = 200;
-        $fileName = $this->yellow->toolbox->normaliseTokens($fileName);
+        $fileName = $this->yellow->toolbox->normalisePath($fileName);
         if ($this->yellow->lookup->isValidFile($fileName)) {
             $create = $update = $delete = false;
             if (preg_match("/create/i", $flags) && !is_file($fileName) && !empty($fileData)) $create = true;
@@ -518,7 +523,7 @@ class YellowUpdate {
         $fileData = $this->yellow->toolbox->readFile($fileName);
         if ($action=="install" || $action=="update") {
             $settingsCurrent = $this->yellow->toolbox->getTextSettings($fileData, "extension");
-            if (!$settingsCurrent->isExisting($extension)) $settingsCurrent[$extension] = new YellowArray();
+            $settingsCurrent[$extension] = new YellowArray();
             foreach ($settings as $key=>$value) $settingsCurrent[$extension][$key] = $value;
             $settingsCurrent->uksort("strnatcasecmp");
             $fileDataNew = "";
@@ -537,7 +542,7 @@ class YellowUpdate {
         }
         if ($fileData!=$fileDataNew && !$this->yellow->toolbox->createFile($fileName, $fileDataNew)) {
             $statusCode = 500;
-            $this->yellow->page->error(500, "Can't write file '$fileName'!");
+            $this->yellow->page->error($statusCode, "Can't write file '$fileName'!");
         }
         return $statusCode;
     }
@@ -556,7 +561,7 @@ class YellowUpdate {
         $fileName = $this->yellow->system->get("coreExtensionDirectory").$this->yellow->system->get("coreSystemFile");
         if (!$this->yellow->system->save($fileName, array("updateEventPending" => $updateEventPending))) {
             $statusCode = 500;
-            $this->yellow->page->error(500, "Can't write file '$fileName'!");
+            $this->yellow->page->error($statusCode, "Can't write file '$fileName'!");
         }
         return $statusCode;
     }
@@ -586,7 +591,7 @@ class YellowUpdate {
             ++$this->updates;
         } else {
             $statusCode = 500;
-            $this->yellow->page->error(500, "Please delete extension '$extension' manually!");
+            $this->yellow->page->error($statusCode, "Please delete extension '$extension' manually!");
         }
         return $statusCode;
     }
@@ -594,7 +599,7 @@ class YellowUpdate {
     // Remove extension file
     public function removeExtensionFile($fileName) {
         $statusCode = 200;
-        $fileName = $this->yellow->toolbox->normaliseTokens($fileName);
+        $fileName = $this->yellow->toolbox->normalisePath($fileName);
         if ($this->yellow->lookup->isValidFile($fileName) && is_file($fileName)) {
             if (!$this->yellow->toolbox->deleteFile($fileName, $this->yellow->system->get("coreTrashDirectory"))) {
                 $statusCode = 500;
@@ -666,7 +671,7 @@ class YellowUpdate {
         list($statusCodeCurrent, $settingsCurrent) = $this->getExtensionSettings(false);
         list($statusCodeLatest, $settingsLatest) = $this->getExtensionSettings(true);
         $statusCode = max($statusCodeCurrent, $statusCodeLatest);
-        if (empty($extensions)) {
+        if (in_array("all", $extensions)) {
             foreach ($settingsCurrent as $key=>$value) {
                 if ($settingsLatest->isExisting($key)) {
                     $versionCurrent = $settingsCurrent[$key]->get("version");
@@ -760,8 +765,6 @@ class YellowUpdate {
         foreach ($settings as $key=>$value) {
             if (strposu($key, "/")) {
                 if (!$this->yellow->lookup->isValidFile($key)) $invalid = true;
-                list($entry, $flags) = $this->yellow->toolbox->getTextList($value, ",", 2);
-                if (strposu($entry, ".")===false) $invalid = true; // TODO: remove later, detect old format
                 if ($oldModified==0) $oldModified = $this->yellow->toolbox->getFileModified($key);
             }
         }
