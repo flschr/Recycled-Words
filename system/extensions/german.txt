@@ -18,7 +18,7 @@ ContactName: Name:
 ContactEmail: E-Mail:
 ContactMessage: Nachricht:
 ContactConsent: Ich stimme zu, dass diese Webseite meine Nachricht speichert.
-ContactButton: Nachricht absenden
+ContactButton: Meine Nachricht absenden
 ContactMailSpam: [Spam]
 ContactMailFooter: Diese E-Mail wurde über @sitename verschickt - @title
 ContactStatusNone: Sag Hallo! Dein Feedback ist sehr willkommen.
@@ -205,16 +205,18 @@ HelpDescription: Hilfe für deine Webseite.
 HighlightDescription: Quellcode hervorheben.
 HungarianDescription: Ungarisch/Magyar mit der Sprache "hu".
 ImageDescription: Bilder in unterschiedlichen Größen.
-ImageDefaultAlt: Das ist ein Foto.
+ImageDefaultAlt: Bild ohne Beschreibung
 InstagramDescription: Instagram-Fotos einbinden.
 InstallTitle: Hallo
+InstallLanguage: Was ist deine Sprache?
 InstallExtension: Was willst du machen?
 InstallExtensionWebsite: Webseite
 InstallExtensionBlog: Blog
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Startseite
-InstallHomeTitleContent: Deine Webseite funktioniert!
-InstallHomeText: [image photo.jpg Beispiel rounded]\n\n[edit - Du kannst diese Seite bearbeiten]. Die Hilfe zeigt dir wie man kleine Webseiten, Blogs und Wikis erstellt. [Weitere Informationen](https://datenstrom.se/de/yellow/help/).
+InstallHomeText: [image photo.jpg Beispiel rounded]\n\n[edit - Du kannst diese Seite im Webbrowser bearbeiten] oder einen Texteditor benutzen. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
+InstallAboutTitle: Über
+InstallAboutText: [Erstellt mit Datenstrom Yellow](https://datenstrom.se/de/yellow/).
 InstallDefaultTitle: Seite
 InstallDefaultText: Dies ist eine neue Seite.
 InstallBlogTitle: Blogseite
@@ -245,8 +247,8 @@ SliderDescription: Bildergalerie mit Schieber.
 SlovakDescription: Slovak/Slovenčina with language 'sk'.
 SoundcloudDescription: Soundcloud-Audio einbinden.
 SpanishDescription: Spanish/Español with language 'es'.
-StockholmDescription: Stockholm is a clean theme.
-SwedishDescription: Swedish/Svenska with language 'sv'.
+StockholmDescription: Stockholm ist ein schlichtes Thema.
+SwedishDescription: Schwedisch/Svenska mit der Sprache 'sv'.
 TocDescription: Inhaltsverzeichnis anzeigen.
 TrafficDescription: Zugriffsanalysen aus Webserver-Logdateien erstellen.
 TwitterDescription: Twitter-Nachrichten einbinden.

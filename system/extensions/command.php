@@ -2,7 +2,7 @@
 // Command extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/command
 
 class YellowCommand {
-    const VERSION = "0.8.28";
+    const VERSION = "0.8.30";
     public $yellow;                       // access to API
     public $files;                        // number of files
     public $links;                        // number of links
@@ -26,10 +26,10 @@ class YellowCommand {
     // Handle command
     public function onCommand($command, $text) {
         switch ($command) {
+            case "about":   $statusCode = $this->processCommandAbout($command, $text); break;
             case "build":   $statusCode = $this->processCommandBuild($command, $text); break;
             case "check":   $statusCode = $this->processCommandCheck($command, $text); break;
             case "clean":   $statusCode = $this->processCommandClean($command, $text); break;
-            case "serve":   $statusCode = $this->processCommandServe($command, $text); break;
             default:        $statusCode = 0;
         }
         return $statusCode;
@@ -37,13 +37,24 @@ class YellowCommand {
     
     // Handle command help
     public function onCommandHelp() {
-        $help = "build [directory location]\n";
+        $help = "about\n";
+        $help .= "build [directory location]\n";
         $help .= "check [directory location]\n";
         $help .= "clean [directory location]\n";
-        $help .= "serve [directory url]\n";
         return $help;
     }
     
+    // Process command to show current version and extensions
+    public function processCommandAbout($command, $text) {
+        echo "Datenstrom Yellow ".YellowCore::RELEASE."\n";
+        $dataCurrent = $this->yellow->extension->data;
+        uksort($dataCurrent, "strnatcasecmp");
+        foreach ($dataCurrent as $key=>$value) {
+            echo ucfirst($key)." ".$value["version"]."\n";
+        }
+        return 200;
+    }
+
     // Process command to build static website
     public function processCommandBuild($command, $text) {
         $statusCode = 0;
@@ -428,36 +439,6 @@ class YellowCommand {
                 $statusCode = 500;
                 echo "ERROR cleaning files: Can't delete file '$fileName'!\n";
             }
-        }
-        return $statusCode;
-    }
-
-    // Process command to start built-in web server
-    public function processCommandServe($command, $text) {
-        list($path, $url) = $this->yellow->toolbox->getTextArguments($text);
-        if (empty($path) && is_dir($this->yellow->system->get("commandStaticBuildDirectory"))) {
-            $path = $this->yellow->system->get("commandStaticBuildDirectory");
-        }
-        if (empty($url)) $url = "http://localhost:8000";
-        list($scheme, $address, $base) = $this->yellow->lookup->getUrlInformation($url);
-        if ($scheme=="http" && !empty($address)) {
-            if (!preg_match("/\:\d+$/", $address)) $address .= ":8000";
-            echo "Starting built-in web server on $scheme://$address/\n";
-            echo "Press Ctrl+C to quit...\n";
-            if (empty($path) || $path=="dynamic") {
-                exec("php -S $address yellow.php 2>&1", $outputLines, $returnStatus);
-            } else {
-                exec("php -S $address -t $path 2>&1", $outputLines, $returnStatus);
-            }
-            $statusCode = $returnStatus!=0 ? 500 : 200;
-            if ($statusCode!=200) {
-                $output = !empty($outputLines) ? end($outputLines) : "Please check arguments!";
-                if (preg_match("/^\[(.*?)\]\s*(.*)$/", $output, $matches)) $output = $matches[2];
-                echo "ERROR starting web server: $output\n";
-            }
-        } else {
-            $statusCode = 400;
-            echo "Yellow $command: Invalid arguments\n";
         }
         return $statusCode;
     }

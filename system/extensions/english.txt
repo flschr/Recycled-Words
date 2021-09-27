@@ -18,7 +18,7 @@ ContactName: Name:
 ContactEmail: Email:
 ContactMessage: Message:
 ContactConsent: I consent that this website stores my message.
-ContactButton: Send message
+ContactButton: Send my message
 ContactMailSpam: [Spam]
 ContactMailFooter: This email was sent via @sitename - @title
 ContactStatusNone: Say hello. Your feedback is very welcome.
@@ -208,13 +208,15 @@ ImageDescription: Images and thumbnails.
 ImageDefaultAlt: Image without description
 InstagramDescription: Embed Instagram photos.
 InstallTitle: Hello
+InstallLanguage: What's your language?
 InstallExtension: What do you want to make?
 InstallExtensionWebsite: Website
 InstallExtensionBlog: Blog
 InstallExtensionWiki: Wiki
 InstallHomeTitle: Home
-InstallHomeTitleContent: Your website works!
-InstallHomeText: [image photo.jpg Example rounded]\n\n[edit - You can edit this page]. The help gives you more information about how to create small web pages, blogs and wikis. [Learn more](https://datenstrom.se/yellow/help/).
+InstallHomeText: [image photo.jpg Example rounded]\n\n[edit - You can edit this page in a web browser] or use a text editor. [Get help](https://datenstrom.se/yellow/help/).
+InstallAboutTitle: About
+InstallAboutText: [Made with Datenstrom Yellow](https://datenstrom.se/yellow/).
 InstallDefaultTitle: Page
 InstallDefaultText: This is a new page.
 InstallBlogTitle: Blog page
