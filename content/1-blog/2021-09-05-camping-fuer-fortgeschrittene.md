@@ -5,23 +5,23 @@ Author: René Fischer
 Layout: blog
 Tag: #ganzvielurlaub
 ---
-Wie schon [im letzten Jahr](/vater-und-sohn-urlaub), haben wir auch heuer wieder einen Vater-Sohn-Urlaub auf dem [Kaiser-Campingplatz](https://www.kaiser-camping.com/) in Bad Aibling gemacht. Das wochenlange Regenwetter hat zum Glück rechtzeitig aufgehört, womit im Grunde nur noch die nächtlichen Temperaturen von um die 7 °C als Herausforderung bestehen blieben. Zum Glück hatte ich etwas Geld in sehr gute Luftmatratzen investiert. Nachts wurde es dann aber trotzdem etwas frisch, was aber mit einer zusätzlichen Decke und einer Mütze auf dem Kopf am Ende kein Problem war.
+Wie schon [im letzten Jahr](/vater-und-sohn-urlaub), haben wir auch heuer wieder einen Vater-Sohn-Urlaub auf dem [Kaiser-Campingplatz](https://www.kaiser-camping.com/) in Bad Aibling gemacht. Das wochenlange Regenwetter hat zum Glück rechtzeitig aufgehört, womit im Grunde nur noch die nächtlichen Temperaturen von um die 7 °C als Herausforderung bestehen blieben. Mit einer zusätzlichen Decke und einer Mütze auf dem Kopf war es am Ende aber kein Problem.
 
 [image "2021-09-05 11-21-28.JPG" "Blick ins Tunnelzelt, mit den guten Matratzen und den zusätzlichen Decken"]
 
-Tagsüber herrschte die gesamte Woche über herrliches Spätsommerwetter mit angenehmen 22 °C. Das Schwimmbad haben wir aber trotzdem nur einmal ausprobiert. Mit einer Wassertemperatur um die 16 °C war es einfach schon zu kalt um es genießen zu können.
+Tagsüber herrschte die gesamte Woche über herrliches Spätsommerwetter mit angenehmen 22 °C. Das Schwimmbad haben wir dennoch nur einmal genossen. Mit einer Wassertemperatur um die 16 °C war es für ausgedehnten Badespaß einfach schon zu kalt.
 
 [image "2021-09-02 16-59-35.JPG" "Viel zu kühles Nass auf dem Kaiser-Campingplatz in Bad Feilnbach"]
 
-Wir hatten natürlich wieder die Mountainbikes dabei und haben ein auch paar Touren unternommen. Die erste Tour hat uns [einmal um die Raublinger Moore](https://www.komoot.de/tour/474280583) geführt, wobei die Streckenplanung mit Komoot so mies war, das wir beinah im Moor gelandet wären.
+Wir hatten wieder die Mountainbikes dabei und haben natürlich auch ein paar Touren gemacht. Die erste Tour hat uns [einmal um die Raublinger Moore](https://www.komoot.de/tour/474280583) geführt, wobei die Streckenplanung mit Komoot so mies war, das wir zweimal beinahe im Moor gelandet wären.
 
 [image "2021-09-02 14-42-43.JPG" "Manuelle Weiche am Raublinger Moor"]
 
-Wir waren im [Lokschuppen in Rosenheim](https://www.komoot.de/tour/475441618) und haben die sehr sehenswerte Ausstellung [»Saurier - Giganten der Meere«](https://www.lokschuppen.de/history/saurier) mitsamt Führung genossen.
+Wir waren außerdem im [Lokschuppen in Rosenheim](https://www.komoot.de/tour/475441618) und haben die sehr sehenswerte Ausstellung [»Saurier - Giganten der Meere«](https://www.lokschuppen.de/history/saurier) mitsamt unterhaltsamer Führung genossen.
 
 [image "2021-09-03 15-13-38.JPG" "Saurier-Ausstellung im Rosenheimer Lockschuppen"]
 
- Die [gemütliche Tour](https://www.komoot.de/tour/478414543) von Bad Aibling über Neubeuern und Nußdorf am Inn nach Brannenburg hatte am Ende die unbeabsichtigte Herausforderung eines im Grunde unbefahrbaren Trail, der irgendwie in die Tourenplanung gerutscht ist.
+ Die eigentlich [gemütliche Tour](https://www.komoot.de/tour/478414543) von Bad Aibling über Neubeuern und Nußdorf am Inn nach Brannenburg hatte am Ende die unbeabsichtigte Herausforderung eines im Grunde unbefahrbaren Trails, der irgendwie in die Tourenplanung gerutscht ist.
 
  [image "2021-09-05 14-21-54.JPG" "Herrliches Bild an einem Seitenarm des Inn"]
  [image "2021-09-05 16-04-21.JPG" "Im Grunde unbefahrbarer Trail mit 20cm tiefem Matsch"]
