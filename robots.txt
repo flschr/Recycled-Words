@@ -5,5 +5,3 @@ User-agent: *
 Disallow:
 
 Sitemap: https://gaehn.org/sitemap/page:sitemap.xml
-
-TEST!
