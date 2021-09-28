@@ -5,29 +5,29 @@ Author: René Fischer
 Layout: blog
 Tag: #ganzvielurlaub
 ---
-Wie schon [im letzten Jahr](/vater-und-sohn-urlaub), haben wir auch heuer wieder einen Vater-Sohn-Urlaub auf dem [Kaiser-Campingplatz](https://www.kaiser-camping.com/) in Bad Aibling gemacht. Das wochenlange Regenwetter hat zum Glück rechtzeitig aufgehört, womit im Grunde nur noch die nächtlichen Temperaturen von um die 7 °C als Herausforderung bestehen blieben. Mit einer zusätzlichen Decke und einer Mütze auf dem Kopf war es am Ende aber kein Problem.
+Wie schon [im letzten Jahr](/vater-und-sohn-urlaub), haben wir auch heuer wieder einen Vater-Sohn-Urlaub auf dem [Kaiser-Campingplatz](https://www.kaiser-camping.com/) in Bad Aibling gemacht. Das wochenlange Regenwetter hat zum Glück rechtzeitig aufgehört, womit im Grunde nur noch die nächtlichen Temperaturen von um die 7 °C als Herausforderung bestehen blieben. Mit einer zusätzlichen Decke und einer Mütze auf dem Kopf waren die kühlen Nächte  am Ende aber kein wirkliches Problem.
 
 [image "2021-09-05 11-21-28.JPG" "Blick ins Tunnelzelt, mit den guten Matratzen und den zusätzlichen Decken"]
 
-Tagsüber herrschte die gesamte Woche über herrliches Spätsommerwetter mit angenehmen 22 °C. Das Schwimmbad haben wir dennoch nur einmal genossen. Mit einer Wassertemperatur um die 16 °C war es für ausgedehnten Badespaß einfach schon zu kalt.
+Tagsüber herrschte die gesamte Woche über herrliches Spätsommerwetter mit angenehmen 22 °C. Den Pool haben wir aber trotzdem nur einmal benutzt. Mit Wassertemperaturen um die 16 °C war es für ausgedehnten Badespaß einfach schon zu kalt.
 
 [image "2021-09-02 16-59-35.JPG" "Viel zu kühles Nass auf dem Kaiser-Campingplatz in Bad Feilnbach"]
 
-Wir hatten wieder die Mountainbikes dabei und haben natürlich auch ein paar Touren gemacht. Die erste Tour hat uns [einmal um die Raublinger Moore](https://www.komoot.de/tour/474280583) geführt, wobei die Streckenplanung mit Komoot so mies war, das wir zweimal beinahe im Moor gelandet wären.
+Wir hatten natürlich wieder die Mountainbikes dabei und haben auch ein paar Touren gemacht. Die erste Tour hat uns [einmal um die Raublinger Moore](https://www.komoot.de/tour/474280583) geführt, wobei die Streckenplanung mit Komoot so mies war, das wir zweimal beinahe im Moor gelandet wären.
 
 [image "2021-09-02 14-42-43.JPG" "Manuelle Weiche am Raublinger Moor"]
 
-Wir waren außerdem im [Lokschuppen in Rosenheim](https://www.komoot.de/tour/475441618) und haben die sehr sehenswerte Ausstellung [»Saurier - Giganten der Meere«](https://www.lokschuppen.de/history/saurier) mitsamt unterhaltsamer Führung genossen.
+Wir sind außerdem zum [Lokschuppen](https://www.lokschuppen.de/) nach Rosenheim [geradelt](https://www.komoot.de/tour/475441618) und haben die sehr sehenswerte Ausstellung [»Saurier - Giganten der Meere«](https://www.lokschuppen.de/history/saurier) mitsamt unterhaltsamer Führung genossen.
 
 [image "2021-09-03 15-13-38.JPG" "Saurier-Ausstellung im Rosenheimer Lockschuppen"]
 
- Die eigentlich [gemütliche Tour](https://www.komoot.de/tour/478414543) von Bad Aibling über Neubeuern und Nußdorf am Inn nach Brannenburg hatte am Ende die unbeabsichtigte Herausforderung eines im Grunde unbefahrbaren Trails, der irgendwie in die Tourenplanung gerutscht ist.
+ Die eigentlich [gemütliche Tour](https://www.komoot.de/tour/478414543) von Bad Aibling über Neubeuern und Nußdorf am Inn nach Brannenburg hatte am Ende die unbeabsichtigte Herausforderung eines im Grunde unbefahrbaren Trails (knöcheltiefer Matsch und Mücken ohne Ende), der irgendwie in die Tourenplanung gerutscht ist.
 
  [image "2021-09-05 14-21-54.JPG" "Herrliches Bild an einem Seitenarm des Inn"]
  [image "2021-09-05 16-04-21.JPG" "Im Grunde unbefahrbarer Trail mit 20cm tiefem Matsch"]
  [image "2021-09-05 16-07-13.JPG" "Umgestürzter Baum mitten im Weg"]
 
-Das Highlight war [unsere Wanderung](https://www.komoot.de/tour/476990962) durch die [Jenbachklamm](https://www.roberge.de/tour.php?id=691) zur [Wirtsalm](https://goo.gl/maps/GPYpiZMmV5HavY14A). Was ich nicht wusste war, das die Jenbachklamm aufgrund [einer Großrutschung](https://www.vdv-online.de/fileadmin/user_upload/Virtuelle_Exkursion_zum_Talzuschub_Brechries.pdf) gesperrt war. Nur gejuckt hat das irgendwie keinen Wanderer, also haben wir uns auch dazu entschlossen den Weg zur Jenbachklamm fortzusetzen. Im weiteren Verlauf wurde es teilweise sehr unwegsam und wir mussten auch etwas klettern. Bei einer breiten Unterspülung haben wir uns nasse Füße geholt. Auch wenn es nie wirklich brenzlig war, blieb bis zum Ende ein leicht mulmiges Gefühl.
+Das Highlight war [unsere Wanderung](https://www.komoot.de/tour/476990962) durch die [Jenbachklamm](https://www.roberge.de/tour.php?id=691) zur [Wirtsalm](https://goo.gl/maps/GPYpiZMmV5HavY14A). Dummerweise wusste ich nicht. das die Jenbachklamm aufgrund [einer Großrutschung](https://www.vdv-online.de/fileadmin/user_upload/Virtuelle_Exkursion_zum_Talzuschub_Brechries.pdf) gesperrt war. Nur gejuckt hat das irgendwie keinen anderen Wanderer, also haben wir uns auch dazu entschlossen den Weg zur Jenbachklamm fortzusetzen. Im weiteren Verlauf wurde es teilweise sehr unwegsam und wir mussten auch etwas klettern. Bei einer breiten Unterspülung haben wir uns nasse Füße geholt. Auch wenn es nie wirklich brenzlig war, blieb bis zum Ende ein leicht mulmiges Gefühl.
 
 [image "2021-09-04 12-52-48.JPG" "Absperrung in der Jenbachklamm nach einer Großrutschung in 2021"]
 [image "2021-09-04 12-46-30.JPG" "Weggespülter Wanderweg in der Jenbachklamm nach einer Großrutschung"]
