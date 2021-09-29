@@ -27,6 +27,8 @@ When you choose to continue blogging on your mobile, [this Siri shortcut](https:
 - Delete all photos inside the album ```Blog```.
 - Start "Working Copy" with ```/content/1-blog/yyyy-mm-dd-hh-title-of-the-new-blog-post.md``` in edit mode.
 
+This shortcut also runs standalone, without adding photos to an article (just in case I want to write an article without pictures). For that case, I created a shortcut widget on my homescreen.
+
 #### Image optimizations
 A few moments after syncing new pictures to the remote repository, they automatically got optimized by [Imgbot](https://imgbot.net/) to reduce the file size with a lossless compression.
 
