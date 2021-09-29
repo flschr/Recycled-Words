@@ -4,24 +4,32 @@ This is my personal blog running on [Yellow CMS](https://github.com/datenstrom/y
 Visit [my blog](https://gaehn.org), and follow me on [Twitter](https://twitter.com/flschr), [LinkedIn](https://www.linkedin.com/in/flschr) and [Komoot](https://www.komoot.de/user/848543125284).
 
 ## How it works
-This repository exists out of 2 branches. ```main``` is my [live system](https://gaehn.org) while ```stage``` is my little playground for testing more extensive modifications before publishing them to my website (f.e. test Yellow updates, new plugins and design and layout customizations). All commits are automatically published by [FTP Deploy Action](https://github.com/SamKirkland/FTP-Deploy-Action) to the corresponding ```main``` and ```stage``` directory on my web server.
+The ```main``` branch of this repository is my [live system](https://gaehn.org) while the temporary ```stage``` branch is my playground for testing more extensive modifications before publishing them to my website (f.e. testing updates of Yellow, new plugins, design and layout customizations). All commits are automatically published by [FTP Deploy Action](https://github.com/SamKirkland/FTP-Deploy-Action) to the corresponding ```main``` and ```stage``` directory on my web server.
 
 ### How blogging works
-For creating new content I always use the ```main``` branch. Usually I use [Atom](https://atom.io/) on my desktop to write new articles and make other edits. If, for whatever reason, I need to write a article on the go, I'll use [Working Copy](https://workingcopyapp.com/) as my preferred editor.
+Depending on the type of the blog article and the current situation I'll use [Atom](https://atom.io/) on my desktop or [Working Copy](https://workingcopyapp.com/) on my iPhone for edits. For more elaborated content I usually use Atom. For quick notes, photo-blogging or just because I'm on the go, I'll love to use Working Copy on my smartphone.
 
-#### Handling of pictures
-As I use my iPhone for taking photos only, I'll need a smart way to push pictures into my repository. For that I've created this [Siri shortcut](https://www.icloud.com/shortcuts/d577f9f77f48474083c6525fc148431e) which runs photos from the iOS share sheet through the following workflow:
+#### Workflow automatizations on my iPhone
+I'm a lazy guy and thats why I created a few Siri shortcuts to simplify process for creating new content as much as possible.
 
-- Resize picture to ```1280px*auto-height```
-- Convert picture to JPEG (can't make use of HEIC)
-- Reduce image quality to ~90%
-- Write picture to ```/media/images/yyyy-mm-dd-hh-mm-ss.jpeg``` within Working Copy
-- For ease of use, append the ready to use markup ```[image yyyy-mm-dd-hh-mm-ss.jpeg ""]``` to ```/content/1-blog/_latest-pics.txt``` and copy it to the clipboard
-- Commit changes
-- Optional: automatic fetch, pull and push repository within Working Copy
-- Optional: start "Working Copy"
+As I use my iPhone for taking all my photos, I'll needed a smart way to push photos into my repository. The solution I came up with, exists out of 3 Siri shortcuts. [The first one](https://www.icloud.com/shortcuts/2b39f0741b384e8c8c360be84486c3b2) runs photos from the iOS share sheet through the following workflow:
 
-The pictures can than to be used in blog articles within Atom and Working Copy. A few moments later, all pictures are automatically optimized by [Imgbot](https://imgbot.net/) to further reduce the file size with a lossless compression.
+- Resize picture to ```1280px*auto-height```.
+- Save pictures to a iOS photo album named ```Blog```.
+- Ask if a new blog post should be created (to finish blogging on the smartphone) or else if all pictures should just get synced to the remote repository (to finish blogging on the desktop).
+
+When you choose to only sync the photos to the remote repository, [this Siri shortcut](https://www.icloud.com/shortcuts/65279c78a73048bfb6dd485b597afbf0) is executed which simply writes every photo to ```/media/images/yyyy-mm-dd-hh-mm-ss.jpeg``` and syncs all changes with the remote repository.
+
+When you choose to continue blogging on your mobile, [this Siri shortcut](https://www.icloud.com/shortcuts/070cb0396611432693c5ec67e84a877b) is running this workflow:
+
+- Ask for the title of the new blog post.
+- Create a new file named ```/content/1-blog/yyyy-mm-dd-hh-title-of-the-new-blog-post.md```. The file already contains the Yellow CMS blog header with the current date and the title of the article.
+- Write every photo to ```/media/images/yyyy-mm-dd-hh-mm-ss.jpeg```.
+- Append ```[image "yyyy-mm-dd-hh-mm-ss.jpeg" ""]``` for every photo to ```/content/1-blog/yyyy-mm-dd-hh-title-of-the-new-blog-post.md```.
+- Start "Working Copy" with ```/content/1-blog/yyyy-mm-dd-hh-title-of-the-new-blog-post.md``` in edit mode.
+
+#### Image optimizations
+A few moments after syncing new pictures to the remote repository, they automatically got optimized by [Imgbot](https://imgbot.net/) to reduce the file size with a lossless compression.
 
 ### Updating Yellow CMS
 The disadvantage by using a Github repository as powerhouse for content creation, website management and deployment of a website running on Yellow is, that you can't use the [standard procedures](https://github.com/datenstrom/yellow-extensions/tree/master/source/update) for updating Yellow CMS to a new version. But anyway, as Yellow only consists out of a a few ```PHP``` and ```HTML``` files, it is not that hard to perform a manual update. When you customized Yellow to your own needs, its even easier to use the tools provided by Atom and Github to migrate your customizations to a new version of Yellow.
