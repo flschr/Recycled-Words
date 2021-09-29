@@ -10,15 +10,15 @@ The ```main``` branch of this repository is my [live system](https://gaehn.org) 
 Depending on the type of the blog article and the current situation I'll use [Atom](https://atom.io/) on my desktop or [Working Copy](https://workingcopyapp.com/) on my iPhone for edits. For more elaborated content I usually use Atom. For quick notes, photo-blogging or just because I'm on the go, I'll love to use Working Copy on my smartphone.
 
 #### Workflow automatizations on my iPhone
-I'm a lazy guy and thats why I created a few Siri shortcuts to simplify process for creating new content as much as possible.
+I'm a lazy guy and thats why I created a few Siri shortcuts to simplify the process for creating new content as much as possible.
 
 As I use my iPhone for taking all my photos, I'll needed a smart way to push photos into my repository. The solution I came up with, exists out of 3 Siri shortcuts. [The first one](https://www.icloud.com/shortcuts/2b39f0741b384e8c8c360be84486c3b2) runs photos from the iOS share sheet through the following workflow:
 
-- Resize picture to ```1280px*auto-height```.
-- Save pictures to a iOS photo album named ```Blog```.
+- Resize photos to ```1280px*auto-height```.
+- Save photos to a local iOS photo album named ```Blog```.
 - Ask if a new blog post should be created (to finish blogging on the smartphone) or else if all pictures should just get synced to the remote repository (to finish blogging on the desktop).
 
-When you choose to only sync the photos to the remote repository, [this Siri shortcut](https://www.icloud.com/shortcuts/65279c78a73048bfb6dd485b597afbf0) is executed which simply writes every photo to ```/media/images/yyyy-mm-dd-hh-mm-ss.jpeg``` and syncs all changes with the remote repository.
+When you choose to only sync the photos to the remote repository, [this Siri shortcut](https://www.icloud.com/shortcuts/65279c78a73048bfb6dd485b597afbf0) is executed which simply writes every photo to ```/media/images/yyyy-mm-dd-hh-mm-ss.jpeg``` and syncs all changes with the remote repository. Finally all photos inside the album ```Blog``` are deleted.
 
 When you choose to continue blogging on your mobile, [this Siri shortcut](https://www.icloud.com/shortcuts/070cb0396611432693c5ec67e84a877b) is running this workflow:
 
@@ -26,6 +26,7 @@ When you choose to continue blogging on your mobile, [this Siri shortcut](https:
 - Create a new file named ```/content/1-blog/yyyy-mm-dd-hh-title-of-the-new-blog-post.md```. The file already contains the Yellow CMS blog header with the current date and the title of the article.
 - Write every photo to ```/media/images/yyyy-mm-dd-hh-mm-ss.jpeg```.
 - Append ```[image "yyyy-mm-dd-hh-mm-ss.jpeg" ""]``` for every photo to ```/content/1-blog/yyyy-mm-dd-hh-title-of-the-new-blog-post.md```.
+- Delete all photos inside the album ```Blog```.
 - Start "Working Copy" with ```/content/1-blog/yyyy-mm-dd-hh-title-of-the-new-blog-post.md``` in edit mode.
 
 #### Image optimizations
