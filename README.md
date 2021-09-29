@@ -17,7 +17,7 @@ As I use my iPhone for taking all my photos, I'll needed a smart way to push pho
 - Save photos to a local iOS photo album named ```Blog```.
 - Ask if a new blog post should be created (to finish blogging on the smartphone) or else if all pictures should just get synced to the remote repository (to finish blogging on the desktop).
 
-When you choose to sync the photos to the remote repository only, [this Siri shortcut](https://www.icloud.com/shortcuts/65279c78a73048bfb6dd485b597afbf0) simply writes every photo to ```/media/images/yyyy-mm-dd-hh-mm-ss.jpeg```, syncs all changes to the remote repository and deletes the content of local photo album ```Blog```.
+When you choose to sync the photos to the remote repository only, [this Siri shortcut](https://www.icloud.com/shortcuts/65279c78a73048bfb6dd485b597afbf0) is executed, which simply writes every photo to ```/media/images/yyyy-mm-dd-hh-mm-ss.jpeg```, syncs all changes to the remote repository and deletes the content of local photo album ```Blog```.
 
 When you choose to continue blogging on your mobile, the workflow of [this Siri shortcut](https://www.icloud.com/shortcuts/070cb0396611432693c5ec67e84a877b) is executed:
 - Ask for the title of the new blog post.
