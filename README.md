@@ -44,7 +44,7 @@ Follow this guide for a manual update of Yellow CMS. Depending on the level of y
 2. Unzip ```blog.php``` from ```$temp-dir\system\extensions\install-blog.zip``` to ```$temp-dir\system\extensions```.
 3. Unzip ```german.php```, ```german.txt```, ```english.php```, ```english.txt``` from ```$temp-dir\system\extensions\install-languages.zip``` to ```$temp-dir\system\extensions```.
 4. As I don't need the edit extension at all, I delete all ```edit.*``` files, the  ```yellow-user.ini``` and ```install.php``` from ```$temp-dir\system\extensions```. You also can safely delete all ```*.zip``` files from this directory.
-5. Open Atom and create the ```stage``` branch.
+5. Open Atom and create the temporary ```stage``` branch.
 6. Drag & drop all files from ```$temp-dir\system\extensions``` to the Yellow extension directory in your Atom project. Atom will automatically highlight all files orange that include changes from the repository. All even files, won't be highlighted and you can ignore them.
 7. For migrating ```yellow-system.ini``` I suggest to make a diff against the ```main``` repository to see if the updated file contains any new settings. If there are no new settings, I discard all changes of this file.
 8. Drag and drop ```$temp-dir\yellow.php``` and all files from ```$temp-dir\system\layouts``` to your Atom project. As I customized nearly every layout file, I diff the local copy against the ```main``` branch to spot the differences in detail. If there are no necessary changes, I discard the changes.
