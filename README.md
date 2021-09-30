@@ -1,25 +1,27 @@
 # Recycled Words
-This is my personal blog running on [Yellow CMS](https://github.com/datenstrom/yellow). Changes are automatically published with the help of [FTP Deploy Action](https://github.com/SamKirkland/FTP-Deploy-Action). Pictures are automatically optimized with [Imgbot](https://imgbot.net/). I use [Atom](https://atom.io/) (on my desktop) and [Working Copy](https://workingcopyapp.com/) (on my mobile) for edits.
+This is my personal blog running on [Yellow CMS](https://github.com/datenstrom/yellow). I use [Atom](https://atom.io/) on my desktop and [Working Copy](https://workingcopyapp.com/) on my mobile device for edits. For adding photos from my iPhone, I created a few automated workflows. Pictures are automatically optimized by [Imgbot](https://imgbot.net/). All changes are automatically published with the help of [FTP Deploy Action](https://github.com/SamKirkland/FTP-Deploy-Action) to my web server.
 
 Visit [my blog](https://gaehn.org), and follow me on [Twitter](https://twitter.com/flschr), [LinkedIn](https://www.linkedin.com/in/flschr) and [Komoot](https://www.komoot.de/user/848543125284).
 
 ## How it works
-The ```main``` branch of this repository is my [live system](https://gaehn.org) while the temporary ```stage``` branch is my playground for testing more extensive modifications before publishing them to my website (f.e. testing updates of Yellow, new plugins, design and layout customizations). All commits are automatically published by [FTP Deploy Action](https://github.com/SamKirkland/FTP-Deploy-Action) to the corresponding ```main``` and ```stage``` directory on my web server.
+The ```main``` branch of this repository is my [live system](https://gaehn.org). For testing extensive modifications (f.e. testing updates of Yellow, new plugins, design and layout customizations) I create a temporary ```stage``` branch as independent playground. Commits to all branches are automatically published by [FTP Deploy Action](https://github.com/SamKirkland/FTP-Deploy-Action) to the corresponding ```main``` and ```stage``` directory on my web server.
 
 ### How blogging works
-Depending on the type of the blog article and the current situation I'll use [Atom](https://atom.io/) on my desktop or [Working Copy](https://workingcopyapp.com/) on my iPhone for edits. For more elaborated content I usually use Atom. For quick notes, photo-blogging or just because I'm on the go, I'll love to use Working Copy on my smartphone.
+Depending on the type of the blog article, my mood and current location I'll use [Atom](https://atom.io/) on my desktop or [Working Copy](https://workingcopyapp.com/) on my iPhone for edits. For more elaborated content I usually use Atom. For quick notes, photo-blogging or just because I'm on the go, I'll love to use Working Copy on my smartphone.
 
 #### Workflow automatizations on my iPhone
-I'm a lazy guy and thats why I created a few Siri shortcuts to simplify the process for creating new content as much as possible.
+I'm a lazy guy and thats why I created a few Siri shortcuts to simplify the content creation process as much as possible.
 
-As I use my iPhone for taking all my photos, I'll needed a smart way to push photos into my repository. The solution I came up with, exists out of 3 Siri shortcuts. [The first one](https://www.icloud.com/shortcuts/2b39f0741b384e8c8c360be84486c3b2) runs photos from the iOS share sheet through the following workflow:
-- Resize photos to ```1280px*auto-height```.
-- Save photos to a local iOS photo album named ```Blog```.
-- Ask if a new blog post should be created (to finish blogging on the smartphone) or else if all pictures should just get synced to the remote repository (to finish blogging on the desktop).
+As I use a iPhone as my camera, I'll need a smart way to push photos into my repository. The solution I came up with, exists out of 3 Siri shortcuts. [The first one](https://www.icloud.com/shortcuts/2b39f0741b384e8c8c360be84486c3b2) runs photos from the iOS share sheet through the following workflow:
+- Resize all selected photos to ```1280px*auto-height```.
+- Save all photos to a local iOS photo album named ```Blog```.
+- Choose one of the following options to continue:
+  - Create blog article: To continue blogging on the smartphone
+  - Photo sync only: Photos just get synced to the remote repository, to finish blogging on the desktop.
 
-When you choose to sync the photos to the remote repository only, [this Siri shortcut](https://www.icloud.com/shortcuts/65279c78a73048bfb6dd485b597afbf0) is executed, which simply writes every photo to ```/media/images/yyyy-mm-dd-hh-mm-ss.jpeg```, syncs all changes to the remote repository and deletes the content of local photo album ```Blog```.
+When I choose to sync the photos to the remote repository only, [this Siri shortcut](https://www.icloud.com/shortcuts/65279c78a73048bfb6dd485b597afbf0) is executed, which simply writes every photo to ```/media/images/yyyy-mm-dd-hh-mm-ss.jpeg``` and syncs all changes to the remote repository. After that, the content of the local photo album ```Blog``` is deleted.
 
-When you choose to continue blogging on your mobile, [this Siri shortcut](https://www.icloud.com/shortcuts/070cb0396611432693c5ec67e84a877b) is executed:
+When I choose to continue blogging, [this Siri shortcut](https://www.icloud.com/shortcuts/070cb0396611432693c5ec67e84a877b) is executed:
 - Ask for the title of the new blog post.
 - Create a new file named ```/content/1-blog/yyyy-mm-dd-hh-title-of-the-new-blog-post.md```. The file already contains the Yellow CMS blog header with the current date and the title of the article.
 - Write every photo to ```/media/images/yyyy-mm-dd-hh-mm-ss.jpeg```.
@@ -27,7 +29,7 @@ When you choose to continue blogging on your mobile, [this Siri shortcut](https:
 - Delete all photos inside the album ```Blog```.
 - Start "Working Copy" with ```/content/1-blog/yyyy-mm-dd-hh-title-of-the-new-blog-post.md``` in edit mode.
 
-This shortcut also runs standalone, without adding photos to an article (just in case I want to write an article without pictures). For that case, I created a shortcut widget on my homescreen.
+The last shortcut also runs standalone, without the need for adding photos at all. I simply created a shortcut widget on my homescreen that runs that shortcut. It automates the process for a new text-only article as much as possible.
 
 #### Image optimizations
 A few moments after syncing new pictures to the remote repository, they automatically got optimized by [Imgbot](https://imgbot.net/) to reduce the file size with a lossless compression.
