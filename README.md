@@ -16,7 +16,7 @@ As I use a iPhone as my camera, I'll need a smart way to push photos into my rep
 - Resize all selected photos to ```1280px*auto-height```.
 - Save all photos to a local iOS photo album named ```Blog```.
 - Choose one of the following options to continue:
-  - Create blog article: To continue blogging on the smartphone
+  - Create blog article: To continue blogging on the smartphone.
   - Photo sync only: Photos just get synced to the remote repository, to finish blogging on the desktop.
 
 When I choose to sync the photos to the remote repository only, [this Siri shortcut](https://www.icloud.com/shortcuts/65279c78a73048bfb6dd485b597afbf0) is executed, which simply writes every photo to ```/media/images/yyyy-mm-dd-hh-mm-ss.jpeg``` and syncs all changes to the remote repository. After that, the content of the local photo album ```Blog``` is deleted.
@@ -26,10 +26,10 @@ When I choose to continue blogging, [this Siri shortcut](https://www.icloud.com/
 - Create a new file named ```/content/1-blog/yyyy-mm-dd-hh-title-of-the-new-blog-post.md```. The file already contains the Yellow CMS blog header with the current date and the title of the article.
 - Write every photo to ```/media/images/yyyy-mm-dd-hh-mm-ss.jpeg```.
 - Append ```[image "yyyy-mm-dd-hh-mm-ss.jpeg" ""]``` for every photo to ```/content/1-blog/yyyy-mm-dd-hh-title-of-the-new-blog-post.md```.
-- Delete all photos inside the album ```Blog```.
-- Start "Working Copy" with ```/content/1-blog/yyyy-mm-dd-hh-title-of-the-new-blog-post.md``` in edit mode.
+- Delete all photos inside the local iOS photo album ```Blog```.
+- Start "Working Copy" and open ```/content/1-blog/yyyy-mm-dd-hh-title-of-the-new-blog-post.md``` in edit mode.
 
-The last shortcut also runs standalone, without the need for adding photos at all. I simply created a shortcut widget on my homescreen that runs that shortcut. It automates the process for a new text-only article as much as possible.
+The last shortcut also runs standalone, without the need for adding photos at all. If I just want to write a text-only article, I simply run this shortcut from a widget on my homescreen.
 
 #### Image optimizations
 A few moments after syncing new pictures to the remote repository, they automatically got optimized by [Imgbot](https://imgbot.net/) to reduce the file size with a lossless compression.
