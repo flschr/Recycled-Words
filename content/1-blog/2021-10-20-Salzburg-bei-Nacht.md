@@ -1,5 +1,5 @@
 ---
-Title: Salzburg bei Nacht
+Title: Salzburger Nächte
 Published: 2021-10-20 00:00:00
 Author: René Fischer
 Layout: blog
