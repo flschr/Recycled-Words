@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #momentaufnahme
 ---
-Ich war beruflich [mal wieder](/am-thuner-see) in Thun und hatte diesmal noch etwas Zeit bevor der Zug zurück nach Hause ging, um diese wunderschöne Stadt zu erkunden. Ein wirklich traumhaft schöner Fleck mit unerschöpflich vielen Dingen die man (meist gegen teures Geld) erkunden kann. Und natürlich auch Restaurants auf sehr hohem Niveau.
+Ich war beruflich [mal wieder](/am-thuner-see) in Thun und hatte diesmal noch etwas Zeit bevor der Zug zurück nach Hause ging, um diese wunderschöne Stadt zumindest etwas zu erkunden. Ein wirklich traumhaft schöner Fleck mit unerschöpflich vielen Dingen die man (meist gegen teures Geld) erkunden kann. Und natürlich auch Restaurants auf sehr hohem Niveau.
 
 [image "2021-09-22-09-45-53.jpeg" "Blick über die Aare auf die Altstadt von Thun mit den markanten Highlights Schloss und Stadtkirche"]
 [image "2021-09-22-09-52-27.jpeg" "Blick von der Sinnebeücke auf die Altstadt und die Stadtkirche"]
