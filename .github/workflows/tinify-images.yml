@@ -9,6 +9,6 @@ jobs:
           ref: ${{ github.head_ref }}
       - uses: namoscato/action-tinify@v1.3.2
         with:
-          resize_width: 1280px
+          resize_width: 1280
           api_key: ${{ secrets.TINIFY_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
