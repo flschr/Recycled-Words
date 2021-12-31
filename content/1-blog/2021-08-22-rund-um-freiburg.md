@@ -20,8 +20,17 @@ Als ideale Homebase hat sich der kleine Ort [Sexau](https://de.wikipedia.org/wik
 [image 2021-08-17-08-30-32.JPG "Morgendliche Wanderung durch die Weinberge um Sexau"]
 [image 2021-08-21-08-08-22.JPG "Die morgendliche Kastelburg Waldkirch"]
 
-In der Region gibt es aber natürlich auch noch andere sehenswerte Orte zu erkunden. Besonders gefallen hat uns [Staufen](https://de.wikipedia.org/wiki/Staufen_im_Breisgau). Ein wahrhaft malerischer Ort in dem es natürlich auch eine [Burgruine](https://de.wikipedia.org/wiki/Burg_Staufen_(Breisgau)) gibt. 
+In der Region gibt es aber natürlich auch noch andere sehenswerte Orte zu erkunden. Besonders gefallen hat uns [Staufen](https://de.wikipedia.org/wiki/Staufen_im_Breisgau). Ein wahrhaft malerischer Ort in dem es natürlich auch eine [Burgruine](https://de.wikipedia.org/wiki/Burg_Staufen_(Breisgau)) gibt.
 
 [image 2021-08-18-11-55-55.JPG "Blick von der Innenstadt Staufen auf die Burg Staufen"]
 [image 2021-08-18-17-13-05.JPG "Der Marktplatz von Staufen mit Blick auf das Rathaus"]
 [image 2021-08-18-12-09-39.JPG "Eine vergessene Jacke in den Staufener Weinbergen"]
+
+Weitere kurze Abstecher haben wir nach [Haslach im Kinzigtal](https://de.wikipedia.org/wiki/Haslach_im_Kinzigtal) und zur [Donauquelle in Donaueschingen](https://de.wikipedia.org/wiki/Donauquelle) gemacht. Donaueschingen war als Stadt leider ein totaler Reinfall, aber zumindest haben wir mal den Ursprung der Donau gesehen.
+
+[image 2021-08-21-12-56-33.JPG "Malerisches Haslach im Kinzigtal"]
+[image 2021-08-21-14-51-50.JPG "Die Donauquelle in Donaueschingen"]
+
+Das absolute Highlight des Urlaubs war aber unser Ausflug zum Europa-Park.
+
+[youtube WHObTKp94u0]
