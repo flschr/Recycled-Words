@@ -31,17 +31,18 @@ Weitere kurze Abstecher haben wir nach [Haslach im Kinzigtal](https://de.wikiped
 [image 2021-08-21-12-56-33.JPG "Malerisches Haslach im Kinzigtal"]
 [image 2021-08-21-14-51-50.JPG "Die Donauquelle in Donaueschingen"]
 
-Das absolute Highlight des Urlaubs war aber unser Ausflug zum Europa-Park. Bestimmt wurden Pandemie-bedingt weniger Besucher in den Park gelassen als sonst, man musste aber dennoch bei den allermeisten Fahrgeschäften 15-30 Minuten anstehen. Unsere absoluten Highlight waren die [Wasserachterbahn Poseidon](https://de.wikipedia.org/wiki/Wasserachterbahn_Poseidon) und die [Dunkelachterbahn Moulin Rouge](https://de.wikipedia.org/wiki/Eurosat_%E2%80%93_CanCan_Coaster). Ein totaler Flop war aus unserer Sicht das Fjord-Rafting. Für die Wartezeit ist das Erlebnis zu kurz und zu wenig spektakulär. Alles in Allem war das aber ein sensationeller Tagesausflug der auf jeden Fall  wiederholt wird.
+Das absolute Highlight des Urlaubs war aber unser Ausflug zum Europa-Park. Bestimmt wurden Pandemie-bedingt weniger Besucher in den Park gelassen als sonst, man musste aber dennoch bei den allermeisten Fahrgeschäften 15-30 Minuten anstehen. Unser absolutes Highlight war die [Dunkelachterbahn Moulin Rouge](https://de.wikipedia.org/wiki/Eurosat_%E2%80%93_CanCan_Coaster).
+
+[youtube RH6AVQuupXY]
+
+Nichts für schwache Nerven ist die [Wasserachterbahn Poseidon](https://de.wikipedia.org/wiki/Wasserachterbahn_Poseidon). Ich gebe gerne zu, die Erfahrung war an einigen Stellen für mich grenzwertig. Ich würde es aber auf jeden Fall noch einmal riskieren.
 
 [youtube WHObTKp94u0]
 
-[youtube RH6AVQuupXY]
+Ein totaler Flop war aus unserer Sicht das Fjord-Rafting. Für die Wartezeit ist das Erlebnis zu kurz und zu wenig spektakulär. Abgesehen davon ist der Europa-Park aber ein sensationeller Tagesausflug.
 
 Wenn wir schon mal in der Nähe sind, haben wir natürlich auch noch die Schwarzwaldklinik besucht und damit einen Kindheitstraum der Frau verwirklicht. Und zum Nachtisch gab es auch noch ein wirklich leckeres Stück Schwarzwälderkirsch.
 
 [image 2021-08-22-11-19-10.JPG "Ein Abstecher zur Schwarzwaldklink"]
 [image 2021-08-22-12-45-59.JPG "Ein leckeres Stück Schwarzwälderkirschtorte"]
-
-Tschüss Sexau und vielleicht bis irgendwann mal wieder.
-
 [image 2021-08-15-08-10-25.JPG "Ortsausgangsschild Sexau"]
