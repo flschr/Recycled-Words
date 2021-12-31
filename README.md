@@ -1,5 +1,5 @@
 # Recycled Words
-This is my personal blog running on [Yellow CMS](https://github.com/datenstrom/yellow). I use [Atom](https://atom.io/) on my desktop and [Working Copy](https://workingcopyapp.com/) on my mobile device for edits. For adding photos from my iPhone, I created a few automated workflows. Pictures are automatically optimized by the [Tinify Image Action](https://github.com/marketplace/actions/tinify-image-action). All changes are automatically published with the help of [FTP Deploy Action](https://github.com/SamKirkland/FTP-Deploy-Action) to my web server.
+This is my personal blog running on [Yellow CMS](https://github.com/datenstrom/yellow). I use [Atom](https://atom.io/) on my desktop and [Working Copy](https://workingcopyapp.com/) on my mobile device for edits. For adding photos from my iPhone, I created a simple workflow. All photos are automatically optimized by the [Tinify Image Action](https://github.com/marketplace/actions/tinify-image-action). All edits are automatically published with the help of [FTP Deploy Action](https://github.com/SamKirkland/FTP-Deploy-Action) to my web server.
 
 Visit [my blog](https://gaehn.org), and follow me on [Twitter](https://twitter.com/flschr), [LinkedIn](https://www.linkedin.com/in/flschr) and [Komoot](https://www.komoot.de/user/848543125284).
 
@@ -9,22 +9,22 @@ The ```main``` branch of this repository is my [live system](https://gaehn.org).
 ### How blogging works
 Depending on the type of the blog article, my mood and current location I'll use [Atom](https://atom.io/) on my desktop or [Working Copy](https://workingcopyapp.com/) on my iPhone for edits. For more elaborated content I usually use Atom. For quick notes, photo-blogging or just because I'm on the go, I'll love to use Working Copy on my smartphone.
 
-#### Workflow automatizations on my iPhone
+#### Workflow automatization on my iPhone
 I'm a lazy guy and thats why I created a Siri shortcut to simplify the content creation process as much as possible.
 
 As I use a iPhone as my camera, I'll need a smart way to push photos to my repository. The solution I came up with, is this [Siri shortcut](https://www.icloud.com/shortcuts/242920bdb3b94ced96ab8262f2aaa460) which runs photos from the iOS share sheet through the following workflow:
-- Save all photos to a temporary local iOS photo album named ```Blog```.
+- Save all photos to the local iOS photo album named ```Blog```.
 - Ask for the title of the new blog post.
 - Create a new file named ```/content/1-blog/yyyy-mm-dd-hh-title-of-the-new-blog-post.md```. The file already contains the Yellow CMS blog header with the current date and the title of the article.
 - Write every photo to ```/media/images/yyyy-mm-dd-hh-mm-ss.jpeg```.
 - Append ```[image "yyyy-mm-dd-hh-mm-ss.jpeg" ""]``` for every photo to ```/content/1-blog/yyyy-mm-dd-hh-title-of-the-new-blog-post.md```.
-- Delete all photos from the temporary local iOS photo album.
+- Remove all photos from the temporary local iOS photo album.
 - Start "Working Copy" and open ```/content/1-blog/yyyy-mm-dd-hh-title-of-the-new-blog-post.md``` in edit mode.
 
-If I only want to sync photos to the remote repository, I run [this Siri shortcut](https://www.icloud.com/shortcuts/053ba94bed7f4903a9b0152d8d33d6e2) from the iOS share menu. It simply writes every photo to ```/media/images/yyyy-mm-dd-hh-mm-ss.jpeg``` and syncs all changes to the remote repository. After that, the content of the local photo album ```Blog``` is deleted. I can finishing writing my blog article later from my mobile or my desktop computer.
+If I only want to sync photos to the remote repository, I run [this Siri shortcut](https://www.icloud.com/shortcuts/053ba94bed7f4903a9b0152d8d33d6e2) from the iOS share menu. It simply writes every photo to ```/media/images/yyyy-mm-dd-hh-mm-ss.jpeg``` and syncs all changes to the remote repository. After that, the content of the local photo album ```Blog``` is removed. So I can finishing writing my blog article later from my desktop.
 
 #### Image optimizations
-A few moments after syncing new pictures to the remote repository, they automatically got optimized by the [Tinify Image Action](https://github.com/marketplace/actions/tinify-image-action). All images are resized to 1280x* and than pushed through [TinyPNG](https://tinypng.com/) to further reduce the file size with a lossless compression.
+All new photos are automatically processed by the [Tinify Image Action](https://github.com/marketplace/actions/tinify-image-action). They will get resized to ```1280px*auto height``` and than pushed through the [TinyPNG API](https://tinypng.com/) to further reduce the file size with a lossless compression.
 
 ### Updating Yellow CMS
 The disadvantage by using a Github repository as powerhouse for content creation, website management and deployment of a website running on Yellow is, that you can't use the [standard procedures](https://github.com/datenstrom/yellow-extensions/tree/master/source/update) for updating Yellow CMS to a new version. But anyway, as Yellow only consists out of a a few ```PHP``` and ```HTML``` files, it is not that hard to perform a manual update. When you customized Yellow to your own needs, its even easier to use the tools provided by Atom and Github to migrate your customizations to a new version of Yellow.
