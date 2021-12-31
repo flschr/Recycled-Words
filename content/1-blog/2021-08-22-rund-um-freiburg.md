@@ -10,6 +10,6 @@ Ursprünglich war für dieses Jahr ja ein Toskana-Urlaub gebucht, aber Corona ha
 
 [image 2021-08-16-20-11-22.JPG "Typischer Blick an einem sommerlichen Abend in eine Freiburger Gasse mit den berühmten Freiburger Bächele"]
 
-[image 2021-08-16-11-54-27.JPG "Die Bächele-Boote sind eine jahrzehntealte Tradition in Freiburg"]
+[image 2021-08-16-11-54-27.JPG "Die Bächele-Boote sind eine jahrzehntealte Tradition bei den Freiburger Kindern"]
 
-Und dann ist ja da auch noch das
+Und dann ist ja da auch noch das Umland: Der wanderhafte Schwarzwald, der Europa-Park und - wenn keine Pandemie gewesen wäre - auch das nahe Frankreich.
