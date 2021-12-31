@@ -41,7 +41,7 @@ Nichts für schwache Nerven ist die [Wasserachterbahn Poseidon](https://de.wikip
 
 Ein totaler Flop war aus unserer Sicht das Fjord-Rafting. Für die Wartezeit ist das Erlebnis zu kurz und zu wenig spektakulär. Abgesehen davon ist der Europa-Park aber ein sensationeller Tagesausflug.
 
-Wenn wir schon mal in der Nähe sind, haben wir natürlich auch noch die Schwarzwaldklinik besucht und damit einen Kindheitstraum der Frau verwirklicht. Und zum Nachtisch gab es auch noch ein wirklich leckeres Stück Schwarzwälderkirsch.
+Wenn wir schon mal in der Nähe sind, haben wir natürlich auch noch die [Schwarzwaldklinik](https://de.wikipedia.org/wiki/Die_Schwarzwaldklinik) besucht und damit einen Kindheitstraum der Frau verwirklicht. Und zum Nachtisch gab es auch noch ein wirklich leckeres Stück Schwarzwälderkirsch.
 
 [image 2021-08-22-11-19-10.JPG "Ein Abstecher zur Schwarzwaldklink"]
 [image 2021-08-22-12-45-59.JPG "Ein leckeres Stück Schwarzwälderkirschtorte"]
