@@ -11,7 +11,7 @@
 <?php endif ?>
 <div class="<?php echo $page->getHtml("entryClass") ?>">
 <div class="entry-title"><h1><a href="<?php echo $page->getLocation(true) ?>"><?php echo $page->getHtml("title") ?></a></h1></div>
-<div class="entry-meta"><p>Am <?php echo $this->yellow->page->getDateHtml("published") ?> geschrieben von <a href="\about">René Fischer</a></p></div>
+<div class="entry-meta"><p>Am <?php echo $page->getDateHtml("published") ?> geschrieben von <a href="\about">René Fischer</a></p></div>
 <div class="entry-content"><?php echo $this->yellow->toolbox->createTextDescription($page->getContent(), 0, false, "<!--more-->", "<a href=\"".$page->getLocation(true)."\">".$this->yellow->language->getTextHtml("blogMore")."</a>") ?></div>
 </div>
 <?php endforeach ?>
