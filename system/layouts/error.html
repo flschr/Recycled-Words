@@ -1,8 +1,25 @@
-<?php $this->yellow->layout("header") ?>
+<!DOCTYPE html>
+<html lang="<?php echo $this->yellow->page->getHtml("language") ?>">
+<head>
+	<title><?php echo $this->yellow->page->getHtml("titleHeader") ?></title>
+	<meta charset="utf-8" />
+	<meta name="description" content="Hier sinniert, fotografiert, kocht, bastelt, liest, lebt und isst Ren&eacute; Fischer mit Leidenschaft mal mehr und mal weniger regelm&auml;&szlig;ig seit dem Jahr 2002." />
+	<meta name="keywords" content="Ren&eacute; Fischer,Rene Fischer,renefischer,Pliening,Blog,pers&ouml;nliches Blog" />
+	<meta name="robots" content="index, follow" />
+	<meta name="robots" content="noarchive" />
+	<meta name="referrer" content="no-referrer" />
+	<link rel="shortcut icon" href="/media/static/fav-s.png" />
+	<link rel="apple-touch-icon" href="/media/static/fav-l.png" />
+	<link rel="alternate" type="application/rss+xml" title="gaehn.org RSS-Feed" href="https://gaehn.org/feed/page:feed.xml" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<?php echo $this->yellow->page->getExtra("header") ?>
+</head>
+<body>
+<div class="<?php echo "page layout-".$this->yellow->page->getHtml("layout") ?>">
 <div class="content">
 <div class="main" role="main">
-<h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <?php echo $this->yellow->page->getContent() ?>
+</div>
 </div>
 </div>
 <?php $this->yellow->layout("footer") ?>
