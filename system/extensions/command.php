@@ -2,7 +2,7 @@
 // Command extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/command
 
 class YellowCommand {
-    const VERSION = "0.8.30";
+    const VERSION = "0.8.32";
     public $yellow;                       // access to API
     public $files;                        // number of files
     public $links;                        // number of links
@@ -459,7 +459,7 @@ class YellowCommand {
     
     // Check static settings
     public function checkStaticSettings() {
-        return !empty($this->yellow->system->get("coreStaticUrl"));
+        return preg_match("/^(http|https):/", $this->yellow->system->get("coreStaticUrl"));
     }
     
     // Check static directory
@@ -493,6 +493,8 @@ class YellowCommand {
             if (!$this->yellow->lookup->isFileLocation($location)) $fileName .= $this->yellow->system->get("commandStaticDefaultFile");
         } elseif ($statusCode==404) {
             $fileName = $path."/".$this->yellow->system->get("commandStaticErrorFile");
+        } else {
+            $fileName = $path."/error.html";
         }
         return $fileName;
     }

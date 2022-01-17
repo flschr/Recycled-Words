@@ -3,39 +3,19 @@
 <head>
 <title><?php echo $this->yellow->page->getHtml("titleHeader") ?></title>
 <meta charset="utf-8" />
-<meta name="description" content="Hier sinniert, fotografiert, kocht, bastelt, liest, lebt und isst Ren&eacute; Fischer mit Leidenschaft mal mehr und mal weniger regelm&auml;&szlig;ig seit dem Jahr 2002." />
-<meta name="keywords" content="Ren&eacute; Fischer,Rene Fischer,renefischer,Pliening,Blog,pers&ouml;nliches Blog" />
-<meta name="robots" content="index,follow,noodp" />
-<meta name="referrer" content="unsafe-url">
+<meta name="description" content="<?php echo $this->yellow->page->getHtml("description") ?>" />
+<meta name="author" content="<?php echo $this->yellow->page->getHtml("author") ?>" />
+<meta name="generator" content="Datenstrom Yellow" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="shortcut icon" href="/media/static/fav-s.png" />
-<link rel="apple-touch-icon" href="/media/static/fav-l.png" />
-<link rel="preload" href="/media/extensions/fontawesome.woff" as="font" type="font/woff" crossorigin>
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:creator" content="@renefischer">
 <?php echo $this->yellow->page->getExtra("header") ?>
 </head>
 <body>
-  <div class="search-container" tabindex="1">
-    <form action="/search/" method="post">
-      <input type="text" name="query" placeholder="Suche..." />
-      <input type="hidden" name="clean-url" />
-    </form>
-        <a class="button">
-          <i class="fa fa-search"></i>
-        </a>
-    </div>
 <div class="<?php echo "page layout-".$this->yellow->page->getHtml("layout") ?>">
 <div class="header" role="banner">
 <div class="sitename">
 <h1><a href="<?php echo $this->yellow->page->getBase(true)."/" ?>"><i class="sitename-logo"></i><?php echo $this->yellow->page->getHtml("sitename") ?></a></h1>
 <?php echo $this->yellow->page->getPage("header")->getContent() ?>
-<h2>Fachmännisch ausgewählte Nichtigkeiten.</h2>
 </div>
-
 <div class="sitename-banner"></div>
-
-
 <?php $this->yellow->layout("navigation") ?>
-
 </div>
