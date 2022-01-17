@@ -2,8 +2,8 @@
 // Core extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/core
 
 class YellowCore {
-    const VERSION = "0.8.52";
-    const RELEASE = "0.8.18";
+    const VERSION = "0.8.58";
+    const RELEASE = "0.8.19";
     public $page;           // current page
     public $content;        // content files
     public $media;          // media files
@@ -28,16 +28,15 @@ class YellowCore {
         $this->system->setDefault("sitename", "Localhost");
         $this->system->setDefault("author", "Datenstrom");
         $this->system->setDefault("email", "webmaster");
+        $this->system->setDefault("layout", "default");
         $this->system->setDefault("theme", "default");
         $this->system->setDefault("language", "en");
-        $this->system->setDefault("layout", "default");
         $this->system->setDefault("parser", "markdown");
         $this->system->setDefault("status", "public");
-        $this->system->setDefault("coreStaticUrl", "");
         $this->system->setDefault("coreServerUrl", "auto");
-        $this->system->setDefault("coreServerTimezone", "UTC");
+        $this->system->setDefault("coreStaticUrl", "auto");
+        $this->system->setDefault("coreTimezone", "UTC");
         $this->system->setDefault("coreMultiLanguageMode", "0");
-        $this->system->setDefault("coreTrashTimeout", "7776660");
         $this->system->setDefault("coreMediaLocation", "/media/");
         $this->system->setDefault("coreDownloadLocation", "/media/downloads/");
         $this->system->setDefault("coreImageLocation", "/media/images/");
@@ -228,11 +227,11 @@ class YellowCore {
             foreach ($this->page->headerData as $key=>$value) {
                 echo "YellowCore::sendPage $key: $value<br/>\n";
             }
+            $layout = $this->page->get("layout");
             $theme = $this->page->get("theme");
             $language = $this->page->get("language");
-            $layout = $this->page->get("layout");
             $parser = $this->page->get("parser");
-            echo "YellowCore::sendPage theme:$theme language:$language layout:$layout parser:$parser<br/>\n";
+            echo "YellowCore::sendPage layout:$layout theme:$theme language:$language parser:$parser<br/>\n";
         }
         return $statusCode;
     }
@@ -493,7 +492,7 @@ class YellowPage {
             $this->set("title", $this->yellow->toolbox->createTextTitle($this->location));
             $this->set("language", $this->yellow->lookup->findLanguageFromFile($this->fileName, $this->yellow->system->get("language")));
             $this->set("modified", date("Y-m-d H:i:s", $this->yellow->toolbox->getFileModified($this->fileName)));
-            $this->parseMetaRaw(array("sitename", "author", "theme", "layout", "parser", "status"));
+            $this->parseMetaRaw(array("sitename", "author", "layout", "theme", "parser", "status"));
             $titleHeader = ($this->location==$this->yellow->content->getHomeLocation($this->location)) ?
                 $this->get("sitename") : $this->get("title")." - ".$this->get("sitename");
             if (!$this->isExisting("titleContent")) $this->set("titleContent", $this->get("title"));
@@ -1127,15 +1126,19 @@ class YellowPageCollection extends ArrayObject {
     }
 
     // Paginate page collection
-    public function pagination($limit, $reverse = true) {
-        $this->paginationNumber = 1;
-        $this->paginationCount = ceil($this->count() / $limit);
-        if ($this->yellow->page->isRequest("page")) $this->paginationNumber = intval($this->yellow->page->getRequest("page"));
-        if ($this->paginationNumber>$this->paginationCount) $this->paginationNumber = 0;
-        if ($this->paginationNumber>=1) {
-            $array = $this->getArrayCopy();
-            if ($reverse) $array = array_reverse($array);
-            $this->exchangeArray(array_slice($array, ($this->paginationNumber - 1) * $limit, $limit));
+    public function paginate($limit) {
+        if (!$this->isPagination() && $limit!=0) {
+            $this->paginationNumber = 1;
+            $this->paginationCount = ceil($this->count() / $limit);
+            if ($this->yellow->page->isRequest("page")) {
+                $this->paginationNumber = intval($this->yellow->page->getRequest("page"));
+            }
+            if ($this->paginationNumber<0 || $this->paginationNumber>$this->paginationCount) $this->paginationNumber = 0;
+            if ($this->paginationNumber) {
+                $this->exchangeArray(array_slice($this->getArrayCopy(), ($this->paginationNumber - 1) * $limit, $limit));
+            } else {
+                $this->yellow->page->error(404);
+            }
         }
         return $this;
     }
@@ -1566,7 +1569,7 @@ class YellowSystem {
         $this->yellow->system->set("coreServerInstallDirectory", $pathInstall);
         $this->yellow->system->set("coreContentRootDirectory", $pathRoot);
         $this->yellow->system->set("coreContentHomeDirectory", $pathHome);
-        date_default_timezone_set($this->yellow->system->get("coreServerTimezone"));
+        date_default_timezone_set($this->yellow->system->get("coreTimezone"));
     }
     
     // Save system settings to file
@@ -1630,6 +1633,11 @@ class YellowSystem {
             foreach ($this->yellow->user->settings as $userKey=>$userValue) {
                 array_push($values, $userKey);
             }
+        } elseif ($key=="layout") {
+            $path = $this->yellow->system->get("coreLayoutDirectory");
+            foreach ($this->yellow->toolbox->getDirectoryEntries($path, "/^.*\.html$/", true, false, false) as $entry) {
+                array_push($values, lcfirst(substru($entry, 0, -5)));
+            }
         } elseif ($key=="theme") {
             $path = $this->yellow->system->get("coreThemeDirectory");
             foreach ($this->yellow->toolbox->getDirectoryEntries($path, "/^.*\.css$/", true, false, false) as $entry) {
@@ -1638,11 +1646,6 @@ class YellowSystem {
         } elseif ($key=="language") {
             foreach ($this->yellow->language->settings as $languageKey=>$languageValue) {
                 array_push($values, $languageKey);
-            }
-        } elseif ($key=="layout") {
-            $path = $this->yellow->system->get("coreLayoutDirectory");
-            foreach ($this->yellow->toolbox->getDirectoryEntries($path, "/^.*\.html$/", true, false, false) as $entry) {
-                array_push($values, lcfirst(substru($entry, 0, -5)));
             }
         }
         return $values;
@@ -1837,7 +1840,7 @@ class YellowLanguage {
         $monthNominative = $dateMonthsNominative[date("n", $timestamp) - 1];
         $monthGenitive = $dateMonthsGenitive[date("n", $timestamp) - 1];
         $weekday = $dateWeekdays[date("N", $timestamp) - 1];
-        $timeZone = $this->yellow->system->get("coreServerTimezone");
+        $timeZone = $this->yellow->system->get("coreTimezone");
         $timeZoneHelper = new DateTime(null, new DateTimeZone($timeZone));
         $timeZoneOffset = $timeZoneHelper->getOffset();
         $timeZoneAbbreviation = "GMT".($timeZoneOffset<0 ? "-" : "+").abs(intval($timeZoneOffset/3600));
@@ -2288,7 +2291,7 @@ class YellowLookup {
             $location = str_replace("/./", "/", $location);
             $location = str_replace(":", $this->yellow->toolbox->getLocationArgumentsSeparator(), $location);
         } else {
-            if ($filterStrict && !preg_match("/^(http|https|ftp|mailto):/", $location)) $location = "error-xss-filter";
+            if ($filterStrict && !preg_match("/^(http|https|ftp|mailto|tel):/", $location)) $location = "error-xss-filter";
         }
         return $location;
     }
@@ -2298,7 +2301,7 @@ class YellowLookup {
         if (!preg_match("/^\w+:/", $location)) {
             $url = "$scheme://$address$base$location";
         } else {
-            if ($filterStrict && !preg_match("/^(http|https|ftp|mailto):/", $location)) $location = "error-xss-filter";
+            if ($filterStrict && !preg_match("/^(http|https|ftp|mailto|tel):/", $location)) $location = "error-xss-filter";
             $url = $location;
         }
         return $url;
@@ -2398,7 +2401,8 @@ class YellowLookup {
         $contentDirectoryLength = strlenu($this->yellow->system->get("coreContentDirectory"));
         $mediaDirectoryLength = strlenu($this->yellow->system->get("coreMediaDirectory"));
         $systemDirectoryLength = strlenu($this->yellow->system->get("coreSystemDirectory"));
-        return substru($fileName, 0, $contentDirectoryLength)==$this->yellow->system->get("coreContentDirectory") ||
+        return strposu($fileName, "/")===false ||
+            substru($fileName, 0, $contentDirectoryLength)==$this->yellow->system->get("coreContentDirectory") ||
             substru($fileName, 0, $mediaDirectoryLength)==$this->yellow->system->get("coreMediaDirectory") ||
             substru($fileName, 0, $systemDirectoryLength)==$this->yellow->system->get("coreSystemDirectory");
     }
@@ -3227,22 +3231,23 @@ class YellowToolbox {
     
     // Detect server name, version and operating system
     public function detectServerInformation() {
+        $name = "Unknown";
+        $version = "x.x.x";
+        $os = PHP_OS;
         if (preg_match("/^(\S+)\/(\S+)/", $this->getServer("SERVER_SOFTWARE"), $matches)) {
             $name = $matches[1];
             $version = $matches[2];
-        } elseif (preg_match("/^(\pL+)/u", $this->getServer("SERVER_SOFTWARE"), $matches)) {
+        } elseif (preg_match("/^(\S+)/u", $this->getServer("SERVER_SOFTWARE"), $matches)) {
             $name = $matches[1];
-            $version = "x.x.x";
-        } else {
-            $name = "CLI";
+        }
+        if (PHP_SAPI=="cli" || PHP_SAPI=="cli-server") {
+            $name = "Built-in";
             $version = PHP_VERSION;
         }
         if (PHP_OS=="Darwin") {
             $os = "Mac";
         } elseif (strtoupperu(substru(PHP_OS, 0, 3))=="WIN") {
             $os = "Windows";
-        } else {
-            $os = PHP_OS;
         }
         return array($name, $version, $os);
     }
@@ -3429,11 +3434,11 @@ class YellowToolbox {
                 }
                 if ($filterStrict) {
                     $href = isset($elementAttributes["href"]) ? $elementAttributes["href"] : "";
-                    if (preg_match("/^\w+:/", $href) && !preg_match("/^(http|https|ftp|mailto):/", $href)) {
+                    if (preg_match("/^\w+:/", $href) && !preg_match("/^(http|https|ftp|mailto|tel):/", $href)) {
                         $elementAttributes["href"] = "error-xss-filter";
                     }
                     $href = isset($elementAttributes["xlink:href"]) ? $elementAttributes["xlink:href"] : "";
-                    if (preg_match("/^\w+:/", $href) && !preg_match("/^(http|https|ftp|mailto):/", $href)) {
+                    if (preg_match("/^\w+:/", $href) && !preg_match("/^(http|https|ftp|mailto|tel):/", $href)) {
                         $elementAttributes["xlink:href"] = "error-xss-filter";
                     }
                 }
@@ -3453,18 +3458,11 @@ class YellowToolbox {
         $textFiltered = "";
         $textLength = strlenb($text);
         for ($pos=0; $pos<$textLength; ++$pos) {
-            if (($text[$pos]=="/" || $pos==0) && $pos+1<$textLength) {
-                if ($text[$pos+1]=="/") continue;
-                if ($text[$pos+1]==".") {
-                    $posNew = $pos+1;
-                    while ($text[$posNew]==".") {
-                        ++$posNew;
-                    }
-                    if ($text[$posNew]=="/" || $text[$posNew]=="") {
-                        $pos = $posNew-1;
-                        continue;
-                    }
-                }
+            if ($text[$pos]=="." && ($pos==0 || $text[$pos-1]=="/")) {
+                while ($text[$pos]==".") ++$pos;
+                if ($text[$pos]=="/") ++$pos;
+                --$pos;
+                continue;
             }
             $textFiltered .= $text[$pos];
         }

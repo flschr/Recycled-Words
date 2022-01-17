@@ -40,6 +40,7 @@ CoreDateFormatLong: d.m.Y H:i
 CoreTimeFormatShort: H:i
 CoreTimeFormatMedium: H:i:s
 CoreTimeFormatLong: H:i:s T
+CoreDecimalSeparator: ,
 CorePaginationPrevious: ← Zurück
 CorePaginationNext: Weiter →
 CoreError404Title: Datei nicht gefunden
@@ -210,9 +211,10 @@ InstagramDescription: Instagram-Fotos einbinden.
 InstallTitle: Hallo
 InstallLanguage: Was ist deine Sprache?
 InstallExtension: Was willst du machen?
-InstallExtensionWebsite: Webseite
-InstallExtensionBlog: Blog
-InstallExtensionWiki: Wiki
+InstallExtensionWebsite: Kleine Webseite
+InstallExtensionBlog: Kleines Blog
+InstallExtensionWiki: Kleines Wiki
+InstallButton: Installieren
 InstallHomeTitle: Startseite
 InstallHomeText: [image photo.jpg Beispiel rounded]\n\n[edit - Du kannst diese Seite im Webbrowser bearbeiten] oder einen Texteditor benutzen. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
 InstallAboutTitle: Über
@@ -229,6 +231,7 @@ JapaneseDescription: Japanisch/日本語 mit der Sprache "ja".
 MarkdownDescription: Textformatierung für Menschen.
 MetaDescription: Metadaten für soziale Medien.
 NorwegianDescription: Norwegisch/Norsk mit der Sprache "nb".
+ParsedownDescription: Textformatierung für Menschen.
 ParisDescription: Paris ist ein elegantes Thema.
 PolishDescription: Polnisch/Polski mit der Sprache "pl".
 PortugueseDescription: Portugiesisch/Português mit der Sprache "pt".
@@ -242,6 +245,7 @@ SearchResultsNone: Bitte einen Suchbegriff eingeben.
 SearchResultsEmpty: Keine Treffer für diese Suchanfrage.
 SearchSpecialChanges: Letzte Änderungen
 SearchButton: Suchen
+ServeDescription: Eingebauter Webserver.
 SitemapDescription: Sitemap mit allen Seiten.
 SliderDescription: Bildergalerie mit Schieber.
 SlovakDescription: Slovak/Slovenčina with language 'sk'.
