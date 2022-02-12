@@ -4,7 +4,7 @@
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
 <ul>
 <?php $section = $sectionNew = "" ?>
-<?php foreach ($this->yellow->page->getPages("feed") as $page): ?>
+<?php foreach ($this->yellow->page->getPages("feed")->paginate($this->yellow->system->get("feedPaginationLimit")) as $page): ?>
 <?php if ($this->yellow->page->get("feedChronologicalOrder")): ?>
 <?php $sectionNew = $page->getDateHtml("modified") ?>
 <?php else: ?>
