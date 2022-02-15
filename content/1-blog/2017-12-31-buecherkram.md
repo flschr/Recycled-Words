@@ -6,7 +6,7 @@ Layout: blog
 Tag: #bücherkram
 ---
 [image 2017-12-31-22-42-12.jpg "Meine gelesenen Bücher 2017"]
-Auch 2017 habe ich mir vorgenommen, [wieder](/articles/ausgelesen/) regelmäßig ein Buch zu verschlingen. Das Ziel war, ein Buch pro Monat. Am Ende waren es insgesamt 16 Bücher, auch wenn ich eigentlich nur 6 davon selbst gelesen habe. Die restlichen Bücher habe ich mir als Hörbuch vorlesen lassen. An dieser Art des &raquo;Lesens&laquo; habe ich schnell Gefallen gefunden, da ich in meinem Alltag nun viel häufiger ein Buch genießen kann.
+Auch 2017 habe ich mir vorgenommen, [wieder](/ausgelesen) regelmäßig ein Buch zu verschlingen. Das Ziel war, ein Buch pro Monat. Am Ende waren es insgesamt 16 Bücher, auch wenn ich eigentlich nur 6 davon selbst gelesen habe. Die restlichen Bücher habe ich mir als Hörbuch vorlesen lassen. An dieser Art des &raquo;Lesens&laquo; habe ich schnell Gefallen gefunden, da ich in meinem Alltag nun viel häufiger ein Buch genießen kann.
 
 <h3>Gelesen:</h3>
 [&raquo;Der Distelfink&laquo;](https://www.buch.de/shop/home/suchartikel/EAN9783442473601/) (★★★★☆) von Donna Tartt ist ein ziemlich dicker Schmöker. Erzählt wird die Geschichte von Theo Decker, der sich nach dem Verlust seiner Mutter in einer Abwärtsspirale befindet und dabei versucht sein großes Geheimnis zu bewahren.  Die Geschichte fesselt für viele Stunden. Störend sind jedoch die streckenweise episch breiten Ausführungen von Nichtigkeiten. Man hätte die Geschichte auch auf der Hälfte Papier erzählen können, ohne an Spannung einzubüßen.
