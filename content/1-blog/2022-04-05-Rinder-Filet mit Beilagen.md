@@ -7,4 +7,4 @@ Tag: #leckerwars
 ---
 
 [image "2022-04-05-20-10-09.jpeg" "200g Rinderfilet mit Bratkartoffeln und Speck-Fisolen"]
-Zeit für einen gebührenden Ausstand. Genossen im [maiers Salzburg](https://www.maiers-salzburg.at/).
+Zeit für einen gebührenden Ausstand. Genossen im [maiers Salzburg](https://www.maiers-salzburg.at/), natürlich in Salzburg.
