@@ -7,4 +7,4 @@ Tag: #leckerwars
 ---
 
 [image "2022-02-11-20-15-49.jpeg" "Waldpilz-Risotto"]
-Genossen im [Gruberei Gaumenfreuden](https://goo.gl/maps/ymz4Zczs78GAvfuH9) in Erding.
+Genossen in der [Gruberei](https://gewandhaus.bayern/gruberei) in Erding.
