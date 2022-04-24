@@ -6,5 +6,5 @@ Layout: blog
 Tag: #leckerwars
 ---
 
-[image "2022-04-12-19-30-53.jpeg" „Gamberoni al Burro d’Aglio"]
+[image "2022-04-12-19-30-53.jpeg" "Gamberoni al Burro d’Aglio"]
 Genossen im [Francesco](http://ristorante-francesco.de/) im Bremen.
