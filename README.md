@@ -1,5 +1,5 @@
 # Recycled Words
-This is my personal blog running on [Yellow CMS](https://github.com/datenstrom/yellow). I use [Atom](https://atom.io/) on my desktop and [Working Copy](https://workingcopyapp.com/) on my mobile device for edits. For adding photos from my iPhone, I created a simple workflow. All photos are automatically optimized by the [Tinify Image Action](https://github.com/marketplace/actions/tinify-image-action). All edits are automatically published with the help of [FTP Deploy Action](https://github.com/SamKirkland/FTP-Deploy-Action) to my web server.
+This is my personal blog running on [Yellow CMS](https://github.com/datenstrom/yellow). I use [Visual Studio Code](https://code.visualstudio.com/) on my Mac desktop and [Working Copy](https://workingcopyapp.com/) on my mobile device for edits. For adding photos from my iPhone, I created a simple workflow. All photos are automatically optimized by the [Tinify Image Action](https://github.com/marketplace/actions/tinify-image-action). All edits are automatically published with the help of [FTP Deploy Action](https://github.com/SamKirkland/FTP-Deploy-Action) to my web server.
 
 Visit [my blog](https://gaehn.org), and follow me on [Twitter](https://twitter.com/flschr), [LinkedIn](https://www.linkedin.com/in/flschr) and [Komoot](https://www.komoot.de/user/848543125284).
 
@@ -7,7 +7,7 @@ Visit [my blog](https://gaehn.org), and follow me on [Twitter](https://twitter.c
 The ```main``` branch of this repository is my [live system](https://gaehn.org). For testing extensive modifications (f.e. testing updates of Yellow, new plugins, design and layout customizations) I create a temporary ```stage``` branch as independent playground. Commits to all branches are automatically published by [FTP Deploy Action](https://github.com/SamKirkland/FTP-Deploy-Action) to the corresponding ```main``` and ```stage``` directory on my web server.
 
 ### How blogging works
-Depending on the type of the blog article, my mood and current location I'll use [Atom](https://atom.io/) on my desktop or [Working Copy](https://workingcopyapp.com/) on my iPhone for edits. For more elaborated content I usually use Atom. For quick notes, photo-blogging or just because I'm on the go, I'll love to use Working Copy on my smartphone.
+Depending on the type of the blog article, my mood and current location I'll use [Visual Studio Code](https://code.visualstudio.com/) on my Mac desktop or [Working Copy](https://workingcopyapp.com/) on my iPhone for edits. For more elaborated content I usually use Visual Studio Code. For quick notes, photo-blogging or just because I'm on the go, I'll love to use Working Copy on my smartphone.
 
 #### Workflow automatization on my iPhone
 I'm a lazy guy and thats why I created a Siri shortcut to simplify the content creation process as much as possible.
@@ -27,26 +27,37 @@ If I only want to sync photos to the remote repository, I run [this Siri shortcu
 All new photos are automatically processed by the [Tinify Image Action](https://github.com/marketplace/actions/tinify-image-action). They will get resized to ```1280px*auto height``` and than pushed through the [TinyPNG API](https://tinypng.com/) to further reduce the file size with a lossless compression.
 
 ### Updating Yellow CMS
-The disadvantage by using a Github repository as powerhouse for content creation, website management and deployment of a website running on Yellow is, that you can't use the [standard procedures](https://github.com/datenstrom/yellow-extensions/tree/master/source/update) for updating Yellow CMS to a new version. But anyway, as Yellow only consists out of a a few ```PHP``` and ```HTML``` files, it is not that hard to perform a manual update. When you customized Yellow to your own needs, its even easier to use the tools provided by Atom and Github to migrate your customizations to a new version of Yellow.
+The disadvantage by using a Github repository as powerhouse for content creation, website management and deployment of a website running on Yellow is, that you can't use the [standard procedures](https://github.com/datenstrom/yellow-extensions/tree/master/source/update) for updating Yellow CMS to a new version. But anyway, as Yellow only consists out of a a few ```PHP``` and ```HTML``` files, it is not that hard to perform a manual update. When you customized Yellow to your own needs, its even easier to use the tools provided by Visual Studio Code and Github to migrate your customizations to a new version of Yellow.
 
 #### Steps to update Yellow CMS
 Follow this guide for a manual update of Yellow CMS. Depending on the level of your own customizations, you'll probably need 5-10 minutes to update Yellow CMS.
 
 1. Download the [latest Yellow release](https://github.com/datenstrom/yellow/archive/master.zip) and unzip it to a local ```$temp-directory```.
+<<<<<<< HEAD
 2. Rename ```$temp-dir\system\extensions\install-blog.bin``` to ```$temp-dir\system\extensions\install-blog.zip``` and unzip ```blog.php``` to ```$temp-dir\system\extensions``` and ```blog.html``` as well as ```blog-start.html``` to ```$temp-dir\system\layouts```.
 3. Rename ```$temp-dir\system\extensions\install-languages.bin``` to ```$temp-dir\system\extensions\install-languages.zip``` and unzip ```german.php```, ```german.txt```, ```english.php```, ```english.txt``` from ```$temp-dir\system\extensions\install-languages.zip``` to ```$temp-dir\system\extensions```.
 4. As I don't need the edit extension at all, I delete all ```edit.*``` files, the  ```yellow-user.ini``` and ```install.php``` from ```$temp-dir\system\extensions```. You also can safely delete all ```*.zip``` and all ```update*.*``` files from this directory.
 5. Open Visual Studio Code and create the temporary ```stage``` branch.
 6. Drag & drop all files from ```$temp-dir\system\extensions``` to the Yellow extension directory in your Visual Studio Code project. Visual Studio Code will automatically highlight all files that include changes. All even files, won't be highlighted and you can ignore them.
+=======
+2. Unzip ```blog.php``` from ```$temp-dir\system\extensions\install-blog.zip``` to ```$temp-dir\system\extensions```.
+3. Unzip ```german.php```, ```german.txt```, ```english.php```, ```english.txt``` from ```$temp-dir\system\extensions\install-languages.zip``` to ```$temp-dir\system\extensions```.
+4. As I don't need the edit extension at all, I delete all ```edit.*``` files, the  ```yellow-user.ini``` and ```install.php``` from ```$temp-dir\system\extensions```. You also can safely delete all ```*.zip``` files from this directory.
+5. Open Visual Studio Code and create the temporary ```stage``` branch.
+6. Drag & drop all files from ```$temp-dir\system\extensions``` to the Yellow extension directory in your Visual Studio Code project. Visual Studio Code will automatically highlight all files orange that include changes from the repository. All even files, won't be highlighted and you can ignore them.
+>>>>>>> b82594da2f7728fe5f8179f85d7f7e9ebfb3421a
 7. For migrating ```yellow-system.ini``` I suggest to make a diff against the ```main``` repository to see if the updated file contains any new settings. If there are no new settings, I discard all changes of this file.
 8. Drag and drop ```$temp-dir\yellow.php``` and all files from ```$temp-dir\system\layouts``` to your Visual Studio Code project. As I customized nearly every layout file, I diff the local copy against the ```main``` branch to spot the differences in detail. If there are no necessary changes, I discard the changes.
 9. Push all changes to your remote repository and wait a few seconds for the automatic sync with your web server. Check your stage environment and if your website is still running fine merge the ```stage``` and ```main``` branch.
 10. Finally delete the ```stage``` branch within Visual Studio Code. Thats it!
+<<<<<<< HEAD
 
  ![yellow-update-atom](https://user-images.githubusercontent.com/23475184/115261122-a3e48a80-a133-11eb-977c-df82aec8237f.jpg)
+=======
+>>>>>>> b82594da2f7728fe5f8179f85d7f7e9ebfb3421a
 
 #### Updating Yellow CMS extensions
-Updating Yellow extensions works the same way as updating Yellow. Simply download and unzip the extension you want to update. Drag and drop all necessary files in the corresponding folders of your Atom project and proceed like described above.
+Updating Yellow extensions works the same way as updating Yellow. Simply download and unzip the extension you want to update. Drag and drop all necessary files in the corresponding folders of your Visual Studio Code project and proceed like described above.
 
 ##### List of Yellow extensions used in this repository
 - [Feed](https://github.com/datenstrom/yellow-extensions/tree/master/source/feed)

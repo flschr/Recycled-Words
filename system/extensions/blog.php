@@ -2,7 +2,7 @@
 // Blog extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/blog
 
 class YellowBlog {
-    const VERSION = "0.8.18";
+    const VERSION = "0.8.19";
     public $yellow;         // access to API
     
     // Handle initialisation
