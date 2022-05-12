@@ -2,7 +2,7 @@
 // Serve extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/serve
 
 class YellowServe {
-    const VERSION = "0.8.16";
+    const VERSION = "0.8.20";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -21,24 +21,20 @@ class YellowServe {
     
     // Handle command help
     public function onCommandHelp() {
-        return "serve [directory url]\n";
+        return "serve [url]\n";
     }
     
     // Process command to start built-in web server
     public function processCommandServe($command, $text) {
-        list($path, $url) = $this->yellow->toolbox->getTextArguments($text);
-        if (empty($url)) $url = "http://localhost:8000";
+        list($url) = $this->yellow->toolbox->getTextArguments($text);
+        if (empty($url)) $url = "http://localhost:8000/";
         list($scheme, $address, $base) = $this->yellow->lookup->getUrlInformation($url);
-        if ($scheme=="http" && !empty($address)) {
-            if ($this->checkDynamicSettings($path, $url)) {
-                if (!preg_match("/\:\d+$/", $address)) $address .= ":8000";
-                echo "Starting built-in web server on $scheme://$address/\n";
+        if ($scheme=="http" && !empty($address) && empty($base)) {
+            if (!preg_match("/\:\d+$/", $address)) $address .= ":8000";
+            if ($this->checkServerSettings("$scheme://$address/")) {
+                echo "Starting built-in web server. Open a web browser and go to $scheme://$address/\n";
                 echo "Press Ctrl+C to quit...\n";
-                if ($this->isDynamicPath($path)) {
-                    exec("php -S $address yellow.php 2>&1", $outputLines, $returnStatus);
-                } else {
-                    exec("php -S $address -t $path 2>&1", $outputLines, $returnStatus);
-                }
+                exec("php -S $address yellow.php 2>&1", $outputLines, $returnStatus);
                 $statusCode = $returnStatus!=0 ? 500 : 200;
                 if ($statusCode!=200) {
                     $output = !empty($outputLines) ? end($outputLines) : "Please check arguments!";
@@ -57,13 +53,9 @@ class YellowServe {
         return $statusCode;
     }
     
-    // Check dynamic settings
-    public function checkDynamicSettings($path, $url) {
-        return $this->yellow->system->get("coreServerUrl")=="auto" || !$this->isDynamicPath($path);
-    }
-    
-    // Check if dynamic path
-    public function isDynamicPath($path) {
-        return empty($path) || $path=="dynamic";
+    // Check server settings
+    public function checkServerSettings($url) {
+        return $this->yellow->system->get("coreServerUrl")=="auto" ||
+            $this->yellow->system->get("coreServerUrl")==$url;
     }
 }
