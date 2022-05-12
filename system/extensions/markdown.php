@@ -2,7 +2,7 @@
 // Markdown extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/markdown
 
 class YellowMarkdown {
-    const VERSION = "0.8.17";
+    const VERSION = "0.8.21";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -3854,7 +3854,7 @@ class YellowMarkdownParser extends MarkdownExtraParser {
 
     // Handle striketrough
     public function doStrikethrough($text) {
-        $parts = preg_split("/(?<![~])(~~)(?![~])/", $text, null, PREG_SPLIT_DELIM_CAPTURE);
+        $parts = preg_split("/(?<![~])(~~)(?![~])/", $text, -1, PREG_SPLIT_DELIM_CAPTURE);
         if (count($parts)>3) {
             $text = "";
             $open = false;
@@ -3992,6 +3992,11 @@ class YellowMarkdownParser extends MarkdownExtraParser {
             }
         }
         return "<li$attr>".$item."</li>\n";
+    }
+    
+    // Handle blockquotes, CommonMark compatible
+    public function doBlockQuotes($text) {
+        return preg_replace_callback("/((?>^[ ]*>[ ]?.+\n(.+\n)*)+)/m", array($this, "_doBlockQuotes_callback"), $text);
     }
     
     // Handle notice blocks

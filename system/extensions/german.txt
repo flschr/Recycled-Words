@@ -20,6 +20,7 @@ ContactMessage: Nachricht:
 ContactConsent: Ich stimme zu, dass diese Webseite meine Nachricht speichert.
 ContactButton: Meine Nachricht absenden
 ContactMailSpam: [Spam]
+ContactMailHeader: Du hast eine Nachricht von @sender erhalten:
 ContactMailFooter: Diese E-Mail wurde über @sitename verschickt - @title
 ContactStatusNone: Sag Hallo! Dein Feedback ist sehr willkommen.
 ContactStatusIncomplete: Bitte alle Felder ausfüllen.
@@ -53,6 +54,8 @@ CoreError434Title: Seite nicht gefunden
 CoreError434Text: Die angeforderte Seite wurde nicht gefunden. [Du kannst diese Seite erstellen](#data-action-edit).
 CoreError435Title: Seite nicht gefunden
 CoreError435Text: Die angeforderte Seite wurde gelöscht. [Du kannst diese Seite wiederherstellen](#data-action-restore).
+CoreError450Title: Aktualisierungsfehler
+CoreError450Text: Kann keine Verbindung zum Aktualisierungs-Server herstellen. Eine Internetverbindung ist erforderlich.
 CoreError500Title: Serverfehler
 CoreError500Text: Etwas ist schief gelaufen. [yellow error]
 CzechDescription: Tschechisch/Čeština mit der Sprache "cs".
@@ -92,10 +95,6 @@ EditRecoverStatusPassword: Bitte ein neues Kennwort angeben.
 EditRecoverStatusWeak: Bitte ein anderes Kennwort angeben.
 EditRecoverStatusShort: Bitte ein längeres Kennwort angeben.
 EditRecoverStatusDone: Benutzerkonto wurde wiederhergestellt. Vielen Dank!
-EditQuitTitle: Benutzerkonto löschen
-EditQuitStatusNone: Bitte gib deinen Namen zur Bestätigung ein.
-EditQuitStatusMismatch: Bitte gib einen anderen Namen ein.
-EditQuitStatusNext: Benutzerkonto wird gelöscht, bitte überprüfe deine E-Mails.
 EditConfirmSubject: Benutzerkonto bestätigen
 EditConfirmMessage: Hallo @usershort,\n\nbitte bestätige dein Benutzerkonto. Klicke auf den folgenden Link.
 EditConfirmTitle: Benutzerkonto
@@ -108,10 +107,10 @@ EditReactivateSubject: Benutzerkonto reaktivieren
 EditReactivateMessage: Hallo @usershort,\n\nbitte reaktiviere dein Benutzerkonto. Es gab zu viele fehlgeschlagene Anmeldeversuche. Klicke auf den folgenden Link.
 EditReactivateTitle: Benutzerkonto
 EditReactivateStatusDone: Benutzerkonto wurde reaktiviert. Vielen Dank!
-EditVerifySubject: Benutzerkonto bestätigen
+EditVerifySubject: Benutzerkonto ändern
 EditVerifyMessage: Hallo @usershort,\n\nbitte bestätige eine neue E-Mail für dein Benutzerkonto. Klicke auf den folgenden Link.
 EditVerifyTitle: Benutzerkonto
-EditVerifyStatusDone: Benutzerkonto wurde bestätigt. Vielen Dank!
+EditVerifyStatusDone: Benutzerkonto wurde geändert. Vielen Dank!
 EditChangeSubject: Benutzerkonto ändern
 EditChangeMessage: Hallo @usershort,\n\nbitte bestätige, dass du dein Benutzerkonto ändern möchtest. Klicke auf den folgenden Link.
 EditChangeTitle: Benutzerkonto
@@ -135,6 +134,10 @@ EditAccountStatusTaken: Bitte eine andere E-Mail angeben.
 EditAccountStatusWeak: Bitte ein anderes Kennwort angeben.
 EditAccountStatusShort: Bitte ein längeres Kennwort angeben.
 EditAccountStatusNext: Benutzerkonto wird geändert, bitte überprüfe deine E-Mails.
+EditQuitTitle: Benutzerkonto löschen
+EditQuitStatusNone: Bitte gib deinen Namen zur Bestätigung ein.
+EditQuitStatusMismatch: Bitte gib einen anderen Namen ein.
+EditQuitStatusNext: Benutzerkonto wird gelöscht, bitte überprüfe deine E-Mails.
 EditConfigureTitle: Webseite
 EditConfigureSitename: Name der Webseite:
 EditConfigureAuthor: Name des Webmasters:
@@ -183,11 +186,11 @@ EditToolbarStatus: Status
 EditToolbarUndo: Rückgängig
 EditToolbarRedo: Wiederholen
 EditToolbarPreview: Vorschau
-EditToolbarMarkdown: Markdown
 EditToolbarHelp: Hilfe
 EditMailFooter: @sitename
 EditDataGenerated: Diese Seite ist automatisch erstellt.
 EditUploadProgress: Datei hochladen…
+EditUserDescription: Redakteur
 EditMenuSettings: Einstellungen
 EditMenuHelp: Hilfe
 EditMenuLogout: Abmelden
