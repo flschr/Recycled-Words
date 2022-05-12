@@ -33,7 +33,6 @@ The disadvantage by using a Github repository as powerhouse for content creation
 Follow this guide for a manual update of Yellow CMS. Depending on the level of your own customizations, you'll probably need 5-10 minutes to update Yellow CMS.
 
 1. Download the [latest Yellow release](https://github.com/datenstrom/yellow/archive/master.zip) and unzip it to a local ```$temp-directory```.
-<<<<<<< HEAD
 2. Rename ```$temp-dir\system\extensions\install-blog.bin``` to ```$temp-dir\system\extensions\install-blog.zip``` and unzip ```blog.php``` to ```$temp-dir\system\extensions``` and ```blog.html``` as well as ```blog-start.html``` to ```$temp-dir\system\layouts```.
 3. Rename ```$temp-dir\system\extensions\install-languages.bin``` to ```$temp-dir\system\extensions\install-languages.zip``` and unzip ```german.php```, ```german.txt```, ```english.php```, ```english.txt``` from ```$temp-dir\system\extensions\install-languages.zip``` to ```$temp-dir\system\extensions```.
 4. As I don't need the edit extension at all, I delete all ```edit.*``` files, the  ```yellow-user.ini``` and ```install.php``` from ```$temp-dir\system\extensions```. You also can safely delete all ```*.zip``` and all ```update*.*``` files from this directory.
