@@ -2,7 +2,7 @@
 Title: Über den Autor
 TitleContent: Über den Autor
 ---
-René Fischer lebt im Internet und im Münchner Umland. Er ist analytischer Kreativarbeiter, Geek und Food Aficionado. Grundsätzlich strebt er einen minimalistischen Lebensstil an. Ansonsten geht er gerne mal Wandern oder fährt mit dem Mountainbike durch die Natur. Darüber hinaus ist er glücklich verheiratet und zweifacher Vater. Beruflich arbeitet er im Produktmanagement bei einem internationalen Softwarehersteller.
+René Fischer lebt im Internet und im Münchner Umland. Er ist analytischer Kreativarbeiter, Geek und Food Aficionado. Grundsätzlich strebt er einen eher minimalistischen Lebensstil an. Ansonsten geht er gerne mal Wandern oder fährt mit dem Mountainbike durch die Natur. Darüber hinaus ist er glücklich verheiratet und zweifacher Vater. Beruflich arbeitet er im Produktmanagement bei einem internationalen Softwarehersteller.
 
 > »Perfektion ist nicht dann erreicht, wenn man nichts mehr hinzufügen, sondern wenn man nichts mehr weglassen kann.« － Antoine de Saint-Exupéry
 
