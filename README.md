@@ -40,8 +40,8 @@ Follow this guide for a manual update of Yellow CMS. Depending on the level of y
 6. Drag & drop all files from ```$temp-dir\system\extensions``` to the Yellow extension directory in your Visual Studio Code project. Visual Studio Code will automatically highlight all files that include changes. All even files, won't be highlighted and you can ignore them.
 7. For migrating ```yellow-system.ini``` I suggest to make a diff against the ```main``` repository to see if the updated file contains any new settings. If there are no new settings, I discard all changes of this file.
 8. Drag and drop ```$temp-dir\yellow.php``` and all files from ```$temp-dir\system\layouts``` to your Visual Studio Code project. As I customized nearly every layout file, I diff the local copy against the ```main``` branch to spot the differences in detail. If there are no necessary changes, I discard the changes.
-9. Push all changes to your remote repository and wait a few seconds for the automatic sync with your web server. Check your stage environment and if your website is still running fine merge the ```stage``` and ```main``` branch.
-10. Finally delete the ```stage``` branch within Visual Studio Code. Thats it!
+9. Push all changes to your remote repository and wait a few seconds for the automatic sync with your web server. Check your stage environment and if your website is still running fine, merge ```stage``` and ```main``` branch.
+10. Finally delete the ```stage``` branch. Thats it!
 
 #### Updating Yellow CMS extensions
 Updating Yellow extensions works the same way as updating Yellow. Simply download and unzip the extension you want to update. Drag and drop all necessary files in the corresponding folders of your Visual Studio Code project and proceed like described above.

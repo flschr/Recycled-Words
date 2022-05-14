@@ -7,7 +7,7 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: Sleep for 30 seconds
+    - name: Wait for 120 seconds, to give the minimize pictures action some time
       uses: kibertoad/wait-action@1.0.1
       with:
         time: '120s'
