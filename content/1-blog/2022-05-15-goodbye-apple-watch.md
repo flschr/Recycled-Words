@@ -3,7 +3,7 @@ Title: Goodbye Apple Watch
 Published: 2022-05-15 00:00:00
 Author: René Fischer
 Layout: blog
-Tag: #technikimalltag
+Tag: #techzeugs
 ---
 [image 2022-05-14-20-45-23.JPG "Withings ScanWatch, ein hervorragender täglicher Begleiter"]
 Im November 2017 haben mich die mahnenden Worte meiner Hausärztin dazu bewogen, einige Dinge in meinem Leben zu ändern. Neben weniger Fleisch wollte ich vor allem ~~mehr~~ endlich Sport machen. Als Motivationshilfe habe ich mir dann die aktuelle Apple Watch geholt und von jetzt auf gleich einfach konsequent jeden Tag Sport gemacht. Und um keine Ausreden zu haben, habe ich mir ein Rudergerät und ein Ergometer in den Keller gestellt. Und es hat funktioniert: Das abendliche virtuelle Schulterklopfen der Apple Watch für das Schließen der berühmten drei Ringe war genau das Ding, dass mich irgendwie gepackt und am Laufen gehalten hat. Schon nach einem Jahr waren durchschnittlich 60 Minuten Sport pro Tag für mich quasi Standard geworden, ohne den ich nur sehr selten in den Tag gestartet bin. Die positiven Effekte waren schnell zu sehen und wurden auch von meiner Hausärztin lobend zur Kenntnis genommen.
