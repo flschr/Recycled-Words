@@ -17,7 +17,7 @@ Nach 30 Kilometern - kurz hinter der Kugleralm - gab es die erste größere Paus
 [image "2022-04-22-2.jpeg" "Abfahrt ins Isartal"]
 [image "2022-04-22-3.jpeg" "Blick auf die Isar"]
 
-Nach knapp 10 Kilometer, teils wilden Trails, bin ich dann gegen 11:30 Uhr im Kloster Schäftlarn eingekehrt. Ich war quasi der Erste am Mittagstisch. War wohl noch etwas zu früh. Nach einem Schweizer Wurstsalat und einem alkoholfreien Weißbier ging es dann weiter. Das nächste Etappenziel war der Ickinger Stausee.
+Nach knapp 10 Kilometer auf teils wirklich wilden Trails, bin ich dann gegen 11:30 Uhr im Kloster Schäftlarn angekommen. Im Biergarten war ich quasi der Erste am Mittagstisch. War wohl noch etwas zu früh. Nach einem Schweizer Wurstsalat und einem alkoholfreien Weißbier ging es dann weiter. Das nächste Etappenziel war der Ickinger Stausee.
 
 [image "2022-04-22-4.JPG" "Schweizer Wurstsalat im Kloster Schäftlarn"]
 [image "2022-04-22-5.jpeg" "Biergarten im Kloster Schäftlarn"]
