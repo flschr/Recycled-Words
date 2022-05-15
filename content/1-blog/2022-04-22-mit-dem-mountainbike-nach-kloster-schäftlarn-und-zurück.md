@@ -6,9 +6,9 @@ Layout: blog
 Tag: #unterwegs
 ---
 <iframe src="https://www.komoot.de/tour/746203647/embed?profile=1" width="100%" height="680" frameborder="0" scrolling="no"></iframe>
-Die Mountainbike-Tour an den Ickinger Stausee überarbeite ich schon seit Wochen immer wieder. Eine Tour von über 100 Kilometern sollte man schon einigermaßen gewissenhaft vorbereiten. Aber irgendwann ist es auch genug und da heute der heutige Urlaubstag auch eine gute Wetterprognose hatte, habe ich mich um 8 Uhr Morgens ins Abenteuer gestürzt.
+Die [Mountainbike-Tour an den Ickinger Stausee](https://www.komoot.de/tour/746203647) überarbeite ich schon seit ~~Wochen~~ Monaten immer wieder, da man natürlich auf eine Tour von über 100 Kilometern einigermaßen gewissenhaft vorbereitet sein muss. Aber irgendwann muss man die Theorie in die Praxis umsetzen und da der heutige Urlaubstag eine gute Wetterprognose hatte, habe ich mich um 8 Uhr Morgens ins Abenteuer gestürzt.
 
-Der Anfang der verlief noch weitestgehend durch die Zivilisation. Von Pliening aus ging es über den Riemer See zum Flugplatz Neubiberg. Bis auf das es doch noch etwas frosch war, verlief soweit alles gut und ich bin flott vorangekommen ohne mich zu verausgaben.
+Der Anfang der verlief weitestgehend durch bekannte Zivilisation. Von Pliening aus ging es über den Riemer See zum Flugplatz Neubiberg. Bis auf die noch etwas frischen Temperaturen, verlief soweit alles gut und ich bin flott vorangekommen ohne mich zu verausgaben.
 
 [image "2022-04-22-1.JPG" "Die ehemalige Start- und Landebahn auf dem Flugplatz Neubiberg"]
 
