@@ -3,7 +3,7 @@ Title: Wandernswertes Essing
 Published:2017-02-12 00:00:00
 Author: René Fischer
 Layout: blog
-Tag: #erwandernswert
+Tag: #unterwegs
 ---
 [image 2017-02-12-14-35-23.jpg "Der magische Blautopf in Essing im Altmühltal"]
 [image 2017-02-12-15-12-23.jpg "Kapelle St. Bartholomä in Essing"]
