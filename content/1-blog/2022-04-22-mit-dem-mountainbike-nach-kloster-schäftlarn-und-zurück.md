@@ -12,7 +12,7 @@ Der Anfang der verlief weitestgehend durch bekannte Zivilisation. Von Pliening a
 
 [image "2022-04-22-1.JPG" "Die ehemalige Start- und Landebahn auf dem Flugplatz Neubiberg"]
 
-Nach 30 Kilometern - kurz hinter der Kugleralm - gab es die erste größere Pause. Nach Oberhaching kam dann auch nicht mehr viel, das an Zivilisation erinnert hat. Die Wege wurden endlich auch unwegsamer. Nur 5 Kilometer später habe ich dann zum ersten Mal die Isar gesehen. Was für ein toller Anblick. ALso Abfahrt ins Isartal und jetzt ging es endlich wirklich los mit den Trails.
+Nach 30 Kilometern - kurz hinter der Kugleralm - gab es die erste größere Pause. Nach Oberhaching kam dann auch nicht mehr viel, das an Zivilisation erinnert hat. Die Wege wurden endlich auch unwegsamer. Nur 5 Kilometer später habe ich dann zum ersten Mal die Isar gesehen. Was für ein toller Anblick. Also Abfahrt ins Isartal und jetzt ging es endlich wirklich los mit den Trails.
 
 [image "2022-04-22-2.jpeg" "Abfahrt ins Isartal"]
 [image "2022-04-22-3.jpeg" "Blick auf die Isar"]
