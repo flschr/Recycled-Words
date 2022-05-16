@@ -388,11 +388,11 @@ input:focus {
 
 .search-content {
 	padding: 0 0 20px 0;
-    font-size: 1em;
+    font-size: 0.8em;
 }
 .search-location {
     font-size: 0.7em;
-	padding: 0 0 0 0;
+	padding: 0 0 -3px 0;
     font-family: "Lucida Console", "Courier New", monospace;
 }
 .search-title h1 {
