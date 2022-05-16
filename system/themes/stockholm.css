@@ -390,7 +390,11 @@ input:focus {
 	padding: 0 0 20px 0;
     background-color:#eee;
 }
-
+.search-location {
+    font-size: 0.6em;
+	padding: 0 0 20px 0;
+    background-color:#eee;
+}
 .search-content-line {
 	border-bottom: 1px solid #F2F2F2;
 }
