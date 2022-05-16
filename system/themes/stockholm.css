@@ -392,11 +392,15 @@ input:focus {
 }
 .search-location {
     font-size: 0.7em;
-	margin: -20px 0 0 0;
+	margin: -25px 0 0 0;
     font-family: "Lucida Console", "Courier New", monospace;
 }
 .search-title h1 a {
     color: #07d;
+}
+
+.search-title h1 a:hover {
+    text-decoration: underline;
 }
 
 /* ERROR */
