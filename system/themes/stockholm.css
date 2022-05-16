@@ -398,6 +398,7 @@ input:focus {
 
 .search-title h1 {
     font-size: 1em;
+    margin: 0.3em 0;
 }
 
 /* ERROR */
