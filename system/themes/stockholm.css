@@ -391,10 +391,14 @@ input:focus {
     background-color:#eee;
 }
 .search-location {
-    font-size: 0.75em;
+    font-size: 0.7em;
 	padding: 0 0 20px 0;
     background-color:#eee;
     font-family: "Lucida Console", "Courier New", monospace;
+}
+.search-title {
+	padding: 0 0 20px 0;
+    background-color:#eee;
 }
 .search-content-line {
 	border-bottom: 1px solid #F2F2F2;
