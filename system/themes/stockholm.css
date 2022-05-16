@@ -475,7 +475,27 @@ input:focus {
         color: #eee;
     }
 
-    .header .sitename h1, h2 a {
+    .header .sitename h1 a{
         color: #eee;
     }
+
+    .header .sitename h2 {
+        color: #999;
+    }
+
+/* Website search */
+.search-container {
+    box-shadow: 0 0 2px #999;
+  }
+  
+  input {
+    background: #fff;
+    color: #eee;
+  }
+  
+  .button {
+    background: #121212;
+    color: #b3b3b3;
+  }
+
   }
