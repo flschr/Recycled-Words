@@ -475,7 +475,7 @@ input:focus {
         color: #eee;
     }
 
-    .header .sitename h1 a {
+    .header .sitename h1, h2 {
         color: #eee;
     }
   }
