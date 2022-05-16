@@ -388,6 +388,9 @@ input:focus {
 
 .search-content {
 	padding: 0 0 4px 0;
+    font-size: 1em;
+	border-bottom: 1px solid #F2F2F2;
+
 }
 .search-location {
     font-size: 0.7em;
