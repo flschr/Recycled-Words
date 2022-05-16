@@ -226,11 +226,9 @@ a:hover {
 .content .rounded {
     border-radius: 4px;
 }
-
 .entry-content {
 	padding: 0 0 20px 0;
 }
-
 .entry-content-line {
 	border-bottom: 1px solid #F2F2F2;
 }
@@ -384,6 +382,17 @@ input:focus {
 }
 .button:active {
   border: 0 !important;
+}
+
+/* SEARCH RESULTS */
+
+.search-content {
+	padding: 0 0 20px 0;
+    background-color:#eee;
+}
+
+.search-content-line {
+	border-bottom: 1px solid #F2F2F2;
 }
 
 /* ERROR */
