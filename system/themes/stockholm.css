@@ -484,18 +484,30 @@ input:focus {
     }
 
 /* Website search */
-.search-container {
-    box-shadow: 0 0 2px #999;
-  }
+    .search-container {
+        box-shadow: 0 0 2px #999;
+    }
   
-  input {
-    background: #fff;
-    color: #eee;
-  }
+    input {
+    background: #121212;
+    color: #121212;
+    }
   
-  .button {
+    .button {
     background: #121212;
     color: #b3b3b3;
-  }
+    }
 
-  }
+    .layout-error {
+	text-align: center;
+    color: #eee;
+    }
+
+    .layout-error h6 {
+    color: #eee;
+    }
+
+    .layout-error h4 {
+    color: #eee;
+    }
+}
