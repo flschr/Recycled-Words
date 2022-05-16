@@ -25,7 +25,7 @@ Verantwortlicher im Sinne von § 5 TMG, § 55 RfStV und Art. 4 Abs. 7 DSGVO für
 Falls nicht anders gekennzeichnet, stehen die Inhalte dieses Blogs unter der [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) Lizenz, die Namensnennung und die Weitergabe für nicht-kommerzielle Zwecke unter gleichen Bedingungen erfordert. Die Inhalte und Rechte Dritter sind dabei als solche gekennzeichnet.
 
 ### Datenschutzerklärung
-Aus technischen Gründen werden beim Aufrufen dieser Webseite Daten übermittelt.  Die folgenden Daten werden hierbei durch den Webserver ohne Personenbezug gespeichert:
+Aus technischen Gründen werden beim Aufrufen dieser Webseite Daten übermittelt und auf dem Webserver sowie in dem Analysewerkzeug [Microanalytics](https://microanalytics.io/) gespeichert. Die folgenden Daten werden hierbei unter Berücksichtigung der [GDPR](https://gdpr.eu/) gespeichert:
 
 * Referrer-URL
 * Angeforderte Webseite oder Datei
@@ -34,5 +34,3 @@ Aus technischen Gründen werden beim Aufrufen dieser Webseite Daten übermittelt
 * Verwendeter Gerätetyp
 * Uhrzeit des Zugriffs
 * IP-Adresse in anonymisierter Form
-
-Die Übermittlung und Speicherung dieser Daten ist für die Bereitstellung der Webseite zwingend erforderlich. Alle gespeicherten Daten werden automatisiert nach 12 Monaten gelöscht.
