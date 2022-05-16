@@ -470,6 +470,7 @@ input:focus {
     }
 }
 
+/* DARK MODE */
 @media (prefers-color-scheme: dark) {
     body {
       color: #eee;
@@ -526,5 +527,8 @@ input:focus {
 
     .layout-error h4 {
     color: #eee;
+    }
+    .search-title h1 a {
+        color: #07d;
     }
 }
