@@ -397,6 +397,7 @@ input:focus {
 }
 .search-title h1 a {
     color: #07d;
+    margin: 0 0 -1em 0;
 }
 
 /* ERROR */
