@@ -2,7 +2,7 @@
 // Search extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/search
 
 class YellowSearch {
-    const VERSION = "0.8.14";
+    const VERSION = "0.8.23";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -10,7 +10,7 @@ class YellowSearch {
         $this->yellow = $yellow;
         $this->yellow->system->setDefault("searchLocation", "/search/");
         $this->yellow->system->setDefault("searchPaginationLimit", "5");
-        $this->yellow->system->setDefault("searchPageLength", "240");
+        $this->yellow->system->setDefault("searchPageLength", "360");
     }
     
     // Handle page content of shortcut
@@ -36,46 +36,51 @@ class YellowSearch {
             list($tokens, $filters) = $this->getSearchInformation($query, 10);
             if (!empty($tokens) || !empty($filters)) {
                 $pages = $this->yellow->content->clean();
-                $showInvisible = $this->yellow->getRequestHandler()=="edit" && isset($filters["status"]) &&
-                    ($filters["status"]=="private" || $filters["status"]=="draft" || $filters["status"]=="unlisted");
-                foreach ($this->yellow->content->index($showInvisible, false) as $pageSearch) {
+                $showInvisible = $this->yellow->getRequestHandler()=="edit" && isset($filters["status"]);
+                $pagesContent = $this->yellow->content->index($showInvisible, false);
+                if (!empty($filters)) {
+                    if (isset($filters["tag"])) $pagesContent->filter("tag", $filters["tag"]);
+                    if (isset($filters["author"])) $pagesContent->filter("author", $filters["author"]);
+                    if (isset($filters["language"])) $pagesContent->filter("language", $filters["language"]);
+                    if (isset($filters["folder"])) $pagesContent->match("#$filters[folder]#i", false);
+                    if (isset($filters["status"])) $pagesContent->filter("status", $filters["status"]);
+                }
+                if (isset($filters["status"]) && $filters["status"]=="shared" && $showInvisible) {
+                    $pagesContent->merge($this->yellow->content->getShared($page->location));
+                }
+                foreach ($pagesContent as $pageContent) {
                     $searchScore = 0;
                     $searchTokens = array();
                     foreach ($tokens as $token) {
-                        $score = substr_count(strtoloweru($pageSearch->getContent(true)), strtoloweru($token));
+                        $score = substr_count(strtoloweru($pageContent->getContent(true)), strtoloweru($token));
                         if ($score) {
                             $searchScore += $score;
                             $searchTokens[$token] = true;
                         }
-                        if (stristr($pageSearch->get("title"), $token)) {
+                        if (stristr($pageContent->getLocation(), $token)) {
+                            $searchScore += $this->yellow->lookup->isFileLocation($pageContent->location) ? 10 : 100;
+                            $searchTokens[$token] = true;
+                        }
+                        if (stristr($pageContent->get("title"), $token)) {
                             $searchScore += 50;
                             $searchTokens[$token] = true;
                         }
-                        if (stristr($pageSearch->getLocation(true), $token)) {
-                            $searchScore += 20;
-                            $searchTokens[$token] = true;
-                        }
-                        if (stristr($pageSearch->get("tag"), $token)) {
+                        if (stristr($pageContent->get("tag"), $token)) {
                             $searchScore += 5;
                             $searchTokens[$token] = true;
                         }
-                        if (stristr($pageSearch->get("author"), $token)) {
+                        if (stristr($pageContent->get("author"), $token)) {
                             $searchScore += 2;
                             $searchTokens[$token] = true;
                         }
                     }
                     if (count($tokens)==count($searchTokens)) {
-                        $pageSearch->set("searchscore", $searchScore);
-                        $pages->append($pageSearch);
+                        $pageContent->rawData = $this->getRawDataSearch($pageContent, $tokens);
+                        $pageContent->set("searchScore", $searchScore);
+                        $pages->append($pageContent);
                     }
                 }
-                if (!empty($filters)) {
-                    if (isset($filters["tag"])) $pages->filter("tag", $filters["tag"]);
-                    if (isset($filters["author"])) $pages->filter("author", $filters["author"]);
-                    if (isset($filters["language"])) $pages->filter("language", $filters["language"]);
-                    if (isset($filters["status"])) $pages->filter("status", $filters["status"]);
-                }
-                $pages->sort("modified")->sort("searchscore", false);
+                $pages->sort("modified", false)->sort("searchScore", false);
                 $text = empty($query) ? $this->yellow->language->getText("searchSpecialChanges") : $query;
                 $this->yellow->page->set("titleHeader", $text." - ".$this->yellow->page->get("sitename"));
                 $this->yellow->page->set("titleContent", $this->yellow->page->get("title").": ".$text);
@@ -95,7 +100,7 @@ class YellowSearch {
     public function getSearchInformation($query, $tokensMax) {
         $tokens = array_unique(array_filter($this->yellow->toolbox->getTextArguments($query), "strlen"));
         $filters = array();
-        $filtersSupported = array("tag", "author", "language", "status", "special");
+        $filtersSupported = array("tag", "author", "language", "folder", "status", "special");
         foreach ($_REQUEST as $key=>$value) {
             if (in_array($key, $filtersSupported)) $filters[$key] = $value;
         }
@@ -109,5 +114,40 @@ class YellowSearch {
         }
         if ($tokensMax) $tokens = array_slice($tokens, 0, $tokensMax);
         return array($tokens, $filters);
+    }
+    
+    // Return raw data for search results, extract the relevant page content
+    public function getRawDataSearch($page, $tokens) {
+        $output = $outputStart = "";
+        if (!empty($tokens)) {
+            $foundStart = $insideCode = false;
+            foreach ($tokens as $token) {
+                if (stristr($page->get("title"), $token)) {
+                    $foundStart = true;
+                    break;
+                }
+            }
+            foreach ($this->yellow->toolbox->getTextLines($page->getContent(true)) as $line) {
+                if (!$foundStart) {
+                    if (preg_match("/^`{3,}/", $line)) $insideCode ^= true;
+                    if (!$insideCode && ($line=="\n" || preg_match("/^(\!)?\s*(\d*\.|\*|\-|\|)\s+/", $line))) {
+                        $outputStart = $line;
+                    } else {
+                        $outputStart .= $line;
+                    }
+                    foreach ($tokens as $token) {
+                        if (stristr($line, $token)) {
+                            $output = $outputStart;
+                            $foundStart = true;
+                            break;
+                        }
+                    }
+                } else {
+                    $output .= $line;
+                }
+            }
+        }
+        if (empty($output)) $output = $page->getContent(true);
+        return substrb($page->rawData, 0, $page->metaDataOffsetBytes).substrb($output, 0, 4096);
     }
 }
