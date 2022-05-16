@@ -471,4 +471,11 @@ input:focus {
     h6 {
         color: #eee;
     }
+    .content h1 a {
+        color: #eee;
+    }
+
+    .header .sitename h1 a {
+        color: #eee;
+    }
   }
