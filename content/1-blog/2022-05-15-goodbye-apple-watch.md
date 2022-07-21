@@ -3,6 +3,7 @@ Title: Goodbye Apple Watch!
 Published: 2022-05-15 00:00:00
 Author: René Fischer
 Layout: blog
+Status: draft
 Tag: #techzeugs
 ---
 [image 2022-05-14-20-45-23.JPG "Withings ScanWatch, ein hervorragender täglicher Begleiter"]
