@@ -7,19 +7,19 @@ html, body, div, form, pre, span, tr, th, td, img {
     vertical-align: baseline;
 }
 @font-face {
-    font-family: "Century Gothic", GillSans-Light, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-display: swap;
 }
 @font-face {
-    font-family: "Century Gothic", GillSans-Light, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-display: swap;
 }
 @font-face {
-    font-family: "Century Gothic", GillSans-Light, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-display: swap;
@@ -29,7 +29,7 @@ body {
 	margin: 1em;
     background-color: #fff;
     color: #666;
-    font-family: "Century Gothic", GillSans-Light, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     font-size: 1em;
     font-weight: 300;
     line-height: 1.8em;
@@ -107,7 +107,7 @@ a:hover {
 }
 .content code,
 .content pre {
-    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
     font-size: 90%;
 }
 .content code {
@@ -355,7 +355,7 @@ input {
   margin: 0.5em;
   margin-right: -4.5em;
   background: #fff;
-  font-family: "Century Gothic", GillSans-Light, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
   color: #6A5D4F;
   padding: 0px;
   border: 0;
@@ -393,7 +393,7 @@ input:focus {
 .search-location {
     font-size: 0.7em;
 	margin: -40px 0 -5px 0;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
 }
 .search-title h1 a {
     color: #07d;
