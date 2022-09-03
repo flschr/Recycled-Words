@@ -309,9 +309,9 @@ a:hover {
     margin: 2em 0;
     text-align: center;
 }
-.footer .siteinfo a {
+/*.footer .siteinfo a {
     color: #07d;
-}
+}*/
 .footer .siteinfo a:hover {
     color: #07d;
     text-decoration: underline;
