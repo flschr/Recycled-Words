@@ -3,7 +3,7 @@ Title: Ausflug zum Schliersee
 Published: 2016-07-10 00:00:00
 Author: René Fischer
 Layout: blog
-Tag: #erwandernswert
+Tag: #unterwegs
 ---
 [image 2016-07-10-11-36-22.jpg "Herrlich grüner Blick vom Bootssteg in den Schliersee"]
 [image 2016-07-10-13-40-22.jpg "Kinder stehen Hand in Hand im Wasser vom Schliersee"]

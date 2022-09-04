@@ -1,5 +1,4 @@
 /* Stockholm extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/stockholm */
-
 html, body, div, form, pre, span, tr, th, td, img {
     margin: 0;
     padding: 0;
@@ -7,29 +6,29 @@ html, body, div, form, pre, span, tr, th, td, img {
     vertical-align: baseline;
 }
 @font-face {
-    font-family: "Century Gothic", GillSans-Light, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-display: swap;
 }
 @font-face {
-    font-family: "Century Gothic", GillSans-Light, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-display: swap;
 }
 @font-face {
-    font-family: "Century Gothic", GillSans-Light, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-display: swap;
 }
 body {
     padding: 3em 0 3em 0;
-	  margin: 1em;
+	margin: 1em;
     background-color: #fff;
     color: #666;
-    font-family: "Century Gothic", GillSans-Light, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     font-size: 1em;
     font-weight: 300;
     line-height: 1.8em;
@@ -107,7 +106,7 @@ a:hover {
 }
 .content code,
 .content pre {
-    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
     font-size: 90%;
 }
 .content code {
@@ -226,11 +225,9 @@ a:hover {
 .content .rounded {
     border-radius: 4px;
 }
-
 .entry-content {
 	padding: 0 0 20px 0;
 }
-
 .entry-content-line {
 	border-bottom: 1px solid #F2F2F2;
 }
@@ -312,9 +309,9 @@ a:hover {
     margin: 2em 0;
     text-align: center;
 }
-.footer .siteinfo a {
+/*.footer .siteinfo a {
     color: #07d;
-}
+}*/
 .footer .siteinfo a:hover {
     color: #07d;
     text-decoration: underline;
@@ -357,7 +354,7 @@ input {
   margin: 0.5em;
   margin-right: -4.5em;
   background: #fff;
-  font-family: "Century Gothic", GillSans-Light, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
   color: #6A5D4F;
   padding: 0px;
   border: 0;
@@ -384,6 +381,25 @@ input:focus {
 }
 .button:active {
   border: 0 !important;
+}
+
+/* SEARCH RESULTS */
+
+.search-content {
+	padding: 0 0 30px 0;
+    font-size: 0.9em;
+}
+.search-location {
+    font-size: 0.7em;
+	margin: -40px 0 -5px 0;
+    font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+}
+.search-title h1 a {
+    color: #07d;
+}
+
+.search-title h1 a:hover {
+    text-decoration: underline;
 }
 
 /* ERROR */
@@ -450,5 +466,68 @@ input:focus {
 @media print {
     .page {
         border: none !important;
+    }
+}
+
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+    body {
+      color: #eee;
+      background: #121212;
+    }
+  
+    a {
+      color: #809fff;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #eee;
+    }
+    .content h1 a {
+        color: #eee;
+    }
+
+    .header .sitename h1 a{
+        color: #eee;
+    }
+
+    .header .sitename h2 {
+        color: #999;
+    }
+
+/* Website search */
+    .search-container {
+        box-shadow: 0 0 2px #999;
+    }
+  
+    input {
+    background: #121212;
+    color: #eee;
+    }
+  
+    .button {
+    background: #121212;
+    color: #b3b3b3;
+    }
+
+    .layout-error {
+	text-align: center;
+    color: #eee;
+    }
+
+    .layout-error h6 {
+    color: #eee;
+    }
+
+    .layout-error h4 {
+    color: #eee;
+    }
+    .search-title h1 a {
+        color: #809fff;
     }
 }
