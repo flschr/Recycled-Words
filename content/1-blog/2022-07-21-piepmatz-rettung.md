@@ -9,3 +9,5 @@ In unserem Schuppen ziehen Rotschwänzen schon ihre zweite Brut in diesem Jahr g
 
 [image "2022-07-22-09-04-22.jpg" "Aus dem Nest gefallenes Rotschwänzchen"]
 [image "2022-07-22-09-02-03.jpg" "Das Rotschwänzchen ist wieder bei seinen Geschwistern"]
+
+![„Test“](2022-07-22-09-04-22.jpg)
