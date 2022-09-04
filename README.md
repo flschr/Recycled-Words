@@ -12,12 +12,12 @@ Depending on the type of the blog article, my mood and current location I'll use
 #### Workflow automatization on my iPhone
 I'm a lazy guy and thats why I created a Siri shortcut to simplify the content creation process as much as possible.
 
-As I use a iPhone as my camera, I'll need a smart way to push photos to my repository. The solution I came up with, is this [Siri shortcut](https://www.icloud.com/shortcuts/242920bdb3b94ced96ab8262f2aaa460) which runs photos from the iOS share sheet through the following workflow:
+As I use a iPhone as my camera, I'll need a smart way to push photos to my repository. The solution I came up with, is this [Siri shortcut](https://www.icloud.com/shortcuts/e6d934f840f349f38ab5857db9ffc441) which runs photos from the iOS share sheet through the following workflow:
 - Save all photos to the local iOS photo album named ```Blog```.
 - Ask for the title of the new blog post.
 - Create a new file named ```/content/1-blog/yyyy-mm-dd-hh-title-of-the-new-blog-post.md```. The file already contains the Yellow CMS blog header with the current date and the title of the article.
 - Write every photo to ```/media/images/yyyy-mm-dd-hh-mm-ss.jpeg```.
-- Append ```[image "yyyy-mm-dd-hh-mm-ss.jpeg" ""]``` for every photo to ```/content/1-blog/yyyy-mm-dd-hh-title-of-the-new-blog-post.md```.
+- Append ```!["alt text"](yyyy-mm-dd-hh-mm-ss.jpeg)``` for every photo to ```/content/1-blog/yyyy-mm-dd-hh-title-of-the-new-blog-post.md```.
 - Remove all photos from the temporary local iOS photo album.
 - Start "Working Copy" and open ```/content/1-blog/yyyy-mm-dd-hh-title-of-the-new-blog-post.md``` in edit mode.
 
