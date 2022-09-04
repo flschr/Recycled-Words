@@ -5,4 +5,4 @@ Author: René Fischer
 Layout: blog
 Tag: #momentaufnahme
 ---
-[image 2017-02-22-12.02.15.jpg "Schneeglöckchen im Frühjahr"]
+!["Schneeglöckchen im Frühjahr"](2017-02-22-12.02.15.jpg)

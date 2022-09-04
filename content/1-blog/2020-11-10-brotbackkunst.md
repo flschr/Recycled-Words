@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #rezeptvomchef
 ---
-[image 2020-11-10-17-33-45.jpg "Immer wieder lecker, selbstgebackenes Brot"]
+!["Immer wieder lecker, selbstgebackenes Brot"](2020-11-10-17-33-45.jpg)
 Mein Lieblingsbäcker hat in diesem Jahr sein Geschäft an einen Nachfolger verkauft und seitdem kann ich das Brot nicht mehr essen. Es schmeckt schlicht und ergreifend einfach nicht mehr. [Wie angekündigt](https://gaehn.org/articles/geniesst-brot-und-bier/), habe ich also jetzt angefangen selbst Brot zu backen. Und auch wenn ich ausschließlich mit Hefeteig backe, kann sich das Ergebnis sehen lassen und wird von allen sehr gelobt.
 
 Am meisten kommt in diesem Haushalt ein klassisches Weißbrot oder - mein Favorit - das Dinkel-Leinsamen-Brot an, für das ich hier mal kurz das Rezept dokumentiere.

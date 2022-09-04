@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #faktensammlung
 ---
-[image 2017-03-13-21-47-23.jpg "Frisches Brot mit einer Flasche Neumarkter Lammsbräu"]
+!["Frisches Brot mit einer Flasche Neumarkter Lammsbräu"](2017-03-13-21-47-23.jpg)
 Was gibt es Besseres als ein kühles Bier und frisches Brot? Zwei Lebensmittel mit einer [gemeinsamen Wurzel](http://www.tagesspiegel.de/wissen/geschichte-bier-statt-brot/1416000.html) die beide, obwohl es keine deutschen Erfindungen sind, heutzutage als typisch Deutsch gelten. Die deutsche Bierbrau- und Brotbackkunst birgt für handwerkliche Qualitäten, die man sonst nirgendwo anders auf der Welt findet. Noch, denn auch hierzulande kommt mittlerweile immer häufiger industriell gefertiger Einheitsbrei auf den Tisch.
 
 **Ein Appell für bewussteres Genießen von Lebensmitteln**

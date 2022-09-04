@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #rezeptvomchef
 ---
-[image 2021-01-26-12-55-38.jpg "Leckeres selbst gemachtes Thai-Curry"]
+!["Leckeres selbst gemachtes Thai-Curry"](2021-01-26-12-55-38.jpg)
 
 Thai-Curry ist mein persönliches Lieblingsgericht, das ich immer wieder in den verschiedensten Variationen koche. Dieses Rezept ist dabei meine absolute Lieblingsvariante, die ich im Laufe der Zeit immer feiner abgestimmt habe. Die hier angegebene Menge reicht für 3-4 Personen. Das Curry sollte am besten in einem Wok zubereitet werden. Wer keinen Wok hat, kann alternativ auch einen Topf verwenden.
 

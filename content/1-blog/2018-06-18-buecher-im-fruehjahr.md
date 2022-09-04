@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #bücherkram
 ---
-[image 2018-06-18-17-12-56.jpg "Von Vögeln und Menschen und Apple Airpods"]
+!["Von Vögeln und Menschen und Apple Airpods"](2018-06-18-17-12-56.jpg)
 Das einzige Buch das ich in diesem Jahr bisher tatsächlich physisch gelesen habe, war [&raquo;Von Vögeln und Menschen&laquo;](https://www.thalia.de/shop/home/artikeldetails/EAN9783446258198/ID82884247.html) (★★☆☆☆) von Margriet de Moor. Der Roman hat mich etwas ratlos zurückgelassen. Die Geschichte ist eigentlich spannend und böte ausreichend Potential für einen lesenswerten Roman. Leider schafft es die Autorin jedoch nicht, Spannung aufzubauen. Die Story plätschert viel zu oft nur so dahin und verliert sich in anstrengender Gefühlsduselei.
 
 Ein Hörbuch das mich überrascht hat, war [&raquo;Das finstere Tal&laquo;](https://www.thalia.de/shop/home/artikeldetails/EAN9783935890717/ID21247179.html) (★★★★★) von Thomas Willmann.  Erzählt wird die Geschichte einer mysteriösen Todesserie, die eine verschworene Dorfgemeinschaft in einem abgeschiedenen Hochtal in den Alpen Ende des 19. Jahrhunderts in Aufruhr hält.  Diesem Buch gelingt es von der ersten Seite den Leser tief in die bildgewaltige Geschichte zu ziehen. Das Hörbuch liest übrigens Matthias Brandt, was dem Buch definitiv sehr gut steht.

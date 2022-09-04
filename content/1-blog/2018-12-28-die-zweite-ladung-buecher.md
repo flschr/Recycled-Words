@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #bücherkram
 ---
-[image 2018-12-28-23-01-12.jpg "Meine gelesenen Bücher 2018, Teil II"]
+!["Meine gelesenen Bücher 2018, Teil II"](2018-12-28-23-01-12.jpg)
 Dieses Jahr war mit dem Lesen etwas nachlässiger. [Insgesamt](/buecher-im-fruehjahr) komme ich 2018 nur auf 8 magere Bücher und 6 Hörbücher. Und gelesen habe ich die meisten im Urlaub. Im meinem Alltag gibt es momentan einfach zu wenig Zeit zum Lesen oder auch viel zu viele Alternativen zum Zeitvertreib. Dazu kommt, das ich Hörbücher komplett aus meinem Leben verbannt habe. Dafür waren die wenigen Bücher die ich in der zweiten Jahreshälfte gelesen habe, fast ausschließlich hervorragend.
 
 Angefangen hat mein Jahr mit dem wundervollen Roman [&raquo;Alles Licht, das wir nicht sehen&laquo;](https://www.thalia.de/shop/home/artikeldetails/ID41763371.html) (★★★★★) von Anthony Doerr. In einer sprachlich eindrucksvollen und zutiefst berührenden Sprache zieht einen der Roman tief in das Leben der blinden Marie-Laure und dem Waisenjungen Werner, die im zweiten Weltkrieg in der französischen Küstenstadt Saint-Malo aufeinander treffen. Für mich eines der besten Bücher der letzten Jahre.

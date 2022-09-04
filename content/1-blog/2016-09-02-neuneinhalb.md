@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #bücherkram
 ---
-[image 2016-09-02-22-28-54.jpg "Meine gelesenen Bücher im Q3/2016"]
+!["Meine gelesenen Bücher im Q3/2016"](2016-09-02-22-28-54.jpg)
 Ich habe etwas aufgeholt und liege, gemessen an meinem [Jahresziel von 12 Büchern](/12-2016), wieder voll im Soll. Der aktuelle Stand sind 9 ½. Neuneinhalb?
 
 Ehrlich gesagt habe ich mit Bill Bufords [»Hitze«](https://www.amazon.de/dp/3446230122/) (★★☆☆☆) nicht so viel anfangen können. Das Buch klang für einen selbsternannten Hobbykoch ziemlich verlockend. Aber leider sind die wenigen Highlights zwischen viel zu vielen, wahnsinnig langatmigen und todlangweiligen Passagen versteckt. Irgendwann bei Seite zweihundertzwanzig habe ich die Nerven verloren, und aus lauter Frust Lust [Spaghetti Bolognese gekocht](/bolognese-sauce-zum-reinlegen). Besser sind sie mir noch nie gelungen.

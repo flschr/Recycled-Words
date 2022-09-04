@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #bisschensauer
 ---
-[image 2021-01-09-00-33-36.jpg "COVID-19: Keep calm and wash hands"]
+!["COVID-19: Keep calm and wash hands"](2021-01-09-00-33-36.jpg)
 <sub>Foto: [juanfber](https://www.flickr.com/photos/juanfber/) / flickr.com ([CC BY-NC 2.0](https://creativecommons.org/licenses/by-nc/2.0/))</sub>
 
 Meine Frau arbeitet seit vielen Jahren im Gesundheitswesen. Sie hat bis zum heutigen Tag 19 Corona-Tests über sich ergehen lassen müssen. Und dennoch hatten alle Bewohner dieses Haushalts [COVID-19](https://de.wikipedia.org/wiki/COVID-19). Im März 2020, gleich zu Beginn des Lockdowns in Deutschland hat es uns erwischt. Zum Glück nur mit verhältnismäßig leichten Symptomen und ohne bleibende Schäden. Meine Frau hat jedoch in den letzten Monaten in ihrem beruflichen Alltag hautnah erlebt, welche Schicksale hinter den täglich berichteten Zahlen stehen. Sie hat Menschen sterben, Familien leiden und trauern sehen. Sie hat mit Kollegen gelitten, die mit schweren Verläufen auf der Intensivstation gelandet sind und Monate zur Genesung gebraucht haben. Und dennoch musste sie sich im privaten Umfeld mit Menschen auseinandersetzen, die nicht auf Weihnachtsbesuche verzichten wollten und uns noch dazu Vorwürfe gemacht haben, weil wir die Einzigen waren die das vehement abgelehnt haben. Unsere Bitte um Vernunft fand kein Gehör. Als Antwort gab es stattdessen Beleidigungen, wir hätten doch keine Ahnung und überhaupt werde doch alles bloß maßlos übertrieben.

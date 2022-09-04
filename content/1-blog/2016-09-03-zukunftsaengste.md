@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #schwadroniert
 ---
-[image 2016-09-03-22-34-12.jpg "Maschine aus einem Maschinenwerk in Mühlhausen"]
+!["Maschine aus einem Maschinenwerk in Mühlhausen"](2016-09-03-22-34-12.jpg)
 Die fortwährende Innovationskraft des Menschen hat die Welt mehrfach komplett verändert. In den allermeisten Fällen zum Positiven, auch wenn nicht jede Veränderung immer sofort als positiv wahrgenommen wurde.
 
 Ich bin ein grundsätzlich aufgeschlossener und fortschrittlich denkender Mensch. Die permanente Veränderung auf der Suche nach der Vollkommenheit, ist aus meiner Perspektive ein erstrebenswerter Zustand, obgleich man ja eigentlich nie an irgendeinem Ziel ankommen kann. Das ist meine persönliche, vielleicht etwas zu philosophische Beschreibung. Die Wikipedia fasst es etwas nüchterner [zusammen](https://de.wikipedia.org/wiki/Geek):

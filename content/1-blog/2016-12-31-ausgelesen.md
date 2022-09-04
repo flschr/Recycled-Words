@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #bücherkram
 ---
-[image 2016-12-31-21-12-46.jpg "Gelesene Bücher in Q4/2016"]
+!["Gelesene Bücher in Q4/2016"](2016-12-31-21-12-46.jpg)
 Ich habe mein [Ziel von 12 Büchern in diesem Jahr](/12-in-2016) erreicht. Und wenn man die beiden Bücher zählt, bei denen mich irgendwann die Kraft zum Weiterlesen verlassen hat, komme ich sogar auf 13 Bücher. Also quasi übererfüllt.
 
 Fangen wir mit dem zweiten halben Buch in diesem Jahr an: Der Manga [»Can You Hear Me?«](http://www.egmont-manga.de/buch/can-you-hear-me/) von Otsuichi (★☆☆☆☆). Das Buch war ein Geschenk. Und ich habe mir wirklich Mühe gegeben meine Vorurteile zu überwinden. Irgendwann habe ich jedoch festgestellt, das es nicht meins ist. Also weder das Buch, noch Manga an sich. Die Story klingt interessant, aber die Umsetzung ist mir zu banal und dystopisch. Und wenn ich ganz ehrlich bin, kann ich noch nicht einmal mit den so hochgelobten Zeichnungen etwas anfangen.

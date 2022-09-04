@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #freieswissen,#downloads
 ---
-[image 2002-07-10-21-29-59.jpg "Ruhe Prüfung Schild"]
+!["Ruhe Prüfung Schild"](2002-07-10-21-29-59.jpg)
 <sub>Foto: [Dennis Wegner](https://www.flickr.com/photos/der_dennis/) / flickr.com ([CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/))</sub>
 
 Die IHK-Prüfung zum IT-Systemkaufmann sieht vor, das neben den schriftlichen Prüfungen auch eine sogenannte Projektarbeit durchgeführt wird. In Vorbereitung auf diese Projektarbeit habe ich im Internet nach Beispielen gesucht, die mir eine ungefähre Vorstellung darüber geben, welcher Aufbau und Umfang von der Prüfungskommission gefordert wird.

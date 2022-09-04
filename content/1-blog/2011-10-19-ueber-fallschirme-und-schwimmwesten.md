@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #faktensammlung
 ---
-[image 2011-10-19-16-29-33.jpg "Der Lufthansa-Airbus von der Sendung mit der Maus"]
+!["Der Lufthansa-Airbus von der Sendung mit der Maus"](2011-10-19-16-29-33.jpg)
 Ich habe heute im Flieger mal wieder darüber nachgedacht, warum es in Flugzeugen eigentlich Schwimmwesten und keine Fallschirme gibt. Ob es zum Ausgleich in irgendeinem Paralleluniversum Fallschirme auf Kreuzfahrtschiffen gibt? Und nachdem es viele Antworten auf diese Frage gibt, folgt hier das gebündelte Antwortpaket zum Totschlagen:
 
 * Start und Landung die kritischsten Momente und hier – das leuchtet ein – nutzt ein Fallschirm im Falle eines Falles nicht sehr viel.

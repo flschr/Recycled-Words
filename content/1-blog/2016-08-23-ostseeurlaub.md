@@ -5,10 +5,10 @@ Author: René Fischer
 Layout: blog
 Tag: #ganzvielurlaub
 ---
-[image 2016-08-23-12-23-46.jpg "Schöne Wolken über einer Wiese an der Ostsee"]
-[image 2016-08-23-12-23-48.jpg "Blick vom berühmten Kreidefelsen auf die Ostsee"]
-[image 2016-08-23-12-23-50.jpg "Sonnenuntergang über der Ostsee"]
-[image 2016-08-23-12-23-52.jpg "Schöner Strandabschnitt an der Ostsee, Nähe Lubmin"]
+!["Schöne Wolken über einer Wiese an der Ostsee"](2016-08-23-12-23-46.jpg)
+!["Blick vom berühmten Kreidefelsen auf die Ostsee"](2016-08-23-12-23-48.jpg)
+!["Sonnenuntergang über der Ostsee"](2016-08-23-12-23-50.jpg)
+!["Schöner Strandabschnitt an der Ostsee, Nähe Lubmin"](2016-08-23-12-23-52.jpg)
 Nach der [holländischen Nordsee im letzten Jahr](/vakantie-in-holland), hat es uns dieses Jahr an die Ostsee verschlagen - genauer an den Greifswalder Bodden. Ein sehr schöner Flecken Erde, den wir mit Sicherheit nicht zum letzten mal besucht haben.
 
 An der Ostsee geht man natürlich eigentlich Baden. Und das am Besten direkt an den Stränden vom Ostseebad Lubmin. Wer nicht so viel Glück mit dem Wetter hat, zu weich für das Wetter ist, oder sich auch mal die Beine vertreten will, darf sich von den folgenden Ausflugstipps gern inspirieren lassen.

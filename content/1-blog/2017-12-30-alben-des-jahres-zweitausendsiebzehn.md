@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #liebefürdieohren
 ---
-[image 2017-12-30-21-23-46.jpg "Mein Lieblingsalbum 2017, Nic Cester - Sugar Rush"]
+!["Mein Lieblingsalbum 2017, Nic Cester - Sugar Rush"](2017-12-30-21-23-46.jpg)
 Ich bin ja eigentlich ein &raquo;Alleshörer&laquo;, dennoch war ich [2016](https://gaehn.org/88-3-2016/) im Grunde nur von ~~klassischer Musik~~ Klaviermusik zu begeistern. Meine Lieblingsalben in diesem Jahr sind wieder deutlich vielschichtiger.
 
 Mit [&raquo;Sugar Rush&laquo;](https://open.spotify.com/embed/album/2b4iIeul6WDPyvD9ynoRyy) hat [Nic Cester](https://de.wikipedia.org/wiki/Jet_&#40;Band&#41;) ein sehr kraftvolles und abwechslungsreiches Debutalbum veröffentlicht. Soul, Blues, Psychedelic Rock  - irgendwie ist alles mit dabei. Ein Album das man tatsächlich in Dauerschleife hören kann. Für mich die Neuentdeckung des Jahres.

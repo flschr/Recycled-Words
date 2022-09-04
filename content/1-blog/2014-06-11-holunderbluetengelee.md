@@ -5,8 +5,8 @@ Author: René Fischer
 Layout: blog
 Tag: #rezeptvomchef
 ---
-[image 2014-06-11-14-28-29.jpg "Frisches Holunderblütengelee im Marmeladenglas"]
-[image 2014-06-11-12-28-29.jpg "Holunderblütengelee köchelt in einem großen Topf"]
+!["Frisches Holunderblütengelee im Marmeladenglas"](2014-06-11-14-28-29.jpg)
+!["Holunderblütengelee köchelt in einem großen Topf"](2014-06-11-12-28-29.jpg)
 Ein Glas Holunderblütengelee gehört auf jeden Frühstückstisch. Und da es unheimlich einfach zuzubereiten ist, habe ich heute einen kleinen Vorrat gekocht, von dem wir die nächsten <del>Monate</del> Wochen zehren können.
 
 Bevor es losgeht braucht man natürlich Holunderblüten. [Holunder](https://de.wikipedia.org/wiki/Holunder) blüht von Mai bis Juni und ist dank seiner markanten Blüten schon von Weitem sehr gut zu erkennen. Die in diesen Rezept angegebene Menge reicht für gut 10-14 Gläser von dem leckeren Gelee.

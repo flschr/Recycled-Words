@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #geschraubt
 ---
-[image 2016-11-05-21-42-23.jpg "IKEA Oddvald als Piano-Ständer für ein Yamaha P-35"]
+!["IKEA Oddvald als Piano-Ständer für ein Yamaha P-35"](2016-11-05-21-42-23.jpg)
 Bis zu unserem Umzug gab es Platzgründen keine Möglichkeit, das Digital Piano ([Yamaha P-35](http://e-piano-tests.de/yamaha-p-35/)) meiner Frau an einem festen Platz aufzubauen. Das ständige Auf- und Abbauen war so nervig, das die Lust am Spielen schon fast verkümmert war.
 
 Nachdem wir mittlerweile über deutlich mehr Platz verfügen, war auch ein fester Aufbau (im Gästezimmer) möglich. Ich habe also kurz recherchiert, welche passenden Ständer für das Gerät angeboten werden. Es war schnell klar, das für wenig Geld nur ~~windige Qualität~~ billige Klappständer zu bekommen waren. Von Yamaha selbst wird eine eigentlich ganz ansehnliche Holzverkleidung angeboten. Diese besteht aus 3 schwarz furnierten Pressholzplatten und einer Handvoll Schrauben. Dafür hätte Yamaha gern 120 Euro, was jeder normal denkende Mensch <del>dankend</del> kopfschüttelnd ablehnen muss. Es blieb also nichts anderes, als selbst zur Säge zu greifen.
@@ -29,11 +29,11 @@ Beim letzten IKEA-Besuch habe ich mir kurzerhand den [supergünstigen Tischbock 
 5. Aufgrund der Dicke der Holme müssen zur Befestigung des Pianos auf den Tischböcken Gewindestangen verwendet werden. Beim Yamaha P-35 passen M5 Maschinenschrauben. Dazu mit einer Eisensäge von der Gewindestange vier 10 cm lange Stücke abtrennen und in das Piano eindrehen.
 6. Anschließend kann die Leimholzplatte bereits aufgeschraubt und mit der Lackfarbe gestrichen werden. Dabei unbedingt darauf achten, das man an die rückseitig liegenden Anschlüsse des Pianos kommt und alle notwendigen Kabel ohne Gewalt anschließen kann.
 
-[image 2016-10-29-21.27.50.jpg "Fertiger IKEA Oddvald Piano-Ständer, noch ohne Piano"]
+!["Fertiger IKEA Oddvald Piano-Ständer, noch ohne Piano"](2016-10-29-21.27.50.jpg)
 
 8. Im letzten Schritt habe ich noch einige Kabelführungen und auch eine Halterung für die Kopfhörer angebracht.
 
-[image 2016-11-05-13.52.13.jpg "Verlegung von Kabeln, mit Resten von anderen IKEA-Produkten"]
+!["Verlegung von Kabeln, mit Resten von anderen IKEA-Produkten"](2016-11-05-13.52.13.jpg)
 
 
 Die Gesamtkosten des Projektes lagen bei unter 40 Euro. Der Ständer hält die Aufbauten ohne Probleme und wackelt auch bei wilderen Spieleinheiten der Kinder nicht umher. Wer sich an der Optik nicht stört, kann mit dieser Lösung nichts falsch machen.

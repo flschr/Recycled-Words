@@ -5,8 +5,8 @@ Author: René Fischer
 Layout: blog
 Tag: #momentaufnahme
 ---
-[image 2020-01-20-20-18-36.jpg "Rohe Garnelen - wahnsinnig lecker"]
-[image 2020-01-21-15-57-10.jpg "Blick aus dem Hafen in Oslo"]
+!["Rohe Garnelen - wahnsinnig lecker"](2020-01-20-20-18-36.jpg)
+!["Blick aus dem Hafen in Oslo"](2020-01-21-15-57-10.jpg)
 
 Ich war beruflich kurz in Oslo und hatte leider viel zu wenig Zeit für diese sehr sehenswerte Stadt und das leckere Essen.
 

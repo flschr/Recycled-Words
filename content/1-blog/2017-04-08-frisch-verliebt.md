@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #frischvomflohmarkt,#einaugefürkunst
 ---
-[image 2017-04-08-14.02.30.jpg "Flohmarktfund, Siebdrucke des Künstlers Peter-Torsten Schulz"]
+!["Flohmarktfund, Siebdrucke des Künstlers Peter-Torsten Schulz"](2017-04-08-14.02.30.jpg)
 Beim heutigen Spaziergang über den Flohmarkt, habe ich mich spontan in diese 4 Bilder verliebt. Ich &raquo;befürchte&laquo; jedoch, dass der Verkäufer nicht so recht wusste, was er da eigentlich verkauft.
 
 Bei den Bildern handelt sich um Siebdrucke des Künstlers [Peter-Torsten Schulz](https://de.wikipedia.org/wiki/Peter-Torsten_Schulz). Der Wert der Bilder mitsamt der massiven Keilrahmen beläuft sich auf schätzungsweise 300-500 Euro. Bezahlt habe ich 16, denn bei Abnahme aller 4 Bilder gab es jeweils noch einen Euro Rabatt.

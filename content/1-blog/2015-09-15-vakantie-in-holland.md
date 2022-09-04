@@ -5,12 +5,12 @@ Author: René Fischer
 Layout: blog
 Tag: #ganzvielurlaub
 ---
-[image 2015-09-15-10-01-14.jpg "Möwe kreist über einer Düne an einem Strand in Holland"]
-[image 2015-09-15-10-01-16.jpg "Blick auf das holländische Dorf Middelburg"]
-[image 2015-09-15-10-01-18.jpg "Fischkutter in einem holländischen Hafen"]
-[image 2015-09-15-10-01-20.jpg "Kanonen an der Küste von Holland"]
-[image 2015-09-15-10-01-22.jpg "Vater und Sohn schauen vom Strand aus auf die holländische Nordsee"]
-[image 2015-09-15-10-01-24.jpg "Schönes Wappen an einem holländischen Fischkutter"]
+!["Möwe kreist über einer Düne an einem Strand in Holland"](2015-09-15-10-01-14.jpg)
+!["Blick auf das holländische Dorf Middelburg"](2015-09-15-10-01-16.jpg)
+!["Fischkutter in einem holländischen Hafen"](2015-09-15-10-01-18.jpg)
+!["Kanonen an der Küste von Holland"](2015-09-15-10-01-20.jpg)
+!["Vater und Sohn schauen vom Strand aus auf die holländische Nordsee"](2015-09-15-10-01-22.jpg)
+!["Schönes Wappen an einem holländischen Fischkutter"](2015-09-15-10-01-24.jpg)
 Wir waren 2 Wochen in ~~Holland~~ den Niederlanden, genauer gesagt in Südholland, auf der Halbinsel Goeree-Overflakkee. Das war insgesamt ein rundum gelungener Urlaub. Wiederholungsgefahr ist durchaus gegeben.
 
 Die Nordsee ist meiner Meinung nach ja weniger zum Baden geeignet, wie die Ostsee. Nichtsdestotrotz, gibt es hier tolle mit Muscheln nur so übersähte Badestrände. Aber selbst bei sonnigen Wetter pfeift der Wind hier sehr stark.

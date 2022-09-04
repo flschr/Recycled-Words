@@ -6,4 +6,4 @@ Layout: blog
 Tag: #momentaufnahme
 ---
 
-[image "2021-09-29-06-59-51.jpeg" "Morgendlicher Blick über die Weser auf die Skyline von Bremen mit der Alexander von Humboldt"]
+!["Morgendlicher Blick über die Weser auf die Skyline von Bremen mit der Alexander von Humboldt"](2021-09-29-06-59-51.jpeg)

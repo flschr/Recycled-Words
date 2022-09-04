@@ -5,5 +5,5 @@ Author: René Fischer
 Layout: blog
 Tag: #leckerwars
 ---
-[image 2016-09-14-21-02-45.jpg "Leckerer Petersfisch an Steinpilzrisotto im Adria Grill Wels"]
+!["Leckerer Petersfisch an Steinpilzrisotto im Adria Grill Wels"](2016-09-14-21-02-45.jpg)
 Genossen im [Adria Grill Fischrestaurant](https://goo.gl/maps/Q5yCHUbcm7bCyyna9) in Wels.

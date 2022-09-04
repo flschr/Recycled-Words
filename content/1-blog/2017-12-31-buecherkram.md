@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #bücherkram
 ---
-[image 2017-12-31-22-42-12.jpg "Meine gelesenen Bücher 2017"]
+!["Meine gelesenen Bücher 2017"](2017-12-31-22-42-12.jpg)
 Auch 2017 habe ich mir vorgenommen, [wieder](/ausgelesen) regelmäßig ein Buch zu verschlingen. Das Ziel war, ein Buch pro Monat. Am Ende waren es insgesamt 16 Bücher, auch wenn ich eigentlich nur 6 davon selbst gelesen habe. Die restlichen Bücher habe ich mir als Hörbuch vorlesen lassen. An dieser Art des &raquo;Lesens&laquo; habe ich schnell Gefallen gefunden, da ich in meinem Alltag nun viel häufiger ein Buch genießen kann.
 
 <h3>Gelesen:</h3>

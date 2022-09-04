@@ -5,4 +5,4 @@ Author: René Fischer
 Layout: blog
 Tag: #momentaufnahme
 ---
-[image 2017-07-11-21-46-12.jpg "Notdienst von Weight Watchers der keiner ist - Telefonnummer gehört zu einem Beerdigungsinstitut"]
+!["Notdienst von Weight Watchers der keiner ist - Telefonnummer gehört zu einem Beerdigungsinstitut"](2017-07-11-21-46-12.jpg)

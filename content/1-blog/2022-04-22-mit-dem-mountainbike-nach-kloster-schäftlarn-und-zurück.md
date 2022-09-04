@@ -10,39 +10,39 @@ Die [Mountainbike-Tour an den Ickinger Stausee](https://www.komoot.de/tour/74620
 
 Der Anfang der verlief weitestgehend durch bekannte Zivilisation. Von Pliening aus ging es über den Riemer See zum Flugplatz Neubiberg. Bis auf die noch etwas frischen Temperaturen, verlief soweit alles gut und ich bin flott vorangekommen ohne mich zu verausgaben.
 
-[image "2022-04-22-1.JPG" "Die ehemalige Start- und Landebahn auf dem Flugplatz Neubiberg"]
+!["Die ehemalige Start- und Landebahn auf dem Flugplatz Neubiberg"](2022-04-22-1.JPG)
 
 Nach 30 Kilometern - kurz hinter der Kugleralm - gab es die erste größere Pause. Nach Oberhaching kam dann auch nicht mehr viel, das an Zivilisation erinnert hat. Die Wege wurden endlich auch unwegsamer. Nur 5 Kilometer später habe ich dann zum ersten Mal die Isar gesehen. Was für ein toller Anblick. Also Abfahrt ins Isartal und jetzt ging es endlich wirklich los mit den Trails.
 
-[image "2022-04-22-2.jpeg" "Abfahrt ins Isartal"]
-[image "2022-04-22-3.jpeg" "Blick auf die Isar"]
+!["Abfahrt ins Isartal"](2022-04-22-2.jpeg)
+!["Blick auf die Isar"](2022-04-22-3.jpeg)
 
 Nach knapp 10 Kilometer auf teils wirklich wilden Trails, bin ich dann gegen 11:30 Uhr im Kloster Schäftlarn angekommen. Im Biergarten war ich quasi der Erste am Mittagstisch. War wohl noch etwas zu früh. Nach einem Schweizer Wurstsalat und einem alkoholfreien Weißbier ging es dann weiter. Das nächste Etappenziel war der Ickinger Stausee.
 
-[image "2022-04-22-4.JPG" "Schweizer Wurstsalat im Kloster Schäftlarn"]
-[image "2022-04-22-5.jpeg" "Biergarten im Kloster Schäftlarn"]
+!["Schweizer Wurstsalat im Kloster Schäftlarn"](2022-04-22-4.JPG)
+!["Biergarten im Kloster Schäftlarn"](2022-04-22-5.jpeg)
 
 Aber zuerst galt es ein paar echte Herausforderungen zu meistern. Die Trails in Richtung Ickinger Stausee wurden immer unwegsamer. Ich musste einen kleinen Wasserlauf passieren und dachte das wäre krass. 
 
-[image "2022-04-22-6.jpeg" "Kleiner Wasserlauf in einem Trail"]
+!["Kleiner Wasserlauf in einem Trail"](2022-04-22-6.jpeg)
 
 Nur wenige Minuten später stand ich dann vor der echten Challenge. Der eigentlich geplante Weg über den Seitenarm der Isar war aufgrund des hohen Wasserstandes nicht passierbar. Ein paar Meter weiter gab es dann ein paar Baumstämme über die man sich selbst und den Drahtesel auf die andere Seite bugsieren konnte. Ehrlich gesagt wäre es schlauer gewesen ein paar Kilometer Umweg in Kauf zu nehmen und einen anderen Weg zu suchen. Aber ich wollte unbedingt die geplante Strecke fahren. Also allen Mut zusammengenommen und los gings. Logischerweise ging es schief: Ich bin abgerutscht und erst mit dem einen und kurz darauf mit dem anderen Fuß im Wasser gelandet. Zum Glück nicht tief, aber das Wasser war kalt und die Schuhe jetzt nass und bis nach Hause lagen noch über 60 Kilometer vor mir. Irgendwie habe ich es aber dann doch auf die andere Seite geschafft, nur um dann festzustellen, das der anschließende Trail im Grunde kaum zu befahren war. Wirklich dicht zugewuchert und mit echt fiesen Abbruchkanten zur Isar runter. Das war bei weitem der ätzendste Teil der ganzen Tour.
 
-[image "2022-04-22-7.jpeg" "Uff! Auf den Baumstämmen über den Seitenarm der Isar balancieren. Ging natürlich schief."]
+!["Uff! Auf den Baumstämmen über den Seitenarm der Isar balancieren. Ging natürlich schief."](2022-04-22-7.jpeg)
 
 Umso glücklicher war ich, als ich dann das Stauwehr des Ickinger Stausees vor mir gesehen habe. In mir kam das Gefühl auf, das ich endlich wieder in der Zivilisation angekommen bin.
 
-[image "2022-04-22-9.jpeg" "Das Stauwehr des Ickinger Stausees"]
-[image "2022-04-22-8.jpeg" "Sehenswerte Wassermassen am Ickinger Stausee"]
+!["Das Stauwehr des Ickinger Stausees"](2022-04-22-9.jpeg)
+!["Sehenswerte Wassermassen am Ickinger Stausee"](2022-04-22-8.jpeg)
 
 Aber ehrlich gesagt war noch nicht viel Zivilisation zu sehen. Nach der Umrundung des Stausees ging es wieder in den Wald und dort dann bergauf, raus aus dem Isartal. Oben angekommen, ging es dann über malerische kleine Ortschaften gemütlich nach Aufhofen, wo ich mir am Badeweiher nochmal eine Pause gegönnt habe.
 
-[image "2022-04-22-10.jpeg" "Trail im Wald mit unlustiger Steigung. Aber wer ins Isartal runterfährt, muss halt auch wieder rauf."]
-[image "2022-04-22-11.jpeg" "Pause am Aufhofener Badeweiher. Schade das es zu kalt für eine Badepause war."]
+!["Trail im Wald mit unlustiger Steigung. Aber wer ins Isartal runterfährt, muss halt auch wieder rauf."](2022-04-22-10.jpeg)
+!["Pause am Aufhofener Badeweiher. Schade das es zu kalt für eine Badepause war."](2022-04-22-11.jpeg)
 
 Durch den Zauberwald ging es durchs Gleisental. Die Namen beider Orte haben bei der Planung mehr versprochen. Es gab im Grunde kaum etwas wirklich sehenswertes. Aber immerhin auch keine negativen Überraschungen.
 
-[image "2022-04-22-12.jpeg" "Moos auf einem Baumstumpf im Gleisental."]
+!["Moos auf einem Baumstumpf im Gleisental."](2022-04-22-12.jpeg)
 
 Vor Deisenhofen habe ich mich dann irgendwie verplant. Mir war bewusst das der Bahndamm gesperrt ist. Mutig wie ich war, habe ich dann einfach kurz vor dem Bahndamm einen Weg in den Wald geplant. Ich habe wohl unterschätzt, wie meine Kräfteverhältnisse nach 80 Kilometern aussehen. Diese unnötige Anstrengung hätte ich gern vermieden und die Baustelle lieber umfahren. Nach 85 Kilometern hatte ich Hohenbrunn erreicht. Vor mir fuhr gerade eine S-Bahn ab und mir wuchs der unendliche Wunsch mich einfach in die nächste zu hocken und das Abenteuer zu beenden. Tatsächlich war ich mit meinen Kräften am Ende, aber ich wollte die magischen 100 Kilometer packen und schließlich waren es auch nur noch 25 Kilometer bis Pliening.
 

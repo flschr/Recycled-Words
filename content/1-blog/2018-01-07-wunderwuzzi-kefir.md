@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #faktensammlung
 ---
-[image 2018-01-07-20-43-12.jpg "Powergetränk Kefir"]
+!["Powergetränk Kefir"](2018-01-07-20-43-12.jpg)
 Ich bin seit einigen Monaten im Besitz einer eigenen Kefir-Kultur und &raquo;züchte&laquo; mir mit minimalem Aufwand und zu geringsten Kosten meine tägliche Portion, des &raquo;Getränkes der Hundertjährigen&laquo;. Selbst hergestellter [Kefir](https://de.wikipedia.org/wiki/Kefir) gilt als wahrer Gesundbrunnen und ist - anders als das mehr oder weniger wirkungslose [industriell gefertigte Zeug](https://de.wikipedia.org/wiki/Kefir#%E2%80%9EKefir,_mild%E2%80%9C) aus dem Supermarkt - auch noch ultralecker.
 
 <h3>Gesundheitliche Wirkung von Kefir</h3>
@@ -15,7 +15,7 @@ In der Medizin wird Kefir vor allem bei Magenbeschwerden, Darminfektionen und au
 
 Und dabei ist Kefir auch noch sehr vielseitig konsumierbar. Natürlich ganz einfach pur als Getränk, als Dressing für den Salat oder auch im Müsli, als gesündere Alternative für Joghurt und Milch.
 
-[image 2018-01-07-09-43-12.jpg "Ein leckeres Müsli mit frischen Obst und Kefir"]
+!["Ein leckeres Müsli mit frischen Obst und Kefir"](2018-01-07-09-43-12.jpg)
 
 <h3>Inhaltsstoffe von Kefir</h3>
 Die Kefir ist eine komplexe Zusammensetzung aus verschiedensten Mikroorganismen (hauptsächlich [Milchsäurebakterien](https://de.wikipedia.org/wiki/Milchs%C3%A4urebakterien), [Hefen](https://de.wikipedia.org/wiki/Hefen) und [Essigsäurebakterien](https://de.wikipedia.org/wiki/Acetobacteraceae)) in einer symbiotischen &raquo;Lebensgemeinschaft&laquo;. Neben einem geringen Gehalt an [Kohlensäure](https://de.wikipedia.org/wiki/Kohlens%C3%A4ure) und [Alkohol](https://de.wikipedia.org/wiki/Ethanol) enthält Kefir vor allem [Milchsäure](https://de.wikipedia.org/wiki/Milchs%C3%A4ure), [Kohlendioxid](https://de.wikipedia.org/wiki/Kohlenstoffdioxid), [Polysaccharide](https://de.wikipedia.org/wiki/Polysaccharide), [Kalzium](https://de.wikipedia.org/wiki/Calcium), [Eisen](https://de.wikipedia.org/wiki/Eisen), [Iod](https://de.wikipedia.org/wiki/Iod), [Magnesium](https://de.wikipedia.org/wiki/Magnesium), [Folsäure](https://de.wikipedia.org/wiki/Fols%C3%A4ure), [Niacin](https://de.wikipedia.org/wiki/Nicotins%C3%A4ure) sowie die Vitamine [A](https://de.wikipedia.org/wiki/Vitamin_A), [B1](https://de.wikipedia.org/wiki/Thiamin), [B2](https://de.wikipedia.org/wiki/Riboflavin), [B6](https://de.wikipedia.org/wiki/Vitamin_B6), [B12](https://de.wikipedia.org/wiki/Cobalamine) und [D](https://de.wikipedia.org/wiki/Vitamin_D).

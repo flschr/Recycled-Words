@@ -5,5 +5,5 @@ Author: René Fischer
 Layout: blog
 Tag: #leckerwars
 ---
-[image 2018-01-29-21-23-56.jpg "Sehr leckeres Dry Aged Rückensteak im Landhaus am Hirschhorn"]
+!["Sehr leckeres Dry Aged Rückensteak im Landhaus am Hirschhorn"](2018-01-29-21-23-56.jpg)
 Genossen im [Landhaus am Hirschhorn](https://goo.gl/maps/LM2HwJ1JRWBM1Nty7) in Wilgartswiesen.

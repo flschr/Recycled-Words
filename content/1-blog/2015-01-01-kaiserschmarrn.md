@@ -5,7 +5,7 @@ Author: René Fischer
 Layout: blog
 Tag: #rezeptvomchef
 ---
-[image 2015-01-01-13-12-09.jpg "Pfanne mit leckerem Kaiserschmarrn, leider alles leer"]
+!["Pfanne mit leckerem Kaiserschmarrn, leider alles leer"](2015-01-01-13-12-09.jpg)
 Kaiserschmarrn ist einfach zu lecker zum Fotografieren. Dafür lässt er sich allerdings in wenigen Minuten zubereiten.
 
 **Zutaten**
