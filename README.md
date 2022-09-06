@@ -1,4 +1,4 @@
-# :info: Archived Repository
+# :warning: Archived Repository
 This repository is archived for the moment, as I decided to move back to Wordpress to simplify my workflows.
 
 # Recycled Words
