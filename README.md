@@ -1,3 +1,6 @@
+# :info: Archived Repository
+This repository is archived for the moment, as I decided to move back to Wordpress to simplify my workflows.
+
 # Recycled Words
 This is my personal blog running on [Yellow CMS](https://github.com/datenstrom/yellow). I use [Visual Studio Code](https://code.visualstudio.com/) on my Mac desktop and [Working Copy](https://workingcopyapp.com/) on my mobile device for edits. For adding photos from my iPhone, I created a simple workflow. All photos are automatically optimized by the [Tinify Image Action](https://github.com/marketplace/actions/tinify-image-action). All edits are automatically published with the help of [FTP Deploy Action](https://github.com/SamKirkland/FTP-Deploy-Action) to my web server.
 
